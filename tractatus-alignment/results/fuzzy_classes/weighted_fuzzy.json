@@ -1,0 +1,32 @@
+[
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource",
+        "target": "https://schema.org/DefinedTerm",
+        "score": 0.5727272727272728
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/WittgensteinSource",
+        "target": "http://example.org/wittgensteiniana/Thesis",
+        "score": 0.6000000000000001
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/Bemerkung",
+        "target": "http://example.org/wittgensteiniana/Thesis",
+        "score": 0.6000000000000001
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/TS",
+        "target": "http://example.org/wittgensteiniana/Thesis",
+        "score": 0.6000000000000001
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/Werk",
+        "target": "http://example.org/wittgensteiniana/Thesis",
+        "score": 0.6000000000000001
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/Part",
+        "target": "http://example.org/wittgensteiniana/Thesis",
+        "score": 0.6000000000000001
+    }
+]

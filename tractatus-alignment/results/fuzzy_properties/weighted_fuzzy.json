@@ -1,0 +1,17 @@
+[
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/contains",
+        "target": "https://schema.org/mentions",
+        "score": 0.625
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/isDateOf",
+        "target": "https://schema.org/isPartOf",
+        "score": 0.75
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/madeAfter",
+        "target": "https://schema.org/inDefinedTermSet",
+        "score": 0.54
+    }
+]
