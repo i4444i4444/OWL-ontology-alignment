@@ -1,0 +1,4256 @@
+@prefix align: <http://example.org/tractatus-alignment/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+align:denotesProposition a owl:ObjectProperty ;
+    rdfs:label "source instance denotes a TLP proposition"@en .
+
+align:hasNumber a owl:DatatypeProperty ;
+    rdfs:label "literal proposition number as a string"@en .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%201> align:denotesProposition align:Prop_1 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%201.1> align:denotesProposition align:Prop_1_1 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%201.11> align:denotesProposition align:Prop_1_11 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%201.12> align:denotesProposition align:Prop_1_12 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%201.13> align:denotesProposition align:Prop_1_13 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%201.2> align:denotesProposition align:Prop_1_2 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%201.21> align:denotesProposition align:Prop_1_21 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202> align:denotesProposition align:Prop_2 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.01> align:denotesProposition align:Prop_2_01 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.011> align:denotesProposition align:Prop_2_011 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.012> align:denotesProposition align:Prop_2_012 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.0121> align:denotesProposition align:Prop_2_0121 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.0122> align:denotesProposition align:Prop_2_0122 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.0123> align:denotesProposition align:Prop_2_0123 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.01231> align:denotesProposition align:Prop_2_01231 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.0124> align:denotesProposition align:Prop_2_0124 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.013> align:denotesProposition align:Prop_2_013 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.0131> align:denotesProposition align:Prop_2_0131 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.014> align:denotesProposition align:Prop_2_014 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.0141> align:denotesProposition align:Prop_2_0141 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.02> align:denotesProposition align:Prop_2_02 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.0201> align:denotesProposition align:Prop_2_0201 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.021> align:denotesProposition align:Prop_2_021 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.0211> align:denotesProposition align:Prop_2_0211 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.0212> align:denotesProposition align:Prop_2_0212 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.022> align:denotesProposition align:Prop_2_022 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.023> align:denotesProposition align:Prop_2_023 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.0231> align:denotesProposition align:Prop_2_0231 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.0232> align:denotesProposition align:Prop_2_0232 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.0233> align:denotesProposition align:Prop_2_0233 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.02331> align:denotesProposition align:Prop_2_02331 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.024> align:denotesProposition align:Prop_2_024 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.025> align:denotesProposition align:Prop_2_025 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.0251> align:denotesProposition align:Prop_2_0251 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.026> align:denotesProposition align:Prop_2_026 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.027> align:denotesProposition align:Prop_2_027 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.0271> align:denotesProposition align:Prop_2_0271 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.0272> align:denotesProposition align:Prop_2_0272 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.03> align:denotesProposition align:Prop_2_03 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.031> align:denotesProposition align:Prop_2_031 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.032> align:denotesProposition align:Prop_2_032 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.033> align:denotesProposition align:Prop_2_033 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.034> align:denotesProposition align:Prop_2_034 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.04> align:denotesProposition align:Prop_2_04 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.05> align:denotesProposition align:Prop_2_05 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.06> align:denotesProposition align:Prop_2_06 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.061> align:denotesProposition align:Prop_2_061 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.062> align:denotesProposition align:Prop_2_062 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.063> align:denotesProposition align:Prop_2_063 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.1> align:denotesProposition align:Prop_2_1 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.11> align:denotesProposition align:Prop_2_11 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.12> align:denotesProposition align:Prop_2_12 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.13> align:denotesProposition align:Prop_2_13 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.131> align:denotesProposition align:Prop_2_131 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.132> align:denotesProposition align:Prop_2_132 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.14> align:denotesProposition align:Prop_2_14 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.141> align:denotesProposition align:Prop_2_141 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.15> align:denotesProposition align:Prop_2_15 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.151> align:denotesProposition align:Prop_2_151 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.1511> align:denotesProposition align:Prop_2_1511 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.1512> align:denotesProposition align:Prop_2_1512 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.15121> align:denotesProposition align:Prop_2_15121 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.1513> align:denotesProposition align:Prop_2_1513 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.1514> align:denotesProposition align:Prop_2_1514 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.1515> align:denotesProposition align:Prop_2_1515 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.16> align:denotesProposition align:Prop_2_16 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.161> align:denotesProposition align:Prop_2_161 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.17> align:denotesProposition align:Prop_2_17 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.171> align:denotesProposition align:Prop_2_171 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.172> align:denotesProposition align:Prop_2_172 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.173> align:denotesProposition align:Prop_2_173 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.174> align:denotesProposition align:Prop_2_174 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.18> align:denotesProposition align:Prop_2_18 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.181> align:denotesProposition align:Prop_2_181 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.182> align:denotesProposition align:Prop_2_182 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.19> align:denotesProposition align:Prop_2_19 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.2> align:denotesProposition align:Prop_2_2 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.201> align:denotesProposition align:Prop_2_201 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.202> align:denotesProposition align:Prop_2_202 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.203> align:denotesProposition align:Prop_2_203 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.21> align:denotesProposition align:Prop_2_21 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.22> align:denotesProposition align:Prop_2_22 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.221> align:denotesProposition align:Prop_2_221 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.222> align:denotesProposition align:Prop_2_222 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.223> align:denotesProposition align:Prop_2_223 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.224> align:denotesProposition align:Prop_2_224 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%202.225> align:denotesProposition align:Prop_2_225 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203> align:denotesProposition align:Prop_3 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.001> align:denotesProposition align:Prop_3_001 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.01> align:denotesProposition align:Prop_3_01 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.02> align:denotesProposition align:Prop_3_02 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.03> align:denotesProposition align:Prop_3_03 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.031> align:denotesProposition align:Prop_3_031 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.032> align:denotesProposition align:Prop_3_032 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.0321> align:denotesProposition align:Prop_3_0321 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.04> align:denotesProposition align:Prop_3_04 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.05> align:denotesProposition align:Prop_3_05 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.1> align:denotesProposition align:Prop_3_1 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.11> align:denotesProposition align:Prop_3_11 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.12> align:denotesProposition align:Prop_3_12 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.13> align:denotesProposition align:Prop_3_13 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.14> align:denotesProposition align:Prop_3_14 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.141> align:denotesProposition align:Prop_3_141 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.142> align:denotesProposition align:Prop_3_142 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.143> align:denotesProposition align:Prop_3_143 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.1431> align:denotesProposition align:Prop_3_1431 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.1432> align:denotesProposition align:Prop_3_1432 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.144> align:denotesProposition align:Prop_3_144 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.2> align:denotesProposition align:Prop_3_2 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.201> align:denotesProposition align:Prop_3_201 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.202> align:denotesProposition align:Prop_3_202 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.203> align:denotesProposition align:Prop_3_203 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.21> align:denotesProposition align:Prop_3_21 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.22> align:denotesProposition align:Prop_3_22 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.221> align:denotesProposition align:Prop_3_221 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.23> align:denotesProposition align:Prop_3_23 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.24> align:denotesProposition align:Prop_3_24 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.25> align:denotesProposition align:Prop_3_25 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.251> align:denotesProposition align:Prop_3_251 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.26> align:denotesProposition align:Prop_3_26 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.261> align:denotesProposition align:Prop_3_261 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.262> align:denotesProposition align:Prop_3_262 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.263> align:denotesProposition align:Prop_3_263 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.3> align:denotesProposition align:Prop_3_3 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.31> align:denotesProposition align:Prop_3_31 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.311> align:denotesProposition align:Prop_3_311 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.312> align:denotesProposition align:Prop_3_312 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.313> align:denotesProposition align:Prop_3_313 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.314> align:denotesProposition align:Prop_3_314 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.315> align:denotesProposition align:Prop_3_315 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.316> align:denotesProposition align:Prop_3_316 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.317> align:denotesProposition align:Prop_3_317 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.318> align:denotesProposition align:Prop_3_318 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.32> align:denotesProposition align:Prop_3_32 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.321> align:denotesProposition align:Prop_3_321 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.322> align:denotesProposition align:Prop_3_322 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.323> align:denotesProposition align:Prop_3_323 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.324> align:denotesProposition align:Prop_3_324 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.325> align:denotesProposition align:Prop_3_325 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.326> align:denotesProposition align:Prop_3_326 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.327> align:denotesProposition align:Prop_3_327 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.328> align:denotesProposition align:Prop_3_328 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.33> align:denotesProposition align:Prop_3_33 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.331> align:denotesProposition align:Prop_3_331 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.332> align:denotesProposition align:Prop_3_332 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.333> align:denotesProposition align:Prop_3_333 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.334> align:denotesProposition align:Prop_3_334 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.34> align:denotesProposition align:Prop_3_34 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.341> align:denotesProposition align:Prop_3_341 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.3411> align:denotesProposition align:Prop_3_3411 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.342> align:denotesProposition align:Prop_3_342 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.3421> align:denotesProposition align:Prop_3_3421 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.343> align:denotesProposition align:Prop_3_343 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.344> align:denotesProposition align:Prop_3_344 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.3441> align:denotesProposition align:Prop_3_3441 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.3442> align:denotesProposition align:Prop_3_3442 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.4> align:denotesProposition align:Prop_3_4 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.41> align:denotesProposition align:Prop_3_41 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.411> align:denotesProposition align:Prop_3_411 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.42> align:denotesProposition align:Prop_3_42 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%203.5> align:denotesProposition align:Prop_3_5 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204> align:denotesProposition align:Prop_4 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.001> align:denotesProposition align:Prop_4_001 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.002> align:denotesProposition align:Prop_4_002 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.003> align:denotesProposition align:Prop_4_003 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.0031> align:denotesProposition align:Prop_4_0031 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.004> align:denotesProposition align:Prop_4_004 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.01> align:denotesProposition align:Prop_4_01 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.011> align:denotesProposition align:Prop_4_011 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.012> align:denotesProposition align:Prop_4_012 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.013> align:denotesProposition align:Prop_4_013 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.014> align:denotesProposition align:Prop_4_014 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.015> align:denotesProposition align:Prop_4_015 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.016> align:denotesProposition align:Prop_4_016 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.02> align:denotesProposition align:Prop_4_02 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.021> align:denotesProposition align:Prop_4_021 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.022> align:denotesProposition align:Prop_4_022 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.023> align:denotesProposition align:Prop_4_023 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.024> align:denotesProposition align:Prop_4_024 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.025> align:denotesProposition align:Prop_4_025 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.026> align:denotesProposition align:Prop_4_026 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.027> align:denotesProposition align:Prop_4_027 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.03> align:denotesProposition align:Prop_4_03 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.031> align:denotesProposition align:Prop_4_031 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.0311> align:denotesProposition align:Prop_4_0311 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.0312> align:denotesProposition align:Prop_4_0312 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.032> align:denotesProposition align:Prop_4_032 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.04> align:denotesProposition align:Prop_4_04 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.041> align:denotesProposition align:Prop_4_041 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.0411> align:denotesProposition align:Prop_4_0411 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.0412> align:denotesProposition align:Prop_4_0412 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.042> align:denotesProposition align:Prop_4_042 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.0421> align:denotesProposition align:Prop_4_0421 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.05> align:denotesProposition align:Prop_4_05 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.06> align:denotesProposition align:Prop_4_06 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.061> align:denotesProposition align:Prop_4_061 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.062> align:denotesProposition align:Prop_4_062 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.0621> align:denotesProposition align:Prop_4_0621 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.063> align:denotesProposition align:Prop_4_063 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.064> align:denotesProposition align:Prop_4_064 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.0641> align:denotesProposition align:Prop_4_0641 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.1> align:denotesProposition align:Prop_4_1 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.11> align:denotesProposition align:Prop_4_11 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.111> align:denotesProposition align:Prop_4_111 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.112> align:denotesProposition align:Prop_4_112 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.1121> align:denotesProposition align:Prop_4_1121 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.1122> align:denotesProposition align:Prop_4_1122 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.113> align:denotesProposition align:Prop_4_113 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.114> align:denotesProposition align:Prop_4_114 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.115> align:denotesProposition align:Prop_4_115 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.116> align:denotesProposition align:Prop_4_116 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.12> align:denotesProposition align:Prop_4_12 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.121> align:denotesProposition align:Prop_4_121 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.1211> align:denotesProposition align:Prop_4_1211 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.1212> align:denotesProposition align:Prop_4_1212 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.1213> align:denotesProposition align:Prop_4_1213 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.122> align:denotesProposition align:Prop_4_122 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.1221> align:denotesProposition align:Prop_4_1221 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.123> align:denotesProposition align:Prop_4_123 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.124> align:denotesProposition align:Prop_4_124 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.1241> align:denotesProposition align:Prop_4_1241 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.125> align:denotesProposition align:Prop_4_125 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.1251> align:denotesProposition align:Prop_4_1251 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.1252> align:denotesProposition align:Prop_4_1252 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.126> align:denotesProposition align:Prop_4_126 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.127> align:denotesProposition align:Prop_4_127 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.1271> align:denotesProposition align:Prop_4_1271 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.1272> align:denotesProposition align:Prop_4_1272 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.12721> align:denotesProposition align:Prop_4_12721 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.1273> align:denotesProposition align:Prop_4_1273 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.1274> align:denotesProposition align:Prop_4_1274 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.128> align:denotesProposition align:Prop_4_128 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.2> align:denotesProposition align:Prop_4_2 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.21> align:denotesProposition align:Prop_4_21 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.211> align:denotesProposition align:Prop_4_211 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.22> align:denotesProposition align:Prop_4_22 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.221> align:denotesProposition align:Prop_4_221 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.2211> align:denotesProposition align:Prop_4_2211 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.23> align:denotesProposition align:Prop_4_23 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.24> align:denotesProposition align:Prop_4_24 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.241> align:denotesProposition align:Prop_4_241 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.242> align:denotesProposition align:Prop_4_242 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.243> align:denotesProposition align:Prop_4_243 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.244> align:denotesProposition align:Prop_4_244 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.25> align:denotesProposition align:Prop_4_25 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.26> align:denotesProposition align:Prop_4_26 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.27> align:denotesProposition align:Prop_4_27 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.28> align:denotesProposition align:Prop_4_28 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.3> align:denotesProposition align:Prop_4_3 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.31> align:denotesProposition align:Prop_4_31 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.4> align:denotesProposition align:Prop_4_4 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.41> align:denotesProposition align:Prop_4_41 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.411> align:denotesProposition align:Prop_4_411 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.42> align:denotesProposition align:Prop_4_42 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.43> align:denotesProposition align:Prop_4_43 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.431> align:denotesProposition align:Prop_4_431 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.44> align:denotesProposition align:Prop_4_44 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.441> align:denotesProposition align:Prop_4_441 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.442> align:denotesProposition align:Prop_4_442 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.45> align:denotesProposition align:Prop_4_45 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.46> align:denotesProposition align:Prop_4_46 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.461> align:denotesProposition align:Prop_4_461 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.4611> align:denotesProposition align:Prop_4_4611 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.462> align:denotesProposition align:Prop_4_462 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.463> align:denotesProposition align:Prop_4_463 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.464> align:denotesProposition align:Prop_4_464 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.465> align:denotesProposition align:Prop_4_465 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.466> align:denotesProposition align:Prop_4_466 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.4661> align:denotesProposition align:Prop_4_4661 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.5> align:denotesProposition align:Prop_4_5 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.51> align:denotesProposition align:Prop_4_51 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.52> align:denotesProposition align:Prop_4_52 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%204.53> align:denotesProposition align:Prop_4_53 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205> align:denotesProposition align:Prop_5 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.01> align:denotesProposition align:Prop_5_01 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.02> align:denotesProposition align:Prop_5_02 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.1> align:denotesProposition align:Prop_5_1 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.101> align:denotesProposition align:Prop_5_101 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.11> align:denotesProposition align:Prop_5_11 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.12> align:denotesProposition align:Prop_5_12 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.121> align:denotesProposition align:Prop_5_121 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.122> align:denotesProposition align:Prop_5_122 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.123> align:denotesProposition align:Prop_5_123 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.124> align:denotesProposition align:Prop_5_124 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.1241> align:denotesProposition align:Prop_5_1241 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.13> align:denotesProposition align:Prop_5_13 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.131> align:denotesProposition align:Prop_5_131 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.1311> align:denotesProposition align:Prop_5_1311 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.132> align:denotesProposition align:Prop_5_132 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.133> align:denotesProposition align:Prop_5_133 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.134> align:denotesProposition align:Prop_5_134 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.135> align:denotesProposition align:Prop_5_135 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.136> align:denotesProposition align:Prop_5_136 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.1361> align:denotesProposition align:Prop_5_1361 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.1362> align:denotesProposition align:Prop_5_1362 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.1363> align:denotesProposition align:Prop_5_1363 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.14> align:denotesProposition align:Prop_5_14 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.141> align:denotesProposition align:Prop_5_141 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.142> align:denotesProposition align:Prop_5_142 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.143> align:denotesProposition align:Prop_5_143 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.15> align:denotesProposition align:Prop_5_15 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.151> align:denotesProposition align:Prop_5_151 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.1511> align:denotesProposition align:Prop_5_1511 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.152> align:denotesProposition align:Prop_5_152 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.153> align:denotesProposition align:Prop_5_153 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.154> align:denotesProposition align:Prop_5_154 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.155> align:denotesProposition align:Prop_5_155 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.156> align:denotesProposition align:Prop_5_156 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.2> align:denotesProposition align:Prop_5_2 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.21> align:denotesProposition align:Prop_5_21 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.22> align:denotesProposition align:Prop_5_22 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.23> align:denotesProposition align:Prop_5_23 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.231> align:denotesProposition align:Prop_5_231 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.232> align:denotesProposition align:Prop_5_232 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.233> align:denotesProposition align:Prop_5_233 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.234> align:denotesProposition align:Prop_5_234 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.2341> align:denotesProposition align:Prop_5_2341 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.24> align:denotesProposition align:Prop_5_24 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.241> align:denotesProposition align:Prop_5_241 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.242> align:denotesProposition align:Prop_5_242 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.25> align:denotesProposition align:Prop_5_25 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.251> align:denotesProposition align:Prop_5_251 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.252> align:denotesProposition align:Prop_5_252 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.2521> align:denotesProposition align:Prop_5_2521 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.2522> align:denotesProposition align:Prop_5_2522 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.2523> align:denotesProposition align:Prop_5_2523 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.253> align:denotesProposition align:Prop_5_253 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.254> align:denotesProposition align:Prop_5_254 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.3> align:denotesProposition align:Prop_5_3 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.31> align:denotesProposition align:Prop_5_31 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.32> align:denotesProposition align:Prop_5_32 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.4> align:denotesProposition align:Prop_5_4 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.41> align:denotesProposition align:Prop_5_41 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.42> align:denotesProposition align:Prop_5_42 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.43> align:denotesProposition align:Prop_5_43 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.44> align:denotesProposition align:Prop_5_44 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.441> align:denotesProposition align:Prop_5_441 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.442> align:denotesProposition align:Prop_5_442 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.45> align:denotesProposition align:Prop_5_45 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.451> align:denotesProposition align:Prop_5_451 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.452> align:denotesProposition align:Prop_5_452 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.453> align:denotesProposition align:Prop_5_453 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.454> align:denotesProposition align:Prop_5_454 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.4541> align:denotesProposition align:Prop_5_4541 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.46> align:denotesProposition align:Prop_5_46 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.461> align:denotesProposition align:Prop_5_461 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.4611> align:denotesProposition align:Prop_5_4611 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.47> align:denotesProposition align:Prop_5_47 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.471> align:denotesProposition align:Prop_5_471 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.4711> align:denotesProposition align:Prop_5_4711 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.472> align:denotesProposition align:Prop_5_472 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.473> align:denotesProposition align:Prop_5_473 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.4731> align:denotesProposition align:Prop_5_4731 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.4732> align:denotesProposition align:Prop_5_4732 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.47321> align:denotesProposition align:Prop_5_47321 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.4733> align:denotesProposition align:Prop_5_4733 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.474> align:denotesProposition align:Prop_5_474 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.475> align:denotesProposition align:Prop_5_475 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.476> align:denotesProposition align:Prop_5_476 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.5> align:denotesProposition align:Prop_5_5 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.501> align:denotesProposition align:Prop_5_501 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.502> align:denotesProposition align:Prop_5_502 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.503> align:denotesProposition align:Prop_5_503 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.51> align:denotesProposition align:Prop_5_51 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.511> align:denotesProposition align:Prop_5_511 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.512> align:denotesProposition align:Prop_5_512 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.513> align:denotesProposition align:Prop_5_513 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.514> align:denotesProposition align:Prop_5_514 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.515> align:denotesProposition align:Prop_5_515 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.5151> align:denotesProposition align:Prop_5_5151 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.52> align:denotesProposition align:Prop_5_52 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.521> align:denotesProposition align:Prop_5_521 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.522> align:denotesProposition align:Prop_5_522 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.523> align:denotesProposition align:Prop_5_523 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.524> align:denotesProposition align:Prop_5_524 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.525> align:denotesProposition align:Prop_5_525 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.526> align:denotesProposition align:Prop_5_526 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.5261> align:denotesProposition align:Prop_5_5261 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.5262> align:denotesProposition align:Prop_5_5262 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.53> align:denotesProposition align:Prop_5_53 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.5301> align:denotesProposition align:Prop_5_5301 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.5302> align:denotesProposition align:Prop_5_5302 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.5303> align:denotesProposition align:Prop_5_5303 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.531> align:denotesProposition align:Prop_5_531 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.532> align:denotesProposition align:Prop_5_532 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.5321> align:denotesProposition align:Prop_5_5321 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.533> align:denotesProposition align:Prop_5_533 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.534> align:denotesProposition align:Prop_5_534 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.535> align:denotesProposition align:Prop_5_535 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.5351> align:denotesProposition align:Prop_5_5351 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.5352> align:denotesProposition align:Prop_5_5352 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.54> align:denotesProposition align:Prop_5_54 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.541> align:denotesProposition align:Prop_5_541 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.542> align:denotesProposition align:Prop_5_542 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.5421> align:denotesProposition align:Prop_5_5421 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.5422> align:denotesProposition align:Prop_5_5422 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.5423> align:denotesProposition align:Prop_5_5423 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.55> align:denotesProposition align:Prop_5_55 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.551> align:denotesProposition align:Prop_5_551 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.552> align:denotesProposition align:Prop_5_552 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.5521> align:denotesProposition align:Prop_5_5521 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.553> align:denotesProposition align:Prop_5_553 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.554> align:denotesProposition align:Prop_5_554 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.5541> align:denotesProposition align:Prop_5_5541 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.5542> align:denotesProposition align:Prop_5_5542 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.555> align:denotesProposition align:Prop_5_555 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.556> align:denotesProposition align:Prop_5_556 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.5561> align:denotesProposition align:Prop_5_5561 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.5562> align:denotesProposition align:Prop_5_5562 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.5563> align:denotesProposition align:Prop_5_5563 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.557> align:denotesProposition align:Prop_5_557 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.5571> align:denotesProposition align:Prop_5_5571 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.6> align:denotesProposition align:Prop_5_6 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.61> align:denotesProposition align:Prop_5_61 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.62> align:denotesProposition align:Prop_5_62 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.621> align:denotesProposition align:Prop_5_621 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.63> align:denotesProposition align:Prop_5_63 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.631> align:denotesProposition align:Prop_5_631 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.632> align:denotesProposition align:Prop_5_632 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.633> align:denotesProposition align:Prop_5_633 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.6331> align:denotesProposition align:Prop_5_6331 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.634> align:denotesProposition align:Prop_5_634 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.64> align:denotesProposition align:Prop_5_64 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%205.641> align:denotesProposition align:Prop_5_641 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206> align:denotesProposition align:Prop_6 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.001> align:denotesProposition align:Prop_6_001 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.002> align:denotesProposition align:Prop_6_002 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.01> align:denotesProposition align:Prop_6_01 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.011> align:denotesProposition align:Prop_6_011 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.02> align:denotesProposition align:Prop_6_02 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.021> align:denotesProposition align:Prop_6_021 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.022> align:denotesProposition align:Prop_6_022 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.03> align:denotesProposition align:Prop_6_03 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.031> align:denotesProposition align:Prop_6_031 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.1> align:denotesProposition align:Prop_6_1 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.11> align:denotesProposition align:Prop_6_11 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.111> align:denotesProposition align:Prop_6_111 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.112> align:denotesProposition align:Prop_6_112 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.113> align:denotesProposition align:Prop_6_113 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.12> align:denotesProposition align:Prop_6_12 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.1201> align:denotesProposition align:Prop_6_1201 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.1202> align:denotesProposition align:Prop_6_1202 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.1203> align:denotesProposition align:Prop_6_1203 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.121> align:denotesProposition align:Prop_6_121 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.122> align:denotesProposition align:Prop_6_122 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.1221> align:denotesProposition align:Prop_6_1221 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.1222> align:denotesProposition align:Prop_6_1222 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.1223> align:denotesProposition align:Prop_6_1223 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.1224> align:denotesProposition align:Prop_6_1224 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.123> align:denotesProposition align:Prop_6_123 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.1231> align:denotesProposition align:Prop_6_1231 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.1232> align:denotesProposition align:Prop_6_1232 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.1233> align:denotesProposition align:Prop_6_1233 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.124> align:denotesProposition align:Prop_6_124 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.125> align:denotesProposition align:Prop_6_125 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.1251> align:denotesProposition align:Prop_6_1251 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.126> align:denotesProposition align:Prop_6_126 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.1261> align:denotesProposition align:Prop_6_1261 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.1262> align:denotesProposition align:Prop_6_1262 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.1263> align:denotesProposition align:Prop_6_1263 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.1264> align:denotesProposition align:Prop_6_1264 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.1265> align:denotesProposition align:Prop_6_1265 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.127> align:denotesProposition align:Prop_6_127 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.1271> align:denotesProposition align:Prop_6_1271 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.13> align:denotesProposition align:Prop_6_13 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.2> align:denotesProposition align:Prop_6_2 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.21> align:denotesProposition align:Prop_6_21 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.211> align:denotesProposition align:Prop_6_211 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.22> align:denotesProposition align:Prop_6_22 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.23> align:denotesProposition align:Prop_6_23 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.231> align:denotesProposition align:Prop_6_231 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.232> align:denotesProposition align:Prop_6_232 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.2321> align:denotesProposition align:Prop_6_2321 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.2322> align:denotesProposition align:Prop_6_2322 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.2323> align:denotesProposition align:Prop_6_2323 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.233> align:denotesProposition align:Prop_6_233 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.2331> align:denotesProposition align:Prop_6_2331 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.234> align:denotesProposition align:Prop_6_234 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.2341> align:denotesProposition align:Prop_6_2341 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.24> align:denotesProposition align:Prop_6_24 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.241> align:denotesProposition align:Prop_6_241 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.3> align:denotesProposition align:Prop_6_3 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.31> align:denotesProposition align:Prop_6_31 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.32> align:denotesProposition align:Prop_6_32 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.321> align:denotesProposition align:Prop_6_321 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.3211> align:denotesProposition align:Prop_6_3211 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.33> align:denotesProposition align:Prop_6_33 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.34> align:denotesProposition align:Prop_6_34 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.341> align:denotesProposition align:Prop_6_341 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.342> align:denotesProposition align:Prop_6_342 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.343> align:denotesProposition align:Prop_6_343 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.3431> align:denotesProposition align:Prop_6_3431 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.3432> align:denotesProposition align:Prop_6_3432 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.35> align:denotesProposition align:Prop_6_35 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.36> align:denotesProposition align:Prop_6_36 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.361> align:denotesProposition align:Prop_6_361 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.3611> align:denotesProposition align:Prop_6_3611 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.36111> align:denotesProposition align:Prop_6_36111 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.362> align:denotesProposition align:Prop_6_362 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.363> align:denotesProposition align:Prop_6_363 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.3631> align:denotesProposition align:Prop_6_3631 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.36311> align:denotesProposition align:Prop_6_36311 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.37> align:denotesProposition align:Prop_6_37 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.371> align:denotesProposition align:Prop_6_371 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.372> align:denotesProposition align:Prop_6_372 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.373> align:denotesProposition align:Prop_6_373 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.374> align:denotesProposition align:Prop_6_374 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.375> align:denotesProposition align:Prop_6_375 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.3751> align:denotesProposition align:Prop_6_3751 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.4> align:denotesProposition align:Prop_6_4 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.41> align:denotesProposition align:Prop_6_41 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.42> align:denotesProposition align:Prop_6_42 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.421> align:denotesProposition align:Prop_6_421 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.422> align:denotesProposition align:Prop_6_422 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.423> align:denotesProposition align:Prop_6_423 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.43> align:denotesProposition align:Prop_6_43 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.431> align:denotesProposition align:Prop_6_431 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.4311> align:denotesProposition align:Prop_6_4311 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.4312> align:denotesProposition align:Prop_6_4312 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.432> align:denotesProposition align:Prop_6_432 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.4321> align:denotesProposition align:Prop_6_4321 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.44> align:denotesProposition align:Prop_6_44 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.45> align:denotesProposition align:Prop_6_45 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.5> align:denotesProposition align:Prop_6_5 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.51> align:denotesProposition align:Prop_6_51 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.52> align:denotesProposition align:Prop_6_52 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.521> align:denotesProposition align:Prop_6_521 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.522> align:denotesProposition align:Prop_6_522 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.53> align:denotesProposition align:Prop_6_53 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%206.54> align:denotesProposition align:Prop_6_54 .
+
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%207> align:denotesProposition align:Prop_7 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1000> align:denotesProposition align:Prop_6_2341 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1001> align:denotesProposition align:Prop_6_24 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1002> align:denotesProposition align:Prop_6_241 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1003> align:denotesProposition align:Prop_6_3 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1004> align:denotesProposition align:Prop_6_31 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1005> align:denotesProposition align:Prop_6_32 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1006> align:denotesProposition align:Prop_6_321 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1007> align:denotesProposition align:Prop_6_3211 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1008> align:denotesProposition align:Prop_6_33 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1009> align:denotesProposition align:Prop_6_34 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1010> align:denotesProposition align:Prop_6_341 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1011> align:denotesProposition align:Prop_6_342 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1012> align:denotesProposition align:Prop_6_343 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1013> align:denotesProposition align:Prop_6_3431 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1014> align:denotesProposition align:Prop_6_3432 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1015> align:denotesProposition align:Prop_6_35 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1016> align:denotesProposition align:Prop_6_36 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1017> align:denotesProposition align:Prop_6_361 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1018> align:denotesProposition align:Prop_6_3611 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1019> align:denotesProposition align:Prop_6_36111 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1020> align:denotesProposition align:Prop_6_362 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1021> align:denotesProposition align:Prop_6_363 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1022> align:denotesProposition align:Prop_6_3631 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1023> align:denotesProposition align:Prop_6_36311 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1024> align:denotesProposition align:Prop_6_37 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1025> align:denotesProposition align:Prop_6_371 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1026> align:denotesProposition align:Prop_6_372 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1027> align:denotesProposition align:Prop_6_373 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1028> align:denotesProposition align:Prop_6_374 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1029> align:denotesProposition align:Prop_6_375 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1030> align:denotesProposition align:Prop_6_3751 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1031> align:denotesProposition align:Prop_6_4 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1032> align:denotesProposition align:Prop_6_41 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1033> align:denotesProposition align:Prop_6_42 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1034> align:denotesProposition align:Prop_6_421 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1035> align:denotesProposition align:Prop_6_422 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1036> align:denotesProposition align:Prop_6_423 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1037> align:denotesProposition align:Prop_6_43 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1038> align:denotesProposition align:Prop_6_431 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1039> align:denotesProposition align:Prop_6_4311 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1040> align:denotesProposition align:Prop_6_4312 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1041> align:denotesProposition align:Prop_6_432 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1042> align:denotesProposition align:Prop_6_4321 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1043> align:denotesProposition align:Prop_6_44 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1044> align:denotesProposition align:Prop_6_45 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1045> align:denotesProposition align:Prop_6_5 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1046> align:denotesProposition align:Prop_6_51 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1047> align:denotesProposition align:Prop_6_52 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1048> align:denotesProposition align:Prop_6_521 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1049> align:denotesProposition align:Prop_6_522 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1050> align:denotesProposition align:Prop_6_53 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1051> align:denotesProposition align:Prop_6_54 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/1052> align:denotesProposition align:Prop_7 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/527> align:denotesProposition align:Prop_1 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/528> align:denotesProposition align:Prop_1_1 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/529> align:denotesProposition align:Prop_1_11 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/530> align:denotesProposition align:Prop_1_12 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/531> align:denotesProposition align:Prop_1_13 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/532> align:denotesProposition align:Prop_1_2 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/533> align:denotesProposition align:Prop_1_21 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/534> align:denotesProposition align:Prop_2 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/535> align:denotesProposition align:Prop_2_01 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/536> align:denotesProposition align:Prop_2_011 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/537> align:denotesProposition align:Prop_2_012 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/538> align:denotesProposition align:Prop_2_0121 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/539> align:denotesProposition align:Prop_2_0122 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/540> align:denotesProposition align:Prop_2_0123 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/541> align:denotesProposition align:Prop_2_01231 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/542> align:denotesProposition align:Prop_2_0124 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/543> align:denotesProposition align:Prop_2_013 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/544> align:denotesProposition align:Prop_2_0131 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/545> align:denotesProposition align:Prop_2_014 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/546> align:denotesProposition align:Prop_2_0141 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/547> align:denotesProposition align:Prop_2_02 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/548> align:denotesProposition align:Prop_2_0201 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/549> align:denotesProposition align:Prop_2_021 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/550> align:denotesProposition align:Prop_2_0211 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/551> align:denotesProposition align:Prop_2_0212 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/552> align:denotesProposition align:Prop_2_022 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/553> align:denotesProposition align:Prop_2_023 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/554> align:denotesProposition align:Prop_2_0231 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/555> align:denotesProposition align:Prop_2_0232 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/556> align:denotesProposition align:Prop_2_0233 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/557> align:denotesProposition align:Prop_2_02331 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/558> align:denotesProposition align:Prop_2_024 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/559> align:denotesProposition align:Prop_2_025 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/560> align:denotesProposition align:Prop_2_0251 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/561> align:denotesProposition align:Prop_2_026 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/562> align:denotesProposition align:Prop_2_027 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/563> align:denotesProposition align:Prop_2_0271 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/564> align:denotesProposition align:Prop_2_0272 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/565> align:denotesProposition align:Prop_2_03 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/566> align:denotesProposition align:Prop_2_031 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/567> align:denotesProposition align:Prop_2_032 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/568> align:denotesProposition align:Prop_2_033 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/569> align:denotesProposition align:Prop_2_034 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/570> align:denotesProposition align:Prop_2_04 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/571> align:denotesProposition align:Prop_2_05 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/572> align:denotesProposition align:Prop_2_06 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/573> align:denotesProposition align:Prop_2_061 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/574> align:denotesProposition align:Prop_2_062 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/575> align:denotesProposition align:Prop_2_063 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/576> align:denotesProposition align:Prop_2_1 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/577> align:denotesProposition align:Prop_2_11 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/578> align:denotesProposition align:Prop_2_12 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/579> align:denotesProposition align:Prop_2_13 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/580> align:denotesProposition align:Prop_2_131 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/581> align:denotesProposition align:Prop_2_14 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/582> align:denotesProposition align:Prop_2_141 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/583> align:denotesProposition align:Prop_2_15 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/584> align:denotesProposition align:Prop_2_151 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/585> align:denotesProposition align:Prop_2_1511 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/586> align:denotesProposition align:Prop_2_1512 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/587> align:denotesProposition align:Prop_2_15121 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/588> align:denotesProposition align:Prop_2_1513 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/589> align:denotesProposition align:Prop_2_1514 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/590> align:denotesProposition align:Prop_2_1515 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/591> align:denotesProposition align:Prop_2_16 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/592> align:denotesProposition align:Prop_2_161 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/593> align:denotesProposition align:Prop_2_17 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/594> align:denotesProposition align:Prop_2_171 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/595> align:denotesProposition align:Prop_2_172 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/596> align:denotesProposition align:Prop_2_173 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/597> align:denotesProposition align:Prop_2_174 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/598> align:denotesProposition align:Prop_2_18 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/599> align:denotesProposition align:Prop_2_181 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/600> align:denotesProposition align:Prop_2_182 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/601> align:denotesProposition align:Prop_2_19 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/602> align:denotesProposition align:Prop_2_2 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/603> align:denotesProposition align:Prop_2_201 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/604> align:denotesProposition align:Prop_2_202 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/605> align:denotesProposition align:Prop_2_203 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/606> align:denotesProposition align:Prop_2_21 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/607> align:denotesProposition align:Prop_2_22 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/608> align:denotesProposition align:Prop_2_221 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/609> align:denotesProposition align:Prop_2_222 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/610> align:denotesProposition align:Prop_2_223 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/611> align:denotesProposition align:Prop_2_224 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/612> align:denotesProposition align:Prop_2_225 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/613> align:denotesProposition align:Prop_3 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/614> align:denotesProposition align:Prop_3_001 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/615> align:denotesProposition align:Prop_3_01 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/616> align:denotesProposition align:Prop_3_02 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/617> align:denotesProposition align:Prop_3_03 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/618> align:denotesProposition align:Prop_3_031 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/619> align:denotesProposition align:Prop_3_032 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/620> align:denotesProposition align:Prop_3_0321 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/621> align:denotesProposition align:Prop_3_04 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/622> align:denotesProposition align:Prop_3_05 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/623> align:denotesProposition align:Prop_3_1 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/624> align:denotesProposition align:Prop_3_11 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/625> align:denotesProposition align:Prop_3_12 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/626> align:denotesProposition align:Prop_3_13 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/627> align:denotesProposition align:Prop_3_14 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/628> align:denotesProposition align:Prop_3_141 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/629> align:denotesProposition align:Prop_3_142 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/630> align:denotesProposition align:Prop_3_143 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/631> align:denotesProposition align:Prop_3_1431 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/632> align:denotesProposition align:Prop_3_1432 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/633> align:denotesProposition align:Prop_3_144 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/634> align:denotesProposition align:Prop_3_2 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/635> align:denotesProposition align:Prop_3_201 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/636> align:denotesProposition align:Prop_3_202 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/637> align:denotesProposition align:Prop_3_203 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/638> align:denotesProposition align:Prop_3_21 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/639> align:denotesProposition align:Prop_3_22 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/640> align:denotesProposition align:Prop_3_221 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/641> align:denotesProposition align:Prop_3_23 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/642> align:denotesProposition align:Prop_3_24 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/643> align:denotesProposition align:Prop_3_25 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/644> align:denotesProposition align:Prop_3_251 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/645> align:denotesProposition align:Prop_3_26 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/646> align:denotesProposition align:Prop_3_261 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/647> align:denotesProposition align:Prop_3_262 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/648> align:denotesProposition align:Prop_3_263 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/649> align:denotesProposition align:Prop_3_3 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/650> align:denotesProposition align:Prop_3_31 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/651> align:denotesProposition align:Prop_3_311 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/652> align:denotesProposition align:Prop_3_312 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/653> align:denotesProposition align:Prop_3_313 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/654> align:denotesProposition align:Prop_3_314 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/655> align:denotesProposition align:Prop_3_315 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/656> align:denotesProposition align:Prop_3_316 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/657> align:denotesProposition align:Prop_3_317 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/658> align:denotesProposition align:Prop_3_318 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/659> align:denotesProposition align:Prop_3_32 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/660> align:denotesProposition align:Prop_3_321 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/661> align:denotesProposition align:Prop_3_322 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/662> align:denotesProposition align:Prop_3_323 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/663> align:denotesProposition align:Prop_3_324 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/664> align:denotesProposition align:Prop_3_325 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/665> align:denotesProposition align:Prop_3_326 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/666> align:denotesProposition align:Prop_3_327 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/667> align:denotesProposition align:Prop_3_328 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/668> align:denotesProposition align:Prop_3_33 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/669> align:denotesProposition align:Prop_3_331 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/670> align:denotesProposition align:Prop_3_332 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/671> align:denotesProposition align:Prop_3_333 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/672> align:denotesProposition align:Prop_3_334 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/673> align:denotesProposition align:Prop_3_34 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/674> align:denotesProposition align:Prop_3_341 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/675> align:denotesProposition align:Prop_3_3411 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/676> align:denotesProposition align:Prop_3_342 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/677> align:denotesProposition align:Prop_3_3421 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/678> align:denotesProposition align:Prop_3_343 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/679> align:denotesProposition align:Prop_3_344 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/680> align:denotesProposition align:Prop_3_3441 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/681> align:denotesProposition align:Prop_3_3442 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/682> align:denotesProposition align:Prop_3_4 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/683> align:denotesProposition align:Prop_3_41 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/684> align:denotesProposition align:Prop_3_411 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/685> align:denotesProposition align:Prop_3_42 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/686> align:denotesProposition align:Prop_3_5 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/687> align:denotesProposition align:Prop_4 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/688> align:denotesProposition align:Prop_4_001 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/689> align:denotesProposition align:Prop_4_002 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/690> align:denotesProposition align:Prop_4_003 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/691> align:denotesProposition align:Prop_4_0031 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/692> align:denotesProposition align:Prop_4_01 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/693> align:denotesProposition align:Prop_4_011 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/694> align:denotesProposition align:Prop_4_012 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/695> align:denotesProposition align:Prop_4_013 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/696> align:denotesProposition align:Prop_4_014 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/697> align:denotesProposition align:Prop_4_0141 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/698> align:denotesProposition align:Prop_4_015 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/699> align:denotesProposition align:Prop_4_016 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/700> align:denotesProposition align:Prop_4_02 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/701> align:denotesProposition align:Prop_4_021 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/702> align:denotesProposition align:Prop_4_022 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/703> align:denotesProposition align:Prop_4_023 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/704> align:denotesProposition align:Prop_4_024 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/705> align:denotesProposition align:Prop_4_025 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/706> align:denotesProposition align:Prop_4_026 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/707> align:denotesProposition align:Prop_4_027 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/708> align:denotesProposition align:Prop_4_03 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/709> align:denotesProposition align:Prop_4_031 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/710> align:denotesProposition align:Prop_4_0311 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/711> align:denotesProposition align:Prop_4_0312 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/712> align:denotesProposition align:Prop_4_032 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/713> align:denotesProposition align:Prop_4_04 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/714> align:denotesProposition align:Prop_4_041 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/715> align:denotesProposition align:Prop_4_0411 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/716> align:denotesProposition align:Prop_4_0412 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/717> align:denotesProposition align:Prop_4_05 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/718> align:denotesProposition align:Prop_4_06 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/719> align:denotesProposition align:Prop_4_061 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/720> align:denotesProposition align:Prop_4_062 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/721> align:denotesProposition align:Prop_4_0621 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/722> align:denotesProposition align:Prop_4_063 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/723> align:denotesProposition align:Prop_4_064 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/724> align:denotesProposition align:Prop_4_0641 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/725> align:denotesProposition align:Prop_4_1 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/726> align:denotesProposition align:Prop_4_11 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/727> align:denotesProposition align:Prop_4_111 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/728> align:denotesProposition align:Prop_4_112 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/729> align:denotesProposition align:Prop_4_1121 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/730> align:denotesProposition align:Prop_4_1122 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/731> align:denotesProposition align:Prop_4_113 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/732> align:denotesProposition align:Prop_4_114 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/733> align:denotesProposition align:Prop_4_115 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/734> align:denotesProposition align:Prop_4_116 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/735> align:denotesProposition align:Prop_4_12 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/736> align:denotesProposition align:Prop_4_121 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/737> align:denotesProposition align:Prop_4_1211 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/738> align:denotesProposition align:Prop_4_1212 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/739> align:denotesProposition align:Prop_4_1213 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/740> align:denotesProposition align:Prop_4_122 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/741> align:denotesProposition align:Prop_4_1221 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/742> align:denotesProposition align:Prop_4_123 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/743> align:denotesProposition align:Prop_4_124 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/744> align:denotesProposition align:Prop_4_1241 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/745> align:denotesProposition align:Prop_4_125 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/746> align:denotesProposition align:Prop_4_1251 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/747> align:denotesProposition align:Prop_4_1252 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/748> align:denotesProposition align:Prop_4_126 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/749> align:denotesProposition align:Prop_4_127 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/750> align:denotesProposition align:Prop_4_1271 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/751> align:denotesProposition align:Prop_4_1272 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/752> align:denotesProposition align:Prop_4_12721 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/753> align:denotesProposition align:Prop_4_1273 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/754> align:denotesProposition align:Prop_4_1274 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/755> align:denotesProposition align:Prop_4_128 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/756> align:denotesProposition align:Prop_4_2 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/757> align:denotesProposition align:Prop_4_21 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/758> align:denotesProposition align:Prop_4_211 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/759> align:denotesProposition align:Prop_4_22 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/760> align:denotesProposition align:Prop_4_221 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/761> align:denotesProposition align:Prop_4_2211 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/762> align:denotesProposition align:Prop_4_23 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/763> align:denotesProposition align:Prop_4_24 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/764> align:denotesProposition align:Prop_4_241 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/765> align:denotesProposition align:Prop_4_242 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/766> align:denotesProposition align:Prop_4_243 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/767> align:denotesProposition align:Prop_4_25 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/768> align:denotesProposition align:Prop_4_26 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/769> align:denotesProposition align:Prop_4_27 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/770> align:denotesProposition align:Prop_4_28 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/771> align:denotesProposition align:Prop_4_3 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/772> align:denotesProposition align:Prop_4_31 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/773> align:denotesProposition align:Prop_4_4 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/774> align:denotesProposition align:Prop_4_41 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/775> align:denotesProposition align:Prop_4_411 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/776> align:denotesProposition align:Prop_4_42 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/777> align:denotesProposition align:Prop_4_43 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/778> align:denotesProposition align:Prop_4_431 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/779> align:denotesProposition align:Prop_4_44 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/780> align:denotesProposition align:Prop_4_441 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/781> align:denotesProposition align:Prop_4_442 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/782> align:denotesProposition align:Prop_4_45 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/783> align:denotesProposition align:Prop_4_46 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/784> align:denotesProposition align:Prop_4_461 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/785> align:denotesProposition align:Prop_4_4611 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/786> align:denotesProposition align:Prop_4_462 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/787> align:denotesProposition align:Prop_4_463 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/788> align:denotesProposition align:Prop_4_464 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/789> align:denotesProposition align:Prop_4_465 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/790> align:denotesProposition align:Prop_4_466 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/791> align:denotesProposition align:Prop_4_4661 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/792> align:denotesProposition align:Prop_4_5 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/793> align:denotesProposition align:Prop_4_51 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/794> align:denotesProposition align:Prop_4_52 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/795> align:denotesProposition align:Prop_4_53 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/796> align:denotesProposition align:Prop_5 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/797> align:denotesProposition align:Prop_5_01 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/798> align:denotesProposition align:Prop_5_02 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/799> align:denotesProposition align:Prop_5_1 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/800> align:denotesProposition align:Prop_5_101 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/801> align:denotesProposition align:Prop_5_11 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/802> align:denotesProposition align:Prop_5_12 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/803> align:denotesProposition align:Prop_5_121 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/804> align:denotesProposition align:Prop_5_122 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/805> align:denotesProposition align:Prop_5_123 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/806> align:denotesProposition align:Prop_5_124 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/807> align:denotesProposition align:Prop_5_1241 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/808> align:denotesProposition align:Prop_5_13 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/809> align:denotesProposition align:Prop_5_131 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/810> align:denotesProposition align:Prop_5_1311 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/811> align:denotesProposition align:Prop_5_132 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/812> align:denotesProposition align:Prop_5_133 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/813> align:denotesProposition align:Prop_5_134 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/814> align:denotesProposition align:Prop_5_135 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/815> align:denotesProposition align:Prop_5_136 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/816> align:denotesProposition align:Prop_5_1361 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/817> align:denotesProposition align:Prop_5_1362 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/818> align:denotesProposition align:Prop_5_1363 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/819> align:denotesProposition align:Prop_5_14 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/820> align:denotesProposition align:Prop_5_141 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/821> align:denotesProposition align:Prop_5_142 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/822> align:denotesProposition align:Prop_5_143 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/823> align:denotesProposition align:Prop_5_15 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/824> align:denotesProposition align:Prop_5_151 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/825> align:denotesProposition align:Prop_5_1511 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/826> align:denotesProposition align:Prop_5_152 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/827> align:denotesProposition align:Prop_5_153 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/828> align:denotesProposition align:Prop_5_154 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/829> align:denotesProposition align:Prop_5_155 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/830> align:denotesProposition align:Prop_5_156 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/831> align:denotesProposition align:Prop_5_2 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/832> align:denotesProposition align:Prop_5_21 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/833> align:denotesProposition align:Prop_5_22 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/834> align:denotesProposition align:Prop_5_23 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/835> align:denotesProposition align:Prop_5_231 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/836> align:denotesProposition align:Prop_5_232 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/837> align:denotesProposition align:Prop_5_233 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/838> align:denotesProposition align:Prop_5_234 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/839> align:denotesProposition align:Prop_5_2341 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/840> align:denotesProposition align:Prop_5_24 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/841> align:denotesProposition align:Prop_5_241 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/842> align:denotesProposition align:Prop_5_242 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/843> align:denotesProposition align:Prop_5_25 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/844> align:denotesProposition align:Prop_5_251 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/845> align:denotesProposition align:Prop_5_252 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/846> align:denotesProposition align:Prop_5_2521 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/847> align:denotesProposition align:Prop_5_2522 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/848> align:denotesProposition align:Prop_5_2523 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/849> align:denotesProposition align:Prop_5_253 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/850> align:denotesProposition align:Prop_5_254 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/851> align:denotesProposition align:Prop_5_3 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/852> align:denotesProposition align:Prop_5_31 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/853> align:denotesProposition align:Prop_5_32 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/854> align:denotesProposition align:Prop_5_4 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/855> align:denotesProposition align:Prop_5_41 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/856> align:denotesProposition align:Prop_5_42 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/857> align:denotesProposition align:Prop_5_43 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/858> align:denotesProposition align:Prop_5_44 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/859> align:denotesProposition align:Prop_5_441 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/860> align:denotesProposition align:Prop_5_442 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/861> align:denotesProposition align:Prop_5_45 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/862> align:denotesProposition align:Prop_5_451 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/863> align:denotesProposition align:Prop_5_452 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/864> align:denotesProposition align:Prop_5_453 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/865> align:denotesProposition align:Prop_5_454 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/866> align:denotesProposition align:Prop_5_4541 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/867> align:denotesProposition align:Prop_5_46 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/868> align:denotesProposition align:Prop_5_461 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/869> align:denotesProposition align:Prop_5_4611 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/870> align:denotesProposition align:Prop_5_47 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/871> align:denotesProposition align:Prop_5_471 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/872> align:denotesProposition align:Prop_5_4711 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/873> align:denotesProposition align:Prop_5_472 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/874> align:denotesProposition align:Prop_5_473 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/875> align:denotesProposition align:Prop_5_4731 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/876> align:denotesProposition align:Prop_5_4732 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/877> align:denotesProposition align:Prop_5_47321 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/878> align:denotesProposition align:Prop_5_4733 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/879> align:denotesProposition align:Prop_5_474 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/880> align:denotesProposition align:Prop_5_475 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/881> align:denotesProposition align:Prop_5_476 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/882> align:denotesProposition align:Prop_5_5 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/883> align:denotesProposition align:Prop_5_501 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/884> align:denotesProposition align:Prop_5_502 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/885> align:denotesProposition align:Prop_5_503 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/886> align:denotesProposition align:Prop_5_51 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/887> align:denotesProposition align:Prop_5_511 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/888> align:denotesProposition align:Prop_5_512 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/889> align:denotesProposition align:Prop_5_513 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/890> align:denotesProposition align:Prop_5_514 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/891> align:denotesProposition align:Prop_5_515 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/892> align:denotesProposition align:Prop_5_5151 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/893> align:denotesProposition align:Prop_5_52 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/894> align:denotesProposition align:Prop_5_521 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/895> align:denotesProposition align:Prop_5_522 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/896> align:denotesProposition align:Prop_5_523 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/897> align:denotesProposition align:Prop_5_524 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/898> align:denotesProposition align:Prop_5_525 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/899> align:denotesProposition align:Prop_5_526 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/900> align:denotesProposition align:Prop_5_5261 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/901> align:denotesProposition align:Prop_5_5262 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/902> align:denotesProposition align:Prop_5_53 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/903> align:denotesProposition align:Prop_5_5301 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/904> align:denotesProposition align:Prop_5_5302 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/905> align:denotesProposition align:Prop_5_5303 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/906> align:denotesProposition align:Prop_5_531 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/907> align:denotesProposition align:Prop_5_532 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/908> align:denotesProposition align:Prop_5_5321 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/909> align:denotesProposition align:Prop_5_533 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/910> align:denotesProposition align:Prop_5_534 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/911> align:denotesProposition align:Prop_5_535 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/912> align:denotesProposition align:Prop_5_5351 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/913> align:denotesProposition align:Prop_5_5352 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/914> align:denotesProposition align:Prop_5_54 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/915> align:denotesProposition align:Prop_5_541 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/916> align:denotesProposition align:Prop_5_542 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/917> align:denotesProposition align:Prop_5_5421 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/918> align:denotesProposition align:Prop_5_5422 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/919> align:denotesProposition align:Prop_5_5423 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/920> align:denotesProposition align:Prop_5_55 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/921> align:denotesProposition align:Prop_5_551 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/922> align:denotesProposition align:Prop_5_552 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/923> align:denotesProposition align:Prop_5_5521 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/924> align:denotesProposition align:Prop_5_553 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/925> align:denotesProposition align:Prop_5_554 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/926> align:denotesProposition align:Prop_5_5541 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/927> align:denotesProposition align:Prop_5_5542 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/928> align:denotesProposition align:Prop_5_555 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/929> align:denotesProposition align:Prop_5_556 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/930> align:denotesProposition align:Prop_5_5561 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/931> align:denotesProposition align:Prop_5_5562 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/932> align:denotesProposition align:Prop_5_5563 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/933> align:denotesProposition align:Prop_5_557 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/934> align:denotesProposition align:Prop_5_5571 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/935> align:denotesProposition align:Prop_5_6 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/936> align:denotesProposition align:Prop_5_61 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/937> align:denotesProposition align:Prop_5_62 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/938> align:denotesProposition align:Prop_5_621 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/939> align:denotesProposition align:Prop_5_63 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/940> align:denotesProposition align:Prop_5_631 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/941> align:denotesProposition align:Prop_5_632 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/942> align:denotesProposition align:Prop_5_633 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/943> align:denotesProposition align:Prop_5_6331 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/944> align:denotesProposition align:Prop_5_634 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/945> align:denotesProposition align:Prop_5_64 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/946> align:denotesProposition align:Prop_5_641 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/947> align:denotesProposition align:Prop_6 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/948> align:denotesProposition align:Prop_6_001 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/949> align:denotesProposition align:Prop_6_002 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/950> align:denotesProposition align:Prop_6_01 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/951> align:denotesProposition align:Prop_6_02 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/952> align:denotesProposition align:Prop_6_021 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/953> align:denotesProposition align:Prop_6_022 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/954> align:denotesProposition align:Prop_6_03 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/955> align:denotesProposition align:Prop_6_031 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/956> align:denotesProposition align:Prop_6_1 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/957> align:denotesProposition align:Prop_6_11 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/958> align:denotesProposition align:Prop_6_111 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/959> align:denotesProposition align:Prop_6_112 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/960> align:denotesProposition align:Prop_6_113 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/961> align:denotesProposition align:Prop_6_12 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/962> align:denotesProposition align:Prop_6_1201 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/963> align:denotesProposition align:Prop_6_1202 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/964> align:denotesProposition align:Prop_6_1203 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/965> align:denotesProposition align:Prop_6_121 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/966> align:denotesProposition align:Prop_6_122 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/967> align:denotesProposition align:Prop_6_1221 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/968> align:denotesProposition align:Prop_6_1222 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/969> align:denotesProposition align:Prop_6_1223 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/970> align:denotesProposition align:Prop_6_1224 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/971> align:denotesProposition align:Prop_6_123 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/972> align:denotesProposition align:Prop_6_1231 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/973> align:denotesProposition align:Prop_6_1232 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/974> align:denotesProposition align:Prop_6_1233 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/975> align:denotesProposition align:Prop_6_124 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/976> align:denotesProposition align:Prop_6_125 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/977> align:denotesProposition align:Prop_6_1251 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/978> align:denotesProposition align:Prop_6_126 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/979> align:denotesProposition align:Prop_6_1261 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/980> align:denotesProposition align:Prop_6_1262 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/981> align:denotesProposition align:Prop_6_1263 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/982> align:denotesProposition align:Prop_6_1264 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/983> align:denotesProposition align:Prop_6_1265 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/984> align:denotesProposition align:Prop_6_127 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/985> align:denotesProposition align:Prop_6_1271 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/986> align:denotesProposition align:Prop_6_13 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/987> align:denotesProposition align:Prop_6_2 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/988> align:denotesProposition align:Prop_6_21 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/989> align:denotesProposition align:Prop_6_211 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/990> align:denotesProposition align:Prop_6_22 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/991> align:denotesProposition align:Prop_6_23 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/992> align:denotesProposition align:Prop_6_231 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/993> align:denotesProposition align:Prop_6_232 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/994> align:denotesProposition align:Prop_6_2321 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/995> align:denotesProposition align:Prop_6_2322 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/996> align:denotesProposition align:Prop_6_2323 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/997> align:denotesProposition align:Prop_6_233 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/998> align:denotesProposition align:Prop_6_2331 .
+
+<http://wittgensteiniana.michelepasin.org/id/unit/999> align:denotesProposition align:Prop_6_234 .
+
+align:Prop_2_132 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.132"@en ;
+    align:hasNumber "2.132"^^xsd:string .
+
+align:Prop_4_004 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.004"@en ;
+    align:hasNumber "4.004"^^xsd:string .
+
+align:Prop_4_0141 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.0141"@en ;
+    align:hasNumber "4.0141"^^xsd:string .
+
+align:Prop_4_042 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.042"@en ;
+    align:hasNumber "4.042"^^xsd:string .
+
+align:Prop_4_0421 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.0421"@en ;
+    align:hasNumber "4.0421"^^xsd:string .
+
+align:Prop_4_244 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.244"@en ;
+    align:hasNumber "4.244"^^xsd:string .
+
+align:Prop_6_011 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.011"@en ;
+    align:hasNumber "6.011"^^xsd:string .
+
+align:Prop_1 a align:TractatusProposition ;
+    rdfs:label "Tractatus 1"@en ;
+    align:hasNumber "1"^^xsd:string .
+
+align:Prop_1_1 a align:TractatusProposition ;
+    rdfs:label "Tractatus 1.1"@en ;
+    align:hasNumber "1.1"^^xsd:string .
+
+align:Prop_1_11 a align:TractatusProposition ;
+    rdfs:label "Tractatus 1.11"@en ;
+    align:hasNumber "1.11"^^xsd:string .
+
+align:Prop_1_12 a align:TractatusProposition ;
+    rdfs:label "Tractatus 1.12"@en ;
+    align:hasNumber "1.12"^^xsd:string .
+
+align:Prop_1_13 a align:TractatusProposition ;
+    rdfs:label "Tractatus 1.13"@en ;
+    align:hasNumber "1.13"^^xsd:string .
+
+align:Prop_1_2 a align:TractatusProposition ;
+    rdfs:label "Tractatus 1.2"@en ;
+    align:hasNumber "1.2"^^xsd:string .
+
+align:Prop_1_21 a align:TractatusProposition ;
+    rdfs:label "Tractatus 1.21"@en ;
+    align:hasNumber "1.21"^^xsd:string .
+
+align:Prop_2 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2"@en ;
+    align:hasNumber "2"^^xsd:string .
+
+align:Prop_2_01 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.01"@en ;
+    align:hasNumber "2.01"^^xsd:string .
+
+align:Prop_2_011 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.011"@en ;
+    align:hasNumber "2.011"^^xsd:string .
+
+align:Prop_2_012 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.012"@en ;
+    align:hasNumber "2.012"^^xsd:string .
+
+align:Prop_2_0121 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.0121"@en ;
+    align:hasNumber "2.0121"^^xsd:string .
+
+align:Prop_2_0122 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.0122"@en ;
+    align:hasNumber "2.0122"^^xsd:string .
+
+align:Prop_2_0123 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.0123"@en ;
+    align:hasNumber "2.0123"^^xsd:string .
+
+align:Prop_2_01231 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.01231"@en ;
+    align:hasNumber "2.01231"^^xsd:string .
+
+align:Prop_2_0124 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.0124"@en ;
+    align:hasNumber "2.0124"^^xsd:string .
+
+align:Prop_2_013 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.013"@en ;
+    align:hasNumber "2.013"^^xsd:string .
+
+align:Prop_2_0131 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.0131"@en ;
+    align:hasNumber "2.0131"^^xsd:string .
+
+align:Prop_2_014 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.014"@en ;
+    align:hasNumber "2.014"^^xsd:string .
+
+align:Prop_2_0141 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.0141"@en ;
+    align:hasNumber "2.0141"^^xsd:string .
+
+align:Prop_2_02 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.02"@en ;
+    align:hasNumber "2.02"^^xsd:string .
+
+align:Prop_2_0201 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.0201"@en ;
+    align:hasNumber "2.0201"^^xsd:string .
+
+align:Prop_2_021 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.021"@en ;
+    align:hasNumber "2.021"^^xsd:string .
+
+align:Prop_2_0211 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.0211"@en ;
+    align:hasNumber "2.0211"^^xsd:string .
+
+align:Prop_2_0212 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.0212"@en ;
+    align:hasNumber "2.0212"^^xsd:string .
+
+align:Prop_2_022 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.022"@en ;
+    align:hasNumber "2.022"^^xsd:string .
+
+align:Prop_2_023 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.023"@en ;
+    align:hasNumber "2.023"^^xsd:string .
+
+align:Prop_2_0231 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.0231"@en ;
+    align:hasNumber "2.0231"^^xsd:string .
+
+align:Prop_2_0232 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.0232"@en ;
+    align:hasNumber "2.0232"^^xsd:string .
+
+align:Prop_2_0233 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.0233"@en ;
+    align:hasNumber "2.0233"^^xsd:string .
+
+align:Prop_2_02331 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.02331"@en ;
+    align:hasNumber "2.02331"^^xsd:string .
+
+align:Prop_2_024 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.024"@en ;
+    align:hasNumber "2.024"^^xsd:string .
+
+align:Prop_2_025 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.025"@en ;
+    align:hasNumber "2.025"^^xsd:string .
+
+align:Prop_2_0251 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.0251"@en ;
+    align:hasNumber "2.0251"^^xsd:string .
+
+align:Prop_2_026 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.026"@en ;
+    align:hasNumber "2.026"^^xsd:string .
+
+align:Prop_2_027 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.027"@en ;
+    align:hasNumber "2.027"^^xsd:string .
+
+align:Prop_2_0271 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.0271"@en ;
+    align:hasNumber "2.0271"^^xsd:string .
+
+align:Prop_2_0272 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.0272"@en ;
+    align:hasNumber "2.0272"^^xsd:string .
+
+align:Prop_2_03 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.03"@en ;
+    align:hasNumber "2.03"^^xsd:string .
+
+align:Prop_2_031 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.031"@en ;
+    align:hasNumber "2.031"^^xsd:string .
+
+align:Prop_2_032 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.032"@en ;
+    align:hasNumber "2.032"^^xsd:string .
+
+align:Prop_2_033 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.033"@en ;
+    align:hasNumber "2.033"^^xsd:string .
+
+align:Prop_2_034 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.034"@en ;
+    align:hasNumber "2.034"^^xsd:string .
+
+align:Prop_2_04 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.04"@en ;
+    align:hasNumber "2.04"^^xsd:string .
+
+align:Prop_2_05 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.05"@en ;
+    align:hasNumber "2.05"^^xsd:string .
+
+align:Prop_2_06 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.06"@en ;
+    align:hasNumber "2.06"^^xsd:string .
+
+align:Prop_2_061 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.061"@en ;
+    align:hasNumber "2.061"^^xsd:string .
+
+align:Prop_2_062 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.062"@en ;
+    align:hasNumber "2.062"^^xsd:string .
+
+align:Prop_2_063 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.063"@en ;
+    align:hasNumber "2.063"^^xsd:string .
+
+align:Prop_2_1 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.1"@en ;
+    align:hasNumber "2.1"^^xsd:string .
+
+align:Prop_2_11 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.11"@en ;
+    align:hasNumber "2.11"^^xsd:string .
+
+align:Prop_2_12 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.12"@en ;
+    align:hasNumber "2.12"^^xsd:string .
+
+align:Prop_2_13 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.13"@en ;
+    align:hasNumber "2.13"^^xsd:string .
+
+align:Prop_2_131 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.131"@en ;
+    align:hasNumber "2.131"^^xsd:string .
+
+align:Prop_2_14 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.14"@en ;
+    align:hasNumber "2.14"^^xsd:string .
+
+align:Prop_2_141 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.141"@en ;
+    align:hasNumber "2.141"^^xsd:string .
+
+align:Prop_2_15 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.15"@en ;
+    align:hasNumber "2.15"^^xsd:string .
+
+align:Prop_2_151 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.151"@en ;
+    align:hasNumber "2.151"^^xsd:string .
+
+align:Prop_2_1511 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.1511"@en ;
+    align:hasNumber "2.1511"^^xsd:string .
+
+align:Prop_2_1512 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.1512"@en ;
+    align:hasNumber "2.1512"^^xsd:string .
+
+align:Prop_2_15121 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.15121"@en ;
+    align:hasNumber "2.15121"^^xsd:string .
+
+align:Prop_2_1513 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.1513"@en ;
+    align:hasNumber "2.1513"^^xsd:string .
+
+align:Prop_2_1514 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.1514"@en ;
+    align:hasNumber "2.1514"^^xsd:string .
+
+align:Prop_2_1515 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.1515"@en ;
+    align:hasNumber "2.1515"^^xsd:string .
+
+align:Prop_2_16 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.16"@en ;
+    align:hasNumber "2.16"^^xsd:string .
+
+align:Prop_2_161 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.161"@en ;
+    align:hasNumber "2.161"^^xsd:string .
+
+align:Prop_2_17 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.17"@en ;
+    align:hasNumber "2.17"^^xsd:string .
+
+align:Prop_2_171 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.171"@en ;
+    align:hasNumber "2.171"^^xsd:string .
+
+align:Prop_2_172 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.172"@en ;
+    align:hasNumber "2.172"^^xsd:string .
+
+align:Prop_2_173 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.173"@en ;
+    align:hasNumber "2.173"^^xsd:string .
+
+align:Prop_2_174 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.174"@en ;
+    align:hasNumber "2.174"^^xsd:string .
+
+align:Prop_2_18 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.18"@en ;
+    align:hasNumber "2.18"^^xsd:string .
+
+align:Prop_2_181 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.181"@en ;
+    align:hasNumber "2.181"^^xsd:string .
+
+align:Prop_2_182 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.182"@en ;
+    align:hasNumber "2.182"^^xsd:string .
+
+align:Prop_2_19 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.19"@en ;
+    align:hasNumber "2.19"^^xsd:string .
+
+align:Prop_2_2 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.2"@en ;
+    align:hasNumber "2.2"^^xsd:string .
+
+align:Prop_2_201 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.201"@en ;
+    align:hasNumber "2.201"^^xsd:string .
+
+align:Prop_2_202 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.202"@en ;
+    align:hasNumber "2.202"^^xsd:string .
+
+align:Prop_2_203 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.203"@en ;
+    align:hasNumber "2.203"^^xsd:string .
+
+align:Prop_2_21 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.21"@en ;
+    align:hasNumber "2.21"^^xsd:string .
+
+align:Prop_2_22 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.22"@en ;
+    align:hasNumber "2.22"^^xsd:string .
+
+align:Prop_2_221 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.221"@en ;
+    align:hasNumber "2.221"^^xsd:string .
+
+align:Prop_2_222 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.222"@en ;
+    align:hasNumber "2.222"^^xsd:string .
+
+align:Prop_2_223 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.223"@en ;
+    align:hasNumber "2.223"^^xsd:string .
+
+align:Prop_2_224 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.224"@en ;
+    align:hasNumber "2.224"^^xsd:string .
+
+align:Prop_2_225 a align:TractatusProposition ;
+    rdfs:label "Tractatus 2.225"@en ;
+    align:hasNumber "2.225"^^xsd:string .
+
+align:Prop_3 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3"@en ;
+    align:hasNumber "3"^^xsd:string .
+
+align:Prop_3_001 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.001"@en ;
+    align:hasNumber "3.001"^^xsd:string .
+
+align:Prop_3_01 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.01"@en ;
+    align:hasNumber "3.01"^^xsd:string .
+
+align:Prop_3_02 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.02"@en ;
+    align:hasNumber "3.02"^^xsd:string .
+
+align:Prop_3_03 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.03"@en ;
+    align:hasNumber "3.03"^^xsd:string .
+
+align:Prop_3_031 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.031"@en ;
+    align:hasNumber "3.031"^^xsd:string .
+
+align:Prop_3_032 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.032"@en ;
+    align:hasNumber "3.032"^^xsd:string .
+
+align:Prop_3_0321 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.0321"@en ;
+    align:hasNumber "3.0321"^^xsd:string .
+
+align:Prop_3_04 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.04"@en ;
+    align:hasNumber "3.04"^^xsd:string .
+
+align:Prop_3_05 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.05"@en ;
+    align:hasNumber "3.05"^^xsd:string .
+
+align:Prop_3_1 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.1"@en ;
+    align:hasNumber "3.1"^^xsd:string .
+
+align:Prop_3_11 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.11"@en ;
+    align:hasNumber "3.11"^^xsd:string .
+
+align:Prop_3_12 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.12"@en ;
+    align:hasNumber "3.12"^^xsd:string .
+
+align:Prop_3_13 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.13"@en ;
+    align:hasNumber "3.13"^^xsd:string .
+
+align:Prop_3_14 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.14"@en ;
+    align:hasNumber "3.14"^^xsd:string .
+
+align:Prop_3_141 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.141"@en ;
+    align:hasNumber "3.141"^^xsd:string .
+
+align:Prop_3_142 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.142"@en ;
+    align:hasNumber "3.142"^^xsd:string .
+
+align:Prop_3_143 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.143"@en ;
+    align:hasNumber "3.143"^^xsd:string .
+
+align:Prop_3_1431 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.1431"@en ;
+    align:hasNumber "3.1431"^^xsd:string .
+
+align:Prop_3_1432 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.1432"@en ;
+    align:hasNumber "3.1432"^^xsd:string .
+
+align:Prop_3_144 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.144"@en ;
+    align:hasNumber "3.144"^^xsd:string .
+
+align:Prop_3_2 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.2"@en ;
+    align:hasNumber "3.2"^^xsd:string .
+
+align:Prop_3_201 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.201"@en ;
+    align:hasNumber "3.201"^^xsd:string .
+
+align:Prop_3_202 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.202"@en ;
+    align:hasNumber "3.202"^^xsd:string .
+
+align:Prop_3_203 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.203"@en ;
+    align:hasNumber "3.203"^^xsd:string .
+
+align:Prop_3_21 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.21"@en ;
+    align:hasNumber "3.21"^^xsd:string .
+
+align:Prop_3_22 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.22"@en ;
+    align:hasNumber "3.22"^^xsd:string .
+
+align:Prop_3_221 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.221"@en ;
+    align:hasNumber "3.221"^^xsd:string .
+
+align:Prop_3_23 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.23"@en ;
+    align:hasNumber "3.23"^^xsd:string .
+
+align:Prop_3_24 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.24"@en ;
+    align:hasNumber "3.24"^^xsd:string .
+
+align:Prop_3_25 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.25"@en ;
+    align:hasNumber "3.25"^^xsd:string .
+
+align:Prop_3_251 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.251"@en ;
+    align:hasNumber "3.251"^^xsd:string .
+
+align:Prop_3_26 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.26"@en ;
+    align:hasNumber "3.26"^^xsd:string .
+
+align:Prop_3_261 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.261"@en ;
+    align:hasNumber "3.261"^^xsd:string .
+
+align:Prop_3_262 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.262"@en ;
+    align:hasNumber "3.262"^^xsd:string .
+
+align:Prop_3_263 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.263"@en ;
+    align:hasNumber "3.263"^^xsd:string .
+
+align:Prop_3_3 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.3"@en ;
+    align:hasNumber "3.3"^^xsd:string .
+
+align:Prop_3_31 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.31"@en ;
+    align:hasNumber "3.31"^^xsd:string .
+
+align:Prop_3_311 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.311"@en ;
+    align:hasNumber "3.311"^^xsd:string .
+
+align:Prop_3_312 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.312"@en ;
+    align:hasNumber "3.312"^^xsd:string .
+
+align:Prop_3_313 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.313"@en ;
+    align:hasNumber "3.313"^^xsd:string .
+
+align:Prop_3_314 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.314"@en ;
+    align:hasNumber "3.314"^^xsd:string .
+
+align:Prop_3_315 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.315"@en ;
+    align:hasNumber "3.315"^^xsd:string .
+
+align:Prop_3_316 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.316"@en ;
+    align:hasNumber "3.316"^^xsd:string .
+
+align:Prop_3_317 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.317"@en ;
+    align:hasNumber "3.317"^^xsd:string .
+
+align:Prop_3_318 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.318"@en ;
+    align:hasNumber "3.318"^^xsd:string .
+
+align:Prop_3_32 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.32"@en ;
+    align:hasNumber "3.32"^^xsd:string .
+
+align:Prop_3_321 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.321"@en ;
+    align:hasNumber "3.321"^^xsd:string .
+
+align:Prop_3_322 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.322"@en ;
+    align:hasNumber "3.322"^^xsd:string .
+
+align:Prop_3_323 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.323"@en ;
+    align:hasNumber "3.323"^^xsd:string .
+
+align:Prop_3_324 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.324"@en ;
+    align:hasNumber "3.324"^^xsd:string .
+
+align:Prop_3_325 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.325"@en ;
+    align:hasNumber "3.325"^^xsd:string .
+
+align:Prop_3_326 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.326"@en ;
+    align:hasNumber "3.326"^^xsd:string .
+
+align:Prop_3_327 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.327"@en ;
+    align:hasNumber "3.327"^^xsd:string .
+
+align:Prop_3_328 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.328"@en ;
+    align:hasNumber "3.328"^^xsd:string .
+
+align:Prop_3_33 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.33"@en ;
+    align:hasNumber "3.33"^^xsd:string .
+
+align:Prop_3_331 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.331"@en ;
+    align:hasNumber "3.331"^^xsd:string .
+
+align:Prop_3_332 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.332"@en ;
+    align:hasNumber "3.332"^^xsd:string .
+
+align:Prop_3_333 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.333"@en ;
+    align:hasNumber "3.333"^^xsd:string .
+
+align:Prop_3_334 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.334"@en ;
+    align:hasNumber "3.334"^^xsd:string .
+
+align:Prop_3_34 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.34"@en ;
+    align:hasNumber "3.34"^^xsd:string .
+
+align:Prop_3_341 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.341"@en ;
+    align:hasNumber "3.341"^^xsd:string .
+
+align:Prop_3_3411 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.3411"@en ;
+    align:hasNumber "3.3411"^^xsd:string .
+
+align:Prop_3_342 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.342"@en ;
+    align:hasNumber "3.342"^^xsd:string .
+
+align:Prop_3_3421 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.3421"@en ;
+    align:hasNumber "3.3421"^^xsd:string .
+
+align:Prop_3_343 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.343"@en ;
+    align:hasNumber "3.343"^^xsd:string .
+
+align:Prop_3_344 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.344"@en ;
+    align:hasNumber "3.344"^^xsd:string .
+
+align:Prop_3_3441 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.3441"@en ;
+    align:hasNumber "3.3441"^^xsd:string .
+
+align:Prop_3_3442 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.3442"@en ;
+    align:hasNumber "3.3442"^^xsd:string .
+
+align:Prop_3_4 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.4"@en ;
+    align:hasNumber "3.4"^^xsd:string .
+
+align:Prop_3_41 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.41"@en ;
+    align:hasNumber "3.41"^^xsd:string .
+
+align:Prop_3_411 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.411"@en ;
+    align:hasNumber "3.411"^^xsd:string .
+
+align:Prop_3_42 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.42"@en ;
+    align:hasNumber "3.42"^^xsd:string .
+
+align:Prop_3_5 a align:TractatusProposition ;
+    rdfs:label "Tractatus 3.5"@en ;
+    align:hasNumber "3.5"^^xsd:string .
+
+align:Prop_4 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4"@en ;
+    align:hasNumber "4"^^xsd:string .
+
+align:Prop_4_001 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.001"@en ;
+    align:hasNumber "4.001"^^xsd:string .
+
+align:Prop_4_002 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.002"@en ;
+    align:hasNumber "4.002"^^xsd:string .
+
+align:Prop_4_003 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.003"@en ;
+    align:hasNumber "4.003"^^xsd:string .
+
+align:Prop_4_0031 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.0031"@en ;
+    align:hasNumber "4.0031"^^xsd:string .
+
+align:Prop_4_01 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.01"@en ;
+    align:hasNumber "4.01"^^xsd:string .
+
+align:Prop_4_011 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.011"@en ;
+    align:hasNumber "4.011"^^xsd:string .
+
+align:Prop_4_012 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.012"@en ;
+    align:hasNumber "4.012"^^xsd:string .
+
+align:Prop_4_013 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.013"@en ;
+    align:hasNumber "4.013"^^xsd:string .
+
+align:Prop_4_014 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.014"@en ;
+    align:hasNumber "4.014"^^xsd:string .
+
+align:Prop_4_015 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.015"@en ;
+    align:hasNumber "4.015"^^xsd:string .
+
+align:Prop_4_016 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.016"@en ;
+    align:hasNumber "4.016"^^xsd:string .
+
+align:Prop_4_02 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.02"@en ;
+    align:hasNumber "4.02"^^xsd:string .
+
+align:Prop_4_021 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.021"@en ;
+    align:hasNumber "4.021"^^xsd:string .
+
+align:Prop_4_022 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.022"@en ;
+    align:hasNumber "4.022"^^xsd:string .
+
+align:Prop_4_023 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.023"@en ;
+    align:hasNumber "4.023"^^xsd:string .
+
+align:Prop_4_024 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.024"@en ;
+    align:hasNumber "4.024"^^xsd:string .
+
+align:Prop_4_025 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.025"@en ;
+    align:hasNumber "4.025"^^xsd:string .
+
+align:Prop_4_026 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.026"@en ;
+    align:hasNumber "4.026"^^xsd:string .
+
+align:Prop_4_027 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.027"@en ;
+    align:hasNumber "4.027"^^xsd:string .
+
+align:Prop_4_03 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.03"@en ;
+    align:hasNumber "4.03"^^xsd:string .
+
+align:Prop_4_031 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.031"@en ;
+    align:hasNumber "4.031"^^xsd:string .
+
+align:Prop_4_0311 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.0311"@en ;
+    align:hasNumber "4.0311"^^xsd:string .
+
+align:Prop_4_0312 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.0312"@en ;
+    align:hasNumber "4.0312"^^xsd:string .
+
+align:Prop_4_032 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.032"@en ;
+    align:hasNumber "4.032"^^xsd:string .
+
+align:Prop_4_04 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.04"@en ;
+    align:hasNumber "4.04"^^xsd:string .
+
+align:Prop_4_041 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.041"@en ;
+    align:hasNumber "4.041"^^xsd:string .
+
+align:Prop_4_0411 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.0411"@en ;
+    align:hasNumber "4.0411"^^xsd:string .
+
+align:Prop_4_0412 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.0412"@en ;
+    align:hasNumber "4.0412"^^xsd:string .
+
+align:Prop_4_05 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.05"@en ;
+    align:hasNumber "4.05"^^xsd:string .
+
+align:Prop_4_06 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.06"@en ;
+    align:hasNumber "4.06"^^xsd:string .
+
+align:Prop_4_061 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.061"@en ;
+    align:hasNumber "4.061"^^xsd:string .
+
+align:Prop_4_062 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.062"@en ;
+    align:hasNumber "4.062"^^xsd:string .
+
+align:Prop_4_0621 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.0621"@en ;
+    align:hasNumber "4.0621"^^xsd:string .
+
+align:Prop_4_063 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.063"@en ;
+    align:hasNumber "4.063"^^xsd:string .
+
+align:Prop_4_064 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.064"@en ;
+    align:hasNumber "4.064"^^xsd:string .
+
+align:Prop_4_0641 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.0641"@en ;
+    align:hasNumber "4.0641"^^xsd:string .
+
+align:Prop_4_1 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.1"@en ;
+    align:hasNumber "4.1"^^xsd:string .
+
+align:Prop_4_11 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.11"@en ;
+    align:hasNumber "4.11"^^xsd:string .
+
+align:Prop_4_111 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.111"@en ;
+    align:hasNumber "4.111"^^xsd:string .
+
+align:Prop_4_112 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.112"@en ;
+    align:hasNumber "4.112"^^xsd:string .
+
+align:Prop_4_1121 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.1121"@en ;
+    align:hasNumber "4.1121"^^xsd:string .
+
+align:Prop_4_1122 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.1122"@en ;
+    align:hasNumber "4.1122"^^xsd:string .
+
+align:Prop_4_113 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.113"@en ;
+    align:hasNumber "4.113"^^xsd:string .
+
+align:Prop_4_114 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.114"@en ;
+    align:hasNumber "4.114"^^xsd:string .
+
+align:Prop_4_115 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.115"@en ;
+    align:hasNumber "4.115"^^xsd:string .
+
+align:Prop_4_116 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.116"@en ;
+    align:hasNumber "4.116"^^xsd:string .
+
+align:Prop_4_12 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.12"@en ;
+    align:hasNumber "4.12"^^xsd:string .
+
+align:Prop_4_121 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.121"@en ;
+    align:hasNumber "4.121"^^xsd:string .
+
+align:Prop_4_1211 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.1211"@en ;
+    align:hasNumber "4.1211"^^xsd:string .
+
+align:Prop_4_1212 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.1212"@en ;
+    align:hasNumber "4.1212"^^xsd:string .
+
+align:Prop_4_1213 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.1213"@en ;
+    align:hasNumber "4.1213"^^xsd:string .
+
+align:Prop_4_122 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.122"@en ;
+    align:hasNumber "4.122"^^xsd:string .
+
+align:Prop_4_1221 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.1221"@en ;
+    align:hasNumber "4.1221"^^xsd:string .
+
+align:Prop_4_123 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.123"@en ;
+    align:hasNumber "4.123"^^xsd:string .
+
+align:Prop_4_124 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.124"@en ;
+    align:hasNumber "4.124"^^xsd:string .
+
+align:Prop_4_1241 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.1241"@en ;
+    align:hasNumber "4.1241"^^xsd:string .
+
+align:Prop_4_125 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.125"@en ;
+    align:hasNumber "4.125"^^xsd:string .
+
+align:Prop_4_1251 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.1251"@en ;
+    align:hasNumber "4.1251"^^xsd:string .
+
+align:Prop_4_1252 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.1252"@en ;
+    align:hasNumber "4.1252"^^xsd:string .
+
+align:Prop_4_126 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.126"@en ;
+    align:hasNumber "4.126"^^xsd:string .
+
+align:Prop_4_127 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.127"@en ;
+    align:hasNumber "4.127"^^xsd:string .
+
+align:Prop_4_1271 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.1271"@en ;
+    align:hasNumber "4.1271"^^xsd:string .
+
+align:Prop_4_1272 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.1272"@en ;
+    align:hasNumber "4.1272"^^xsd:string .
+
+align:Prop_4_12721 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.12721"@en ;
+    align:hasNumber "4.12721"^^xsd:string .
+
+align:Prop_4_1273 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.1273"@en ;
+    align:hasNumber "4.1273"^^xsd:string .
+
+align:Prop_4_1274 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.1274"@en ;
+    align:hasNumber "4.1274"^^xsd:string .
+
+align:Prop_4_128 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.128"@en ;
+    align:hasNumber "4.128"^^xsd:string .
+
+align:Prop_4_2 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.2"@en ;
+    align:hasNumber "4.2"^^xsd:string .
+
+align:Prop_4_21 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.21"@en ;
+    align:hasNumber "4.21"^^xsd:string .
+
+align:Prop_4_211 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.211"@en ;
+    align:hasNumber "4.211"^^xsd:string .
+
+align:Prop_4_22 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.22"@en ;
+    align:hasNumber "4.22"^^xsd:string .
+
+align:Prop_4_221 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.221"@en ;
+    align:hasNumber "4.221"^^xsd:string .
+
+align:Prop_4_2211 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.2211"@en ;
+    align:hasNumber "4.2211"^^xsd:string .
+
+align:Prop_4_23 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.23"@en ;
+    align:hasNumber "4.23"^^xsd:string .
+
+align:Prop_4_24 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.24"@en ;
+    align:hasNumber "4.24"^^xsd:string .
+
+align:Prop_4_241 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.241"@en ;
+    align:hasNumber "4.241"^^xsd:string .
+
+align:Prop_4_242 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.242"@en ;
+    align:hasNumber "4.242"^^xsd:string .
+
+align:Prop_4_243 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.243"@en ;
+    align:hasNumber "4.243"^^xsd:string .
+
+align:Prop_4_25 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.25"@en ;
+    align:hasNumber "4.25"^^xsd:string .
+
+align:Prop_4_26 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.26"@en ;
+    align:hasNumber "4.26"^^xsd:string .
+
+align:Prop_4_27 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.27"@en ;
+    align:hasNumber "4.27"^^xsd:string .
+
+align:Prop_4_28 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.28"@en ;
+    align:hasNumber "4.28"^^xsd:string .
+
+align:Prop_4_3 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.3"@en ;
+    align:hasNumber "4.3"^^xsd:string .
+
+align:Prop_4_31 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.31"@en ;
+    align:hasNumber "4.31"^^xsd:string .
+
+align:Prop_4_4 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.4"@en ;
+    align:hasNumber "4.4"^^xsd:string .
+
+align:Prop_4_41 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.41"@en ;
+    align:hasNumber "4.41"^^xsd:string .
+
+align:Prop_4_411 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.411"@en ;
+    align:hasNumber "4.411"^^xsd:string .
+
+align:Prop_4_42 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.42"@en ;
+    align:hasNumber "4.42"^^xsd:string .
+
+align:Prop_4_43 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.43"@en ;
+    align:hasNumber "4.43"^^xsd:string .
+
+align:Prop_4_431 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.431"@en ;
+    align:hasNumber "4.431"^^xsd:string .
+
+align:Prop_4_44 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.44"@en ;
+    align:hasNumber "4.44"^^xsd:string .
+
+align:Prop_4_441 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.441"@en ;
+    align:hasNumber "4.441"^^xsd:string .
+
+align:Prop_4_442 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.442"@en ;
+    align:hasNumber "4.442"^^xsd:string .
+
+align:Prop_4_45 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.45"@en ;
+    align:hasNumber "4.45"^^xsd:string .
+
+align:Prop_4_46 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.46"@en ;
+    align:hasNumber "4.46"^^xsd:string .
+
+align:Prop_4_461 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.461"@en ;
+    align:hasNumber "4.461"^^xsd:string .
+
+align:Prop_4_4611 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.4611"@en ;
+    align:hasNumber "4.4611"^^xsd:string .
+
+align:Prop_4_462 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.462"@en ;
+    align:hasNumber "4.462"^^xsd:string .
+
+align:Prop_4_463 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.463"@en ;
+    align:hasNumber "4.463"^^xsd:string .
+
+align:Prop_4_464 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.464"@en ;
+    align:hasNumber "4.464"^^xsd:string .
+
+align:Prop_4_465 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.465"@en ;
+    align:hasNumber "4.465"^^xsd:string .
+
+align:Prop_4_466 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.466"@en ;
+    align:hasNumber "4.466"^^xsd:string .
+
+align:Prop_4_4661 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.4661"@en ;
+    align:hasNumber "4.4661"^^xsd:string .
+
+align:Prop_4_5 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.5"@en ;
+    align:hasNumber "4.5"^^xsd:string .
+
+align:Prop_4_51 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.51"@en ;
+    align:hasNumber "4.51"^^xsd:string .
+
+align:Prop_4_52 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.52"@en ;
+    align:hasNumber "4.52"^^xsd:string .
+
+align:Prop_4_53 a align:TractatusProposition ;
+    rdfs:label "Tractatus 4.53"@en ;
+    align:hasNumber "4.53"^^xsd:string .
+
+align:Prop_5 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5"@en ;
+    align:hasNumber "5"^^xsd:string .
+
+align:Prop_5_01 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.01"@en ;
+    align:hasNumber "5.01"^^xsd:string .
+
+align:Prop_5_02 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.02"@en ;
+    align:hasNumber "5.02"^^xsd:string .
+
+align:Prop_5_1 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.1"@en ;
+    align:hasNumber "5.1"^^xsd:string .
+
+align:Prop_5_101 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.101"@en ;
+    align:hasNumber "5.101"^^xsd:string .
+
+align:Prop_5_11 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.11"@en ;
+    align:hasNumber "5.11"^^xsd:string .
+
+align:Prop_5_12 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.12"@en ;
+    align:hasNumber "5.12"^^xsd:string .
+
+align:Prop_5_121 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.121"@en ;
+    align:hasNumber "5.121"^^xsd:string .
+
+align:Prop_5_122 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.122"@en ;
+    align:hasNumber "5.122"^^xsd:string .
+
+align:Prop_5_123 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.123"@en ;
+    align:hasNumber "5.123"^^xsd:string .
+
+align:Prop_5_124 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.124"@en ;
+    align:hasNumber "5.124"^^xsd:string .
+
+align:Prop_5_1241 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.1241"@en ;
+    align:hasNumber "5.1241"^^xsd:string .
+
+align:Prop_5_13 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.13"@en ;
+    align:hasNumber "5.13"^^xsd:string .
+
+align:Prop_5_131 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.131"@en ;
+    align:hasNumber "5.131"^^xsd:string .
+
+align:Prop_5_1311 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.1311"@en ;
+    align:hasNumber "5.1311"^^xsd:string .
+
+align:Prop_5_132 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.132"@en ;
+    align:hasNumber "5.132"^^xsd:string .
+
+align:Prop_5_133 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.133"@en ;
+    align:hasNumber "5.133"^^xsd:string .
+
+align:Prop_5_134 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.134"@en ;
+    align:hasNumber "5.134"^^xsd:string .
+
+align:Prop_5_135 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.135"@en ;
+    align:hasNumber "5.135"^^xsd:string .
+
+align:Prop_5_136 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.136"@en ;
+    align:hasNumber "5.136"^^xsd:string .
+
+align:Prop_5_1361 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.1361"@en ;
+    align:hasNumber "5.1361"^^xsd:string .
+
+align:Prop_5_1362 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.1362"@en ;
+    align:hasNumber "5.1362"^^xsd:string .
+
+align:Prop_5_1363 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.1363"@en ;
+    align:hasNumber "5.1363"^^xsd:string .
+
+align:Prop_5_14 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.14"@en ;
+    align:hasNumber "5.14"^^xsd:string .
+
+align:Prop_5_141 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.141"@en ;
+    align:hasNumber "5.141"^^xsd:string .
+
+align:Prop_5_142 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.142"@en ;
+    align:hasNumber "5.142"^^xsd:string .
+
+align:Prop_5_143 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.143"@en ;
+    align:hasNumber "5.143"^^xsd:string .
+
+align:Prop_5_15 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.15"@en ;
+    align:hasNumber "5.15"^^xsd:string .
+
+align:Prop_5_151 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.151"@en ;
+    align:hasNumber "5.151"^^xsd:string .
+
+align:Prop_5_1511 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.1511"@en ;
+    align:hasNumber "5.1511"^^xsd:string .
+
+align:Prop_5_152 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.152"@en ;
+    align:hasNumber "5.152"^^xsd:string .
+
+align:Prop_5_153 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.153"@en ;
+    align:hasNumber "5.153"^^xsd:string .
+
+align:Prop_5_154 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.154"@en ;
+    align:hasNumber "5.154"^^xsd:string .
+
+align:Prop_5_155 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.155"@en ;
+    align:hasNumber "5.155"^^xsd:string .
+
+align:Prop_5_156 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.156"@en ;
+    align:hasNumber "5.156"^^xsd:string .
+
+align:Prop_5_2 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.2"@en ;
+    align:hasNumber "5.2"^^xsd:string .
+
+align:Prop_5_21 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.21"@en ;
+    align:hasNumber "5.21"^^xsd:string .
+
+align:Prop_5_22 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.22"@en ;
+    align:hasNumber "5.22"^^xsd:string .
+
+align:Prop_5_23 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.23"@en ;
+    align:hasNumber "5.23"^^xsd:string .
+
+align:Prop_5_231 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.231"@en ;
+    align:hasNumber "5.231"^^xsd:string .
+
+align:Prop_5_232 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.232"@en ;
+    align:hasNumber "5.232"^^xsd:string .
+
+align:Prop_5_233 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.233"@en ;
+    align:hasNumber "5.233"^^xsd:string .
+
+align:Prop_5_234 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.234"@en ;
+    align:hasNumber "5.234"^^xsd:string .
+
+align:Prop_5_2341 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.2341"@en ;
+    align:hasNumber "5.2341"^^xsd:string .
+
+align:Prop_5_24 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.24"@en ;
+    align:hasNumber "5.24"^^xsd:string .
+
+align:Prop_5_241 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.241"@en ;
+    align:hasNumber "5.241"^^xsd:string .
+
+align:Prop_5_242 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.242"@en ;
+    align:hasNumber "5.242"^^xsd:string .
+
+align:Prop_5_25 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.25"@en ;
+    align:hasNumber "5.25"^^xsd:string .
+
+align:Prop_5_251 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.251"@en ;
+    align:hasNumber "5.251"^^xsd:string .
+
+align:Prop_5_252 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.252"@en ;
+    align:hasNumber "5.252"^^xsd:string .
+
+align:Prop_5_2521 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.2521"@en ;
+    align:hasNumber "5.2521"^^xsd:string .
+
+align:Prop_5_2522 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.2522"@en ;
+    align:hasNumber "5.2522"^^xsd:string .
+
+align:Prop_5_2523 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.2523"@en ;
+    align:hasNumber "5.2523"^^xsd:string .
+
+align:Prop_5_253 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.253"@en ;
+    align:hasNumber "5.253"^^xsd:string .
+
+align:Prop_5_254 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.254"@en ;
+    align:hasNumber "5.254"^^xsd:string .
+
+align:Prop_5_3 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.3"@en ;
+    align:hasNumber "5.3"^^xsd:string .
+
+align:Prop_5_31 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.31"@en ;
+    align:hasNumber "5.31"^^xsd:string .
+
+align:Prop_5_32 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.32"@en ;
+    align:hasNumber "5.32"^^xsd:string .
+
+align:Prop_5_4 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.4"@en ;
+    align:hasNumber "5.4"^^xsd:string .
+
+align:Prop_5_41 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.41"@en ;
+    align:hasNumber "5.41"^^xsd:string .
+
+align:Prop_5_42 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.42"@en ;
+    align:hasNumber "5.42"^^xsd:string .
+
+align:Prop_5_43 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.43"@en ;
+    align:hasNumber "5.43"^^xsd:string .
+
+align:Prop_5_44 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.44"@en ;
+    align:hasNumber "5.44"^^xsd:string .
+
+align:Prop_5_441 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.441"@en ;
+    align:hasNumber "5.441"^^xsd:string .
+
+align:Prop_5_442 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.442"@en ;
+    align:hasNumber "5.442"^^xsd:string .
+
+align:Prop_5_45 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.45"@en ;
+    align:hasNumber "5.45"^^xsd:string .
+
+align:Prop_5_451 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.451"@en ;
+    align:hasNumber "5.451"^^xsd:string .
+
+align:Prop_5_452 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.452"@en ;
+    align:hasNumber "5.452"^^xsd:string .
+
+align:Prop_5_453 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.453"@en ;
+    align:hasNumber "5.453"^^xsd:string .
+
+align:Prop_5_454 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.454"@en ;
+    align:hasNumber "5.454"^^xsd:string .
+
+align:Prop_5_4541 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.4541"@en ;
+    align:hasNumber "5.4541"^^xsd:string .
+
+align:Prop_5_46 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.46"@en ;
+    align:hasNumber "5.46"^^xsd:string .
+
+align:Prop_5_461 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.461"@en ;
+    align:hasNumber "5.461"^^xsd:string .
+
+align:Prop_5_4611 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.4611"@en ;
+    align:hasNumber "5.4611"^^xsd:string .
+
+align:Prop_5_47 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.47"@en ;
+    align:hasNumber "5.47"^^xsd:string .
+
+align:Prop_5_471 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.471"@en ;
+    align:hasNumber "5.471"^^xsd:string .
+
+align:Prop_5_4711 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.4711"@en ;
+    align:hasNumber "5.4711"^^xsd:string .
+
+align:Prop_5_472 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.472"@en ;
+    align:hasNumber "5.472"^^xsd:string .
+
+align:Prop_5_473 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.473"@en ;
+    align:hasNumber "5.473"^^xsd:string .
+
+align:Prop_5_4731 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.4731"@en ;
+    align:hasNumber "5.4731"^^xsd:string .
+
+align:Prop_5_4732 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.4732"@en ;
+    align:hasNumber "5.4732"^^xsd:string .
+
+align:Prop_5_47321 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.47321"@en ;
+    align:hasNumber "5.47321"^^xsd:string .
+
+align:Prop_5_4733 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.4733"@en ;
+    align:hasNumber "5.4733"^^xsd:string .
+
+align:Prop_5_474 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.474"@en ;
+    align:hasNumber "5.474"^^xsd:string .
+
+align:Prop_5_475 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.475"@en ;
+    align:hasNumber "5.475"^^xsd:string .
+
+align:Prop_5_476 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.476"@en ;
+    align:hasNumber "5.476"^^xsd:string .
+
+align:Prop_5_5 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.5"@en ;
+    align:hasNumber "5.5"^^xsd:string .
+
+align:Prop_5_501 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.501"@en ;
+    align:hasNumber "5.501"^^xsd:string .
+
+align:Prop_5_502 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.502"@en ;
+    align:hasNumber "5.502"^^xsd:string .
+
+align:Prop_5_503 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.503"@en ;
+    align:hasNumber "5.503"^^xsd:string .
+
+align:Prop_5_51 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.51"@en ;
+    align:hasNumber "5.51"^^xsd:string .
+
+align:Prop_5_511 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.511"@en ;
+    align:hasNumber "5.511"^^xsd:string .
+
+align:Prop_5_512 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.512"@en ;
+    align:hasNumber "5.512"^^xsd:string .
+
+align:Prop_5_513 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.513"@en ;
+    align:hasNumber "5.513"^^xsd:string .
+
+align:Prop_5_514 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.514"@en ;
+    align:hasNumber "5.514"^^xsd:string .
+
+align:Prop_5_515 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.515"@en ;
+    align:hasNumber "5.515"^^xsd:string .
+
+align:Prop_5_5151 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.5151"@en ;
+    align:hasNumber "5.5151"^^xsd:string .
+
+align:Prop_5_52 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.52"@en ;
+    align:hasNumber "5.52"^^xsd:string .
+
+align:Prop_5_521 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.521"@en ;
+    align:hasNumber "5.521"^^xsd:string .
+
+align:Prop_5_522 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.522"@en ;
+    align:hasNumber "5.522"^^xsd:string .
+
+align:Prop_5_523 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.523"@en ;
+    align:hasNumber "5.523"^^xsd:string .
+
+align:Prop_5_524 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.524"@en ;
+    align:hasNumber "5.524"^^xsd:string .
+
+align:Prop_5_525 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.525"@en ;
+    align:hasNumber "5.525"^^xsd:string .
+
+align:Prop_5_526 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.526"@en ;
+    align:hasNumber "5.526"^^xsd:string .
+
+align:Prop_5_5261 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.5261"@en ;
+    align:hasNumber "5.5261"^^xsd:string .
+
+align:Prop_5_5262 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.5262"@en ;
+    align:hasNumber "5.5262"^^xsd:string .
+
+align:Prop_5_53 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.53"@en ;
+    align:hasNumber "5.53"^^xsd:string .
+
+align:Prop_5_5301 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.5301"@en ;
+    align:hasNumber "5.5301"^^xsd:string .
+
+align:Prop_5_5302 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.5302"@en ;
+    align:hasNumber "5.5302"^^xsd:string .
+
+align:Prop_5_5303 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.5303"@en ;
+    align:hasNumber "5.5303"^^xsd:string .
+
+align:Prop_5_531 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.531"@en ;
+    align:hasNumber "5.531"^^xsd:string .
+
+align:Prop_5_532 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.532"@en ;
+    align:hasNumber "5.532"^^xsd:string .
+
+align:Prop_5_5321 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.5321"@en ;
+    align:hasNumber "5.5321"^^xsd:string .
+
+align:Prop_5_533 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.533"@en ;
+    align:hasNumber "5.533"^^xsd:string .
+
+align:Prop_5_534 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.534"@en ;
+    align:hasNumber "5.534"^^xsd:string .
+
+align:Prop_5_535 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.535"@en ;
+    align:hasNumber "5.535"^^xsd:string .
+
+align:Prop_5_5351 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.5351"@en ;
+    align:hasNumber "5.5351"^^xsd:string .
+
+align:Prop_5_5352 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.5352"@en ;
+    align:hasNumber "5.5352"^^xsd:string .
+
+align:Prop_5_54 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.54"@en ;
+    align:hasNumber "5.54"^^xsd:string .
+
+align:Prop_5_541 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.541"@en ;
+    align:hasNumber "5.541"^^xsd:string .
+
+align:Prop_5_542 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.542"@en ;
+    align:hasNumber "5.542"^^xsd:string .
+
+align:Prop_5_5421 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.5421"@en ;
+    align:hasNumber "5.5421"^^xsd:string .
+
+align:Prop_5_5422 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.5422"@en ;
+    align:hasNumber "5.5422"^^xsd:string .
+
+align:Prop_5_5423 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.5423"@en ;
+    align:hasNumber "5.5423"^^xsd:string .
+
+align:Prop_5_55 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.55"@en ;
+    align:hasNumber "5.55"^^xsd:string .
+
+align:Prop_5_551 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.551"@en ;
+    align:hasNumber "5.551"^^xsd:string .
+
+align:Prop_5_552 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.552"@en ;
+    align:hasNumber "5.552"^^xsd:string .
+
+align:Prop_5_5521 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.5521"@en ;
+    align:hasNumber "5.5521"^^xsd:string .
+
+align:Prop_5_553 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.553"@en ;
+    align:hasNumber "5.553"^^xsd:string .
+
+align:Prop_5_554 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.554"@en ;
+    align:hasNumber "5.554"^^xsd:string .
+
+align:Prop_5_5541 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.5541"@en ;
+    align:hasNumber "5.5541"^^xsd:string .
+
+align:Prop_5_5542 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.5542"@en ;
+    align:hasNumber "5.5542"^^xsd:string .
+
+align:Prop_5_555 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.555"@en ;
+    align:hasNumber "5.555"^^xsd:string .
+
+align:Prop_5_556 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.556"@en ;
+    align:hasNumber "5.556"^^xsd:string .
+
+align:Prop_5_5561 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.5561"@en ;
+    align:hasNumber "5.5561"^^xsd:string .
+
+align:Prop_5_5562 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.5562"@en ;
+    align:hasNumber "5.5562"^^xsd:string .
+
+align:Prop_5_5563 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.5563"@en ;
+    align:hasNumber "5.5563"^^xsd:string .
+
+align:Prop_5_557 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.557"@en ;
+    align:hasNumber "5.557"^^xsd:string .
+
+align:Prop_5_5571 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.5571"@en ;
+    align:hasNumber "5.5571"^^xsd:string .
+
+align:Prop_5_6 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.6"@en ;
+    align:hasNumber "5.6"^^xsd:string .
+
+align:Prop_5_61 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.61"@en ;
+    align:hasNumber "5.61"^^xsd:string .
+
+align:Prop_5_62 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.62"@en ;
+    align:hasNumber "5.62"^^xsd:string .
+
+align:Prop_5_621 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.621"@en ;
+    align:hasNumber "5.621"^^xsd:string .
+
+align:Prop_5_63 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.63"@en ;
+    align:hasNumber "5.63"^^xsd:string .
+
+align:Prop_5_631 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.631"@en ;
+    align:hasNumber "5.631"^^xsd:string .
+
+align:Prop_5_632 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.632"@en ;
+    align:hasNumber "5.632"^^xsd:string .
+
+align:Prop_5_633 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.633"@en ;
+    align:hasNumber "5.633"^^xsd:string .
+
+align:Prop_5_6331 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.6331"@en ;
+    align:hasNumber "5.6331"^^xsd:string .
+
+align:Prop_5_634 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.634"@en ;
+    align:hasNumber "5.634"^^xsd:string .
+
+align:Prop_5_64 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.64"@en ;
+    align:hasNumber "5.64"^^xsd:string .
+
+align:Prop_5_641 a align:TractatusProposition ;
+    rdfs:label "Tractatus 5.641"@en ;
+    align:hasNumber "5.641"^^xsd:string .
+
+align:Prop_6 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6"@en ;
+    align:hasNumber "6"^^xsd:string .
+
+align:Prop_6_001 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.001"@en ;
+    align:hasNumber "6.001"^^xsd:string .
+
+align:Prop_6_002 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.002"@en ;
+    align:hasNumber "6.002"^^xsd:string .
+
+align:Prop_6_01 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.01"@en ;
+    align:hasNumber "6.01"^^xsd:string .
+
+align:Prop_6_02 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.02"@en ;
+    align:hasNumber "6.02"^^xsd:string .
+
+align:Prop_6_021 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.021"@en ;
+    align:hasNumber "6.021"^^xsd:string .
+
+align:Prop_6_022 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.022"@en ;
+    align:hasNumber "6.022"^^xsd:string .
+
+align:Prop_6_03 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.03"@en ;
+    align:hasNumber "6.03"^^xsd:string .
+
+align:Prop_6_031 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.031"@en ;
+    align:hasNumber "6.031"^^xsd:string .
+
+align:Prop_6_1 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.1"@en ;
+    align:hasNumber "6.1"^^xsd:string .
+
+align:Prop_6_11 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.11"@en ;
+    align:hasNumber "6.11"^^xsd:string .
+
+align:Prop_6_111 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.111"@en ;
+    align:hasNumber "6.111"^^xsd:string .
+
+align:Prop_6_112 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.112"@en ;
+    align:hasNumber "6.112"^^xsd:string .
+
+align:Prop_6_113 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.113"@en ;
+    align:hasNumber "6.113"^^xsd:string .
+
+align:Prop_6_12 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.12"@en ;
+    align:hasNumber "6.12"^^xsd:string .
+
+align:Prop_6_1201 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.1201"@en ;
+    align:hasNumber "6.1201"^^xsd:string .
+
+align:Prop_6_1202 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.1202"@en ;
+    align:hasNumber "6.1202"^^xsd:string .
+
+align:Prop_6_1203 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.1203"@en ;
+    align:hasNumber "6.1203"^^xsd:string .
+
+align:Prop_6_121 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.121"@en ;
+    align:hasNumber "6.121"^^xsd:string .
+
+align:Prop_6_122 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.122"@en ;
+    align:hasNumber "6.122"^^xsd:string .
+
+align:Prop_6_1221 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.1221"@en ;
+    align:hasNumber "6.1221"^^xsd:string .
+
+align:Prop_6_1222 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.1222"@en ;
+    align:hasNumber "6.1222"^^xsd:string .
+
+align:Prop_6_1223 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.1223"@en ;
+    align:hasNumber "6.1223"^^xsd:string .
+
+align:Prop_6_1224 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.1224"@en ;
+    align:hasNumber "6.1224"^^xsd:string .
+
+align:Prop_6_123 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.123"@en ;
+    align:hasNumber "6.123"^^xsd:string .
+
+align:Prop_6_1231 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.1231"@en ;
+    align:hasNumber "6.1231"^^xsd:string .
+
+align:Prop_6_1232 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.1232"@en ;
+    align:hasNumber "6.1232"^^xsd:string .
+
+align:Prop_6_1233 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.1233"@en ;
+    align:hasNumber "6.1233"^^xsd:string .
+
+align:Prop_6_124 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.124"@en ;
+    align:hasNumber "6.124"^^xsd:string .
+
+align:Prop_6_125 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.125"@en ;
+    align:hasNumber "6.125"^^xsd:string .
+
+align:Prop_6_1251 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.1251"@en ;
+    align:hasNumber "6.1251"^^xsd:string .
+
+align:Prop_6_126 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.126"@en ;
+    align:hasNumber "6.126"^^xsd:string .
+
+align:Prop_6_1261 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.1261"@en ;
+    align:hasNumber "6.1261"^^xsd:string .
+
+align:Prop_6_1262 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.1262"@en ;
+    align:hasNumber "6.1262"^^xsd:string .
+
+align:Prop_6_1263 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.1263"@en ;
+    align:hasNumber "6.1263"^^xsd:string .
+
+align:Prop_6_1264 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.1264"@en ;
+    align:hasNumber "6.1264"^^xsd:string .
+
+align:Prop_6_1265 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.1265"@en ;
+    align:hasNumber "6.1265"^^xsd:string .
+
+align:Prop_6_127 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.127"@en ;
+    align:hasNumber "6.127"^^xsd:string .
+
+align:Prop_6_1271 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.1271"@en ;
+    align:hasNumber "6.1271"^^xsd:string .
+
+align:Prop_6_13 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.13"@en ;
+    align:hasNumber "6.13"^^xsd:string .
+
+align:Prop_6_2 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.2"@en ;
+    align:hasNumber "6.2"^^xsd:string .
+
+align:Prop_6_21 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.21"@en ;
+    align:hasNumber "6.21"^^xsd:string .
+
+align:Prop_6_211 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.211"@en ;
+    align:hasNumber "6.211"^^xsd:string .
+
+align:Prop_6_22 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.22"@en ;
+    align:hasNumber "6.22"^^xsd:string .
+
+align:Prop_6_23 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.23"@en ;
+    align:hasNumber "6.23"^^xsd:string .
+
+align:Prop_6_231 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.231"@en ;
+    align:hasNumber "6.231"^^xsd:string .
+
+align:Prop_6_232 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.232"@en ;
+    align:hasNumber "6.232"^^xsd:string .
+
+align:Prop_6_2321 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.2321"@en ;
+    align:hasNumber "6.2321"^^xsd:string .
+
+align:Prop_6_2322 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.2322"@en ;
+    align:hasNumber "6.2322"^^xsd:string .
+
+align:Prop_6_2323 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.2323"@en ;
+    align:hasNumber "6.2323"^^xsd:string .
+
+align:Prop_6_233 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.233"@en ;
+    align:hasNumber "6.233"^^xsd:string .
+
+align:Prop_6_2331 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.2331"@en ;
+    align:hasNumber "6.2331"^^xsd:string .
+
+align:Prop_6_234 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.234"@en ;
+    align:hasNumber "6.234"^^xsd:string .
+
+align:Prop_6_2341 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.2341"@en ;
+    align:hasNumber "6.2341"^^xsd:string .
+
+align:Prop_6_24 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.24"@en ;
+    align:hasNumber "6.24"^^xsd:string .
+
+align:Prop_6_241 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.241"@en ;
+    align:hasNumber "6.241"^^xsd:string .
+
+align:Prop_6_3 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.3"@en ;
+    align:hasNumber "6.3"^^xsd:string .
+
+align:Prop_6_31 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.31"@en ;
+    align:hasNumber "6.31"^^xsd:string .
+
+align:Prop_6_32 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.32"@en ;
+    align:hasNumber "6.32"^^xsd:string .
+
+align:Prop_6_321 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.321"@en ;
+    align:hasNumber "6.321"^^xsd:string .
+
+align:Prop_6_3211 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.3211"@en ;
+    align:hasNumber "6.3211"^^xsd:string .
+
+align:Prop_6_33 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.33"@en ;
+    align:hasNumber "6.33"^^xsd:string .
+
+align:Prop_6_34 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.34"@en ;
+    align:hasNumber "6.34"^^xsd:string .
+
+align:Prop_6_341 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.341"@en ;
+    align:hasNumber "6.341"^^xsd:string .
+
+align:Prop_6_342 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.342"@en ;
+    align:hasNumber "6.342"^^xsd:string .
+
+align:Prop_6_343 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.343"@en ;
+    align:hasNumber "6.343"^^xsd:string .
+
+align:Prop_6_3431 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.3431"@en ;
+    align:hasNumber "6.3431"^^xsd:string .
+
+align:Prop_6_3432 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.3432"@en ;
+    align:hasNumber "6.3432"^^xsd:string .
+
+align:Prop_6_35 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.35"@en ;
+    align:hasNumber "6.35"^^xsd:string .
+
+align:Prop_6_36 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.36"@en ;
+    align:hasNumber "6.36"^^xsd:string .
+
+align:Prop_6_361 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.361"@en ;
+    align:hasNumber "6.361"^^xsd:string .
+
+align:Prop_6_3611 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.3611"@en ;
+    align:hasNumber "6.3611"^^xsd:string .
+
+align:Prop_6_36111 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.36111"@en ;
+    align:hasNumber "6.36111"^^xsd:string .
+
+align:Prop_6_362 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.362"@en ;
+    align:hasNumber "6.362"^^xsd:string .
+
+align:Prop_6_363 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.363"@en ;
+    align:hasNumber "6.363"^^xsd:string .
+
+align:Prop_6_3631 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.3631"@en ;
+    align:hasNumber "6.3631"^^xsd:string .
+
+align:Prop_6_36311 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.36311"@en ;
+    align:hasNumber "6.36311"^^xsd:string .
+
+align:Prop_6_37 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.37"@en ;
+    align:hasNumber "6.37"^^xsd:string .
+
+align:Prop_6_371 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.371"@en ;
+    align:hasNumber "6.371"^^xsd:string .
+
+align:Prop_6_372 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.372"@en ;
+    align:hasNumber "6.372"^^xsd:string .
+
+align:Prop_6_373 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.373"@en ;
+    align:hasNumber "6.373"^^xsd:string .
+
+align:Prop_6_374 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.374"@en ;
+    align:hasNumber "6.374"^^xsd:string .
+
+align:Prop_6_375 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.375"@en ;
+    align:hasNumber "6.375"^^xsd:string .
+
+align:Prop_6_3751 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.3751"@en ;
+    align:hasNumber "6.3751"^^xsd:string .
+
+align:Prop_6_4 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.4"@en ;
+    align:hasNumber "6.4"^^xsd:string .
+
+align:Prop_6_41 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.41"@en ;
+    align:hasNumber "6.41"^^xsd:string .
+
+align:Prop_6_42 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.42"@en ;
+    align:hasNumber "6.42"^^xsd:string .
+
+align:Prop_6_421 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.421"@en ;
+    align:hasNumber "6.421"^^xsd:string .
+
+align:Prop_6_422 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.422"@en ;
+    align:hasNumber "6.422"^^xsd:string .
+
+align:Prop_6_423 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.423"@en ;
+    align:hasNumber "6.423"^^xsd:string .
+
+align:Prop_6_43 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.43"@en ;
+    align:hasNumber "6.43"^^xsd:string .
+
+align:Prop_6_431 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.431"@en ;
+    align:hasNumber "6.431"^^xsd:string .
+
+align:Prop_6_4311 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.4311"@en ;
+    align:hasNumber "6.4311"^^xsd:string .
+
+align:Prop_6_4312 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.4312"@en ;
+    align:hasNumber "6.4312"^^xsd:string .
+
+align:Prop_6_432 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.432"@en ;
+    align:hasNumber "6.432"^^xsd:string .
+
+align:Prop_6_4321 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.4321"@en ;
+    align:hasNumber "6.4321"^^xsd:string .
+
+align:Prop_6_44 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.44"@en ;
+    align:hasNumber "6.44"^^xsd:string .
+
+align:Prop_6_45 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.45"@en ;
+    align:hasNumber "6.45"^^xsd:string .
+
+align:Prop_6_5 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.5"@en ;
+    align:hasNumber "6.5"^^xsd:string .
+
+align:Prop_6_51 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.51"@en ;
+    align:hasNumber "6.51"^^xsd:string .
+
+align:Prop_6_52 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.52"@en ;
+    align:hasNumber "6.52"^^xsd:string .
+
+align:Prop_6_521 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.521"@en ;
+    align:hasNumber "6.521"^^xsd:string .
+
+align:Prop_6_522 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.522"@en ;
+    align:hasNumber "6.522"^^xsd:string .
+
+align:Prop_6_53 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.53"@en ;
+    align:hasNumber "6.53"^^xsd:string .
+
+align:Prop_6_54 a align:TractatusProposition ;
+    rdfs:label "Tractatus 6.54"@en ;
+    align:hasNumber "6.54"^^xsd:string .
+
+align:Prop_7 a align:TractatusProposition ;
+    rdfs:label "Tractatus 7"@en ;
+    align:hasNumber "7"^^xsd:string .
+
+align:TractatusProposition a owl:Class ;
+    rdfs:label "Tractatus proposition"@en .
+
