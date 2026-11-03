@@ -2,7 +2,7 @@ from pathlib import Path
 from rdflib import Graph, RDF, OWL, RDFS, Namespace
 from ontoaligner import ontology
 
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 TEMP_DIR = BASE_DIR / "temp"
 
