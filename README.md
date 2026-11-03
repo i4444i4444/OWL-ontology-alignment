@@ -47,6 +47,24 @@ The project follows several stages:
 
 The project is currently in the ontology inspection and preparation stage. The next stage is to perform semantic alignment experiments and analyze the resulting mappings.
 
+## Repository layout
+
+```
+ontology-download/            download + preprocessing scripts for the source datasets
+  cache/                      (ignored) downloaded sources and pipeline intermediates
+tractatus-alignment/
+  data/                       ontologies, prepared subgraphs and comment overlays
+  temp/                       (ignored) RDF/XML conversions regenerable from data/
+  notebooks/                  inspection notebooks (one per dataset)
+  results/                    alignment experiment outputs (json)
+  scripts/                    experiment and inspection scripts
+```
+
+External ontologies are downloaded, not committed as duplicates: `data/wittgenstein.owl`
+(WAB) is stored once in `tractatus-alignment/data/`; `ontology-download/cache/` holds the
+re-downloadable Wittgensteiniana sources. To fetch both from the web run the scripts in
+`ontology-download/`.
+
 ## Sources
 
 - [Wittgenstein Archives at the University of Bergen](https://wab.uib.no/)
