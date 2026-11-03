@@ -8,7 +8,7 @@ from rdflib.namespace import OWL, RDF, RDFS, XSD
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.dirname(BASE_DIR)
 
-SOURCE = os.path.join(BASE_DIR, "wittgensteiniana_modified.ttl")
+SOURCE = os.path.join(BASE_DIR, "cache", "wittgensteiniana_modified.ttl")
 
 OUTPUT_DIR = os.path.join(
     PROJECT_DIR, "tractatus-alignment", "data"

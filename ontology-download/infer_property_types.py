@@ -7,8 +7,8 @@ SCHEMA = Namespace("https://schema.org/")
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-SOURCE = os.path.join(BASE_DIR, "wittgensteiniana.ttl")
-OUTPUT = os.path.join(BASE_DIR, "wittgensteiniana_modified.ttl")
+SOURCE = os.path.join(BASE_DIR, "cache", "wittgensteiniana.ttl")
+OUTPUT = os.path.join(BASE_DIR, "cache", "wittgensteiniana_modified.ttl")
 
 graph = Graph()
 graph.parse(SOURCE, format="turtle")
