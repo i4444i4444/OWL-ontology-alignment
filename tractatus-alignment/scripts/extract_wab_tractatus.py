@@ -1,53 +1,127 @@
-from collections import deque
+"""
+Extract the WAB subgraph around the Tractatus (W-TLP) from wittgenstein.owl
+with SPARQL CONSTRUCT queries: the work itself, its parts, everything
+published in/from it, authors, class hierarchy and schema declarations.
+"""
+
 from pathlib import Path
 
-from rdflib import OWL, RDF, RDFS, Graph, Namespace, URIRef
+from rdflib import OWL, RDF, RDFS, BNode, Graph, Namespace, URIRef
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 ONTOLOGY_PATH = BASE_DIR / "data" / "wittgenstein.owl"
+OUTPUT_PATH = BASE_DIR / "data" / "wab_tractatus_subgraph.ttl"
 
 WAB = Namespace("http://purl.org/wittgensteinsource/ont/")
 INSTANCES = Namespace("http://purl.org/wittgensteinsource/ont/instances/")
-TRACTATUS_URI = INSTANCES["W-TLP"]
-PROTOTRACTATUS_URI = INSTANCES["W-PT"]
 
 source = Graph()
 source.parse(str(ONTOLOGY_PATH), format="xml")
+print("Source triples:", len(source))
 
-if not ONTOLOGY_PATH.exists():
-    raise FileNotFoundError(f"Ontology file not found: {ONTOLOGY_PATH}")
+target = Graph()
+target.bind("wab", WAB)
+target.bind("inst", INSTANCES)
+target.bind("rdf", RDF)
+target.bind("rdfs", RDFS)
+target.bind("owl", OWL)
 
-print(f"\nPath: {ONTOLOGY_PATH!s}")
+Q1 = """
+PREFIX inst: <http://purl.org/wittgensteinsource/ont/instances/>
+CONSTRUCT { ?s ?p ?o . }
+WHERE { { inst:W-TLP ?p ?o . BIND(inst:W-TLP AS ?s) } UNION { ?s ?p inst:W-TLP . } }
+"""
 
-print(f"\nAmount of triples: {len(source)}")
+Q2 = """
+PREFIX wab:  <http://purl.org/wittgensteinsource/ont/>
+PREFIX inst: <http://purl.org/wittgensteinsource/ont/instances/>
+CONSTRUCT { ?part ?p ?o . ?s ?p2 ?part . }
+WHERE { inst:W-TLP wab:hasPart ?part . { ?part ?p ?o . } UNION { ?s ?p2 ?part . } }
+"""
 
-print("\nW-TLP exists:")
-print((TRACTATUS_URI, RDF.type, WAB.Werk) in source)
+Q3 = """
+PREFIX wab:  <http://purl.org/wittgensteinsource/ont/>
+PREFIX inst: <http://purl.org/wittgensteinsource/ont/instances/>
+CONSTRUCT { ?res ?p ?o . ?s ?p2 ?res . }
+WHERE { ?res wab:isPublishedInWork inst:W-TLP . { ?res ?p ?o . } UNION { ?s ?p2 ?res . } }
+"""
 
-print("\nW-P exists:")
-print((TRACTATUS_URI, RDF.type, WAB.Werk) in source)
+Q4 = """
+PREFIX wab:  <http://purl.org/wittgensteinsource/ont/>
+PREFIX inst: <http://purl.org/wittgensteinsource/ont/instances/>
+CONSTRUCT { ?res ?p ?o . ?s ?p2 ?res . }
+WHERE { inst:W-TLP wab:isWorkPublishedFrom ?res . { ?res ?p ?o . } UNION { ?s ?p2 ?res . } }
+"""
 
-HAS_PART = URIRef(WAB + "hasPart")
+for label, query in (
+    ("Q1 – triples involving W-TLP", Q1),
+    ("Q2 – hasPart neighbourhood", Q2),
+    ("Q3 – isPublishedInWork neighbourhood", Q3),
+    ("Q4 – isWorkPublishedFrom neighbourhood", Q4),
+):
+    before = len(target)
+    for triple in source.query(query):
+        target.add(triple)
+    print(f"{label}: +{len(target) - before} (total {len(target)})")
 
-parts = list(source.objects(TRACTATUS_URI, HAS_PART))
+# hasAuthor links for all selected URI resources
+HAS_AUTHOR = URIRef("http://purl.org/wittgensteinsource/ont/scholar/0.1/hasAuthor")
+for s, p, o in list(target):
+    if isinstance(s, URIRef):
+        for author in source.objects(s, HAS_AUTHOR):
+            target.add((s, HAS_AUTHOR, author))
 
-print(f"\nNumber of direct parts: {len(parts)}")
+print("After hasAuthor:", len(target))
 
-works = {
-    "W-TLP": TRACTATUS_URI,
-    "W-PT": PROTOTRACTATUS_URI
-}
+# complete superclass hierarchy for every class used in the subgraph
+classes = {o for o in target.objects(None, RDF.type) if isinstance(o, URIRef)}
+queue = set(classes)
 
-for name, work_uri in works.items():
-    parts = list(source.objects(work_uri, HAS_PART))
+while queue:
+    current = queue.pop()
+    for parent in source.objects(current, RDFS.subClassOf):
+        target.add((current, RDFS.subClassOf, parent))
+        if isinstance(parent, URIRef):
+            queue.add(parent)
 
-    print(f"\n{name}")
-    print(f"Number of direct parts: {len(parts)}")
+print("After hierarchy:", len(target))
 
-    for part in parts[:10]:
-        labels = list(source.objects(part, RDFS.label))
-        types = list(source.objects(part, RDF.type))
+# schema declarations of all used terms
+used = ({n for n in target.subjects(None, None)}
+        | {n for n in target.objects(None, None)}
+        | set(target.predicates(None, None))
+        | {WAB.WittgensteinExternalSource})
+used = {n for n in used if isinstance(n, URIRef)}
 
-        print(f"\nResource: {part}")
-        print(f"Label: {labels}")
-        print(f"Types: {types}")
+Q5 = """
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+CONSTRUCT { ?entity rdf:type ?type .
+            ?entity rdfs:label ?label .
+            ?entity rdfs:comment ?comment .
+            ?entity rdfs:subClassOf ?super .
+            ?entity rdfs:domain ?domain .
+            ?entity rdfs:range ?range . }
+WHERE { VALUES ?entity { %s }
+        OPTIONAL { ?entity rdf:type ?type }
+        OPTIONAL { ?entity rdfs:label ?label }
+        OPTIONAL { ?entity rdfs:comment ?comment }
+        OPTIONAL { ?entity rdfs:subClassOf ?super }
+        OPTIONAL { ?entity rdfs:domain ?domain }
+        OPTIONAL { ?entity rdfs:range ?range } }
+"""
+
+used = sorted(used, key=str)
+for i in range(0, len(used), 200):
+    values = " ".join(f"<{entity}>" for entity in used[i:i + 200])
+    for triple in source.query(Q5 % values):
+        target.add(triple)
+
+# drop empty blank nodes in rdfs:domain / rdfs:range
+for s, p, o in list(target):
+    if p in (RDFS.domain, RDFS.range) and isinstance(o, BNode):
+        if not any(target.triples((o, None, None))):
+            target.remove((s, p, o))
+
+print("Final subgraph:", len(target), "triples ->", OUTPUT_PATH.name)
+target.serialize(destination=str(OUTPUT_PATH), format="turtle")

@@ -1,0 +1,131 @@
+{
+    "meta": {
+        "title": "Reference alignment, WAB -> Wittgensteiniana (Pasin), draft v1",
+        "created": "2026-11-03",
+        "status": "draft: manual, semi-formal, revised on review",
+        "source_ontology": "tractatus-alignment/data/wab_tractatus_subgraph.ttl",
+        "target_ontology": "tractatus-alignment/data/wittgensteiniana_final.ttl",
+        "grounding": "class/property definitions and rdfs:comment content documented in the comment overlays (wab_tractatus_comments.ttl, wittgensteiniana_comments.ttl), plus instance-level samples from both datasets",
+        "grading_note": "class-level and property-level scores are graded separately; 'instances' lists grounding evidence"
+    },
+    "class_mappings": [
+        {
+            "id": "C1",
+            "source": "http://purl.org/wittgensteinsource/ont/Werk",
+            "target": "https://schema.org/Book",
+            "strength": "strong",
+            "justification": "WAB: a publication of a Wittgenstein primary source known as a work by Wittgenstein; single instance W-TLP = Tractatus logico-philosophicus. Wittgensteiniana: schema:Book is used only for the three published works (German original + Ogden 1922 + Pears/McGuinness 1961 editions)."
+        },
+        {
+            "id": "C2",
+            "source": "http://purl.org/wittgensteinsource/ont/Part",
+            "target": "http://example.org/wittgensteiniana/Thesis",
+            "strength": "strong",
+            "justification": "WAB Part instances (531) are labelled 'Tractatus logico-philosophicus (TLP, 1922 et 1933) <number>' (e.g. 'TLP 1.1') - individual numbered TLP remarks. Wittgensteiniana Thesis (526): abstract logical unit of a text, one per numbered proposition."
+        },
+        {
+            "id": "C3",
+            "source": "http://purl.org/wittgensteinsource/ont/Part",
+            "target": "https://schema.org/Chapter",
+            "strength": "strong",
+            "twin_of": "C2",
+            "justification": "In the Wittgensteiniana export the same 526 resources are typed BOTH ex:Thesis and schema:Chapter (extensionally identical). Every numbered proposition at every nesting level is exported as schema:Chapter."
+        },
+        {
+            "id": "C4",
+            "source": "http://purl.org/wittgensteinsource/ont/Bemerkung",
+            "target": "http://example.org/wittgensteiniana/TextFragment",
+            "strength": "medium",
+            "justification": "WAB Bemerkung (1616): a remark identified by a siglum - the material textual record of a remark in a Wittgenstein source. Wittgensteiniana TextFragment (1578): the symbolic contents of a text unit, in the export one fragment per proposition per edition/language (both double-typed schema:CreativeWork)."
+        },
+        {
+            "id": "C5",
+            "source": "http://purl.org/wittgensteinsource/ont/WittgensteinSource",
+            "target": "https://schema.org/CreativeWork",
+            "strength": "weak",
+            "note": "acceptable-but-discussed: both are generic 'textual resource' supertypes, but WAB's substructure (Werk/Bemerkung/Part/TS) has no direct counterpart downstream",
+            "justification": "WAB WittgensteinSource is the generic superclass of Werk, Bemerkung, Part, TS; schema:CreativeWork is the generic superclass Book/text fragments under schema.org typing."
+        },
+        {
+            "id": "C6",
+            "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
+            "target": "http://example.org/wittgensteiniana/Author",
+            "strength": "medium",
+            "justification": "Both classes cover persons. WAB scholar:Person (21 instances): historical persons (Plato, Paul Wittgenstein, authors of external sources). Wittgensteiniana ex:Author (4): Wittgenstein + translators (Ogden, Pears, McGuinness), assigned as book authors. Authorship is a role of scholar:Person, so the match holds at class level."
+        }
+    ],
+    "property_mappings": [
+        {
+            "id": "P1",
+            "source": "http://purl.org/wittgensteinsource/ont/isPartOf",
+            "target": "https://schema.org/isPartOf",
+            "strength": "exact",
+            "justification": "same URI tail, same compositional semantics (item part of item)."
+        },
+        {
+            "id": "P2",
+            "source": "http://purl.org/wittgensteinsource/ont/hasPart",
+            "target": "https://schema.org/isPartOf",
+            "strength": "strong",
+            "inverse": true,
+            "justification": "WAB hasPart = owl:inverseOf isPartOf (WAB ontology declares it); schema:isPartOf expressed in the same direction as WAB isPartOf."
+        },
+        {
+            "id": "P3",
+            "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/hasAuthor",
+            "target": "http://example.org/wittgensteiniana/hasAuthor",
+            "strength": "exact",
+            "justification": "both link a work to its author (range: person/author class)."
+        },
+        {
+            "id": "P4",
+            "source": "http://purl.org/wittgensteinsource/ont/language",
+            "target": "https://schema.org/inLanguage",
+            "strength": "exact",
+            "justification": "both give the language of the content of a source/creative work."
+        },
+        {
+            "id": "P5",
+            "source": "http://purl.org/wittgensteinsource/ont/refersTo",
+            "target": "https://schema.org/mentions",
+            "strength": "medium",
+            "justification": "both connect a text resource ('source mentions it') to the target resource; the exact domains/ranges differ (refersTo: source -> person/werk/bemerkung/external source; mentions: thesis -> defined term)."
+        }
+    ],
+    "rejections": [
+        {
+            "source": "http://purl.org/wittgensteinsource/ont/contains",
+            "expected_false_target": "https://schema.org/mentions",
+            "reason": "a string-based match earlier suggested contains->mentions; but contains points from a WittgensteinSource to scholar:TextSubGenre (a genre!), which has no counterpart in Wittgensteiniana."
+        },
+        {
+            "source": "http://purl.org/wittgensteinsource/ont/isDateOf",
+            "expected_false_target": "https://schema.org/isPartOf",
+            "reason": "a string-based match earlier suggested isDateOf->isPartOf; isDateOf relates scholar:Date -> Bemerkung - temporal data has no counterpart."
+        },
+        {
+            "source": "http://purl.org/wittgensteinsource/ont/madeAfter",
+            "reason": "estimated source dating constraints; schema:datePublished is a first-publication date, not an estimate band - rejected."
+        },
+        {
+            "source": "http://purl.org/wittgensteinsource/ont/madeBefore",
+            "reason": "see madeAfter."
+        },
+        {
+            "source": "http://purl.org/wittgensteinsource/ont/TS",
+            "reason": "typed primary sources / manuscript items (W-Ts-202, 1619 instances); Wittgensteiniana's published-book types (Book) have no manuscript counterpart."
+        },
+        {
+            "source": "http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource",
+            "reason": "works by other authors (Frege, Paul Ernst etc.); Wittgensteiniana CreativeWork is used exclusively for text fragments in this dataset."
+        },
+        {
+            "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/PrimarySource",
+            "reason": "generic bibliographic 'primary source' category of the scholar framework; no analog in four schema.org classes used by Wittgensteiniana in this dataset."
+        },
+        {
+            "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
+            "reason": "generic bibliographic 'source' category; no analog in Wittgensteiniana."
+        }
+    ]
+}

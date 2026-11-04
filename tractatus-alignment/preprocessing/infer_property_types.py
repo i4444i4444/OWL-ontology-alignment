@@ -1,3 +1,7 @@
+"""
+Infer Object/DatatypeProperty types from value usage in the Wittgensteiniana source.
+"""
+
 import os
 
 from rdflib import BNode, Graph, Literal, Namespace, URIRef

@@ -9,13 +9,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.dirname(BASE_DIR)
 
 SOURCE = os.path.join(BASE_DIR, "cache", "wittgensteiniana_modified.ttl")
-
-OUTPUT_DIR = os.path.join(
-    PROJECT_DIR, "tractatus-alignment", "data"
-)
-
-os.makedirs(OUTPUT_DIR, exist_ok=True)
-
+OUTPUT_DIR = os.path.join(PROJECT_DIR, "data")
 OUTPUT = os.path.join(OUTPUT_DIR, "wittgensteiniana_final.ttl")
 
 graph = Graph()

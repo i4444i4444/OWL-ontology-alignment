@@ -38,32 +38,36 @@ The project follows several stages:
 - OWL and RDF
 - RDFLib
 - SPARQL
-- Pandas
-- Seaborn
-- Jupyter Notebook
 - OntoAligner
 
 ## Project Status
 
-The project is currently in the ontology inspection and preparation stage. The next stage is to perform semantic alignment experiments and analyze the resulting mappings.
+The project is currently in the ontology inspection and alignment stage: retrieval
+models (TF-IDF, BM25, SBERT) from OntoAligner are running over documented classes.
 
 ## Repository layout
 
 ```
-ontology-download/            download + preprocessing scripts for the source datasets
-  cache/                      (ignored) downloaded sources and pipeline intermediates
 tractatus-alignment/
-  data/                       ontologies, prepared subgraphs and comment overlays
+  data/                       ontologies, prepared subgraphs, three overlay files
+    (two comment overlays, one propositions bridge) 
+  preprocessing/              Wittgensteiniana preprocessing scripts
+    cache/                    (ignored) source data and pipeline intermediates
   temp/                       (ignored) RDF/XML conversions regenerable from data/
-  notebooks/                  inspection notebooks (one per dataset)
   results/                    alignment experiment outputs (json)
-  scripts/                    experiment and inspection scripts
+  scripts/                    extraction, normalization, alignment and verification
 ```
 
-External ontologies are downloaded, not committed as duplicates: `data/wittgenstein.owl`
-(WAB) is stored once in `tractatus-alignment/data/`; `ontology-download/cache/` holds the
-re-downloadable Wittgensteiniana sources. To fetch both from the web run the scripts in
-`ontology-download/`.
+`data/wittgenstein.owl` (WAB) is committed once; the Wittgensteiniana source and
+intermediates live (ignored) in `preprocessing/cache/` and can be re-fetched from
+the links below.
+
+The three overlay files in `data/` supplement the two base ontologies: two
+`*_comments.ttl` files add documentation to their respective ontology, and
+`tractatus_alignment_layer.ttl` (built by `scripts/normalize_propositions.py`
+from shared Tractatus proposition numbers) is merged into BOTH ontologies when
+running OntoAligner, so the shared `align:TractatusProposition` individuals link
+the two sides together.
 
 ## Sources
 
