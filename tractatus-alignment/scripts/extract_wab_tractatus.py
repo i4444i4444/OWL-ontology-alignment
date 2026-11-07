@@ -4,6 +4,7 @@ with SPARQL CONSTRUCT queries: the work itself, its parts, everything
 published in/from it, authors, class hierarchy and schema declarations.
 """
 
+from collections import deque
 from pathlib import Path
 
 from rdflib import OWL, RDF, RDFS, BNode, Graph, Namespace, URIRef
@@ -73,25 +74,7 @@ for s, p, o in list(target):
 
 print("After hasAuthor:", len(target))
 
-# complete superclass hierarchy for every class used in the subgraph
-classes = {o for o in target.objects(None, RDF.type) if isinstance(o, URIRef)}
-queue = set(classes)
-
-while queue:
-    current = queue.pop()
-    for parent in source.objects(current, RDFS.subClassOf):
-        target.add((current, RDFS.subClassOf, parent))
-        if isinstance(parent, URIRef):
-            queue.add(parent)
-
-print("After hierarchy:", len(target))
-
-# schema declarations of all used terms
-used = ({n for n in target.subjects(None, None)}
-        | {n for n in target.objects(None, None)}
-        | set(target.predicates(None, None))
-        | {WAB.WittgensteinExternalSource})
-used = {n for n in used if isinstance(n, URIRef)}
+# schema declarations of all used terms and complete superclass hierarchy;
 
 Q5 = """
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -111,11 +94,35 @@ WHERE { VALUES ?entity { %s }
         OPTIONAL { ?entity rdfs:range ?range } }
 """
 
-used = sorted(used, key=str)
-for i in range(0, len(used), 200):
-    values = " ".join(f"<{entity}>" for entity in used[i:i + 200])
-    for triple in source.query(Q5 % values):
-        target.add(triple)
+declared = set()
+walked = set()
+rounds = 0
+while True:
+    used = ({n for n in target.subjects(None, None)}
+            | {n for n in target.objects(None, None)}
+            | set(target.predicates(None, None))
+            | {WAB.WittgensteinExternalSource})
+    used = {n for n in used if isinstance(n, URIRef)} - declared
+    for class_uri in ({o for o in target.objects(None, RDF.type)
+                       if isinstance(o, URIRef)} - walked):
+        walked.add(class_uri)
+        queue = deque([class_uri])
+        while queue:
+            current = queue.popleft()
+            for parent in source.objects(current, RDFS.subClassOf):
+                target.add((current, RDFS.subClassOf, parent))
+                if isinstance(parent, URIRef) and parent not in walked:
+                    queue.append(parent)
+    if not used:
+        break
+    declared |= used
+    used = sorted(used, key=str)
+    for i in range(0, len(used), 200):
+        values = " ".join(f"<{entity}>" for entity in used[i:i + 200])
+        for triple in source.query(Q5 % values):
+            target.add(triple)
+    rounds += 1
+print("Declaration rounds:", rounds)
 
 # drop empty blank nodes in rdfs:domain / rdfs:range
 for s, p, o in list(target):

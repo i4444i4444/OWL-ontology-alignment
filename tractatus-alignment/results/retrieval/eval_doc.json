@@ -2,21 +2,9 @@
   "tfidf_doc": {
     "top1": [
       {
-        "source": "wab:WittgensteinExternalSource",
-        "target": "ex:Thesis",
-        "score": 0.3652,
-        "in_reference": false
-      },
-      {
-        "source": "wab:scholar/0.1/Source",
+        "source": "wab:scholar/0.1/Date",
         "target": "schema:DefinedTermSet",
-        "score": 0.2871,
-        "in_reference": false
-      },
-      {
-        "source": "wab:scholar/0.1/PrimarySource",
-        "target": "ex:Thesis",
-        "score": 0.2429,
+        "score": 0.2967,
         "in_reference": false
       },
       {
@@ -26,9 +14,9 @@
         "in_reference": false
       },
       {
-        "source": "wab:Werk",
-        "target": "schema:Chapter",
-        "score": 0.1962,
+        "source": "wab:scholar/0.1/Subject",
+        "target": "schema:DefinedTerm",
+        "score": 0.1829,
         "in_reference": false
       },
       {
@@ -38,9 +26,45 @@
         "in_reference": false
       },
       {
+        "source": "wab:scholar/0.1/Person",
+        "target": "schema:DefinedTermSet",
+        "score": 0.2485,
+        "in_reference": false
+      },
+      {
+        "source": "wab:scholar/0.1/TextSubGenre",
+        "target": "ex:TextFragment",
+        "score": 0.3014,
+        "in_reference": false
+      },
+      {
+        "source": "align:TractatusProposition",
+        "target": "align:TractatusProposition",
+        "score": 1.0,
+        "in_reference": false
+      },
+      {
+        "source": "wab:scholar/0.1/Source",
+        "target": "schema:DefinedTermSet",
+        "score": 0.2871,
+        "in_reference": false
+      },
+      {
         "source": "wab:WittgensteinSource",
         "target": "schema:DefinedTermSet",
         "score": 0.2544,
+        "in_reference": false
+      },
+      {
+        "source": "wab:scholar/0.1/Language",
+        "target": "schema:DefinedTerm",
+        "score": 0.3103,
+        "in_reference": false
+      },
+      {
+        "source": "wab:scholar/0.1/PrimarySource",
+        "target": "ex:Thesis",
+        "score": 0.2429,
         "in_reference": false
       },
       {
@@ -50,29 +74,35 @@
         "in_reference": false
       },
       {
-        "source": "align:TractatusProposition",
-        "target": "align:TractatusProposition",
-        "score": 1.0,
+        "source": "wab:Werk",
+        "target": "schema:Chapter",
+        "score": 0.1962,
+        "in_reference": false
+      },
+      {
+        "source": "wab:WittgensteinExternalSource",
+        "target": "ex:Thesis",
+        "score": 0.3652,
         "in_reference": false
       }
     ],
     "top1_correct": [],
     "score_stats": {
-      "total": 81,
-      "nonzero": 61
+      "total": 126,
+      "nonzero": 99
     },
     "per_threshold": {
       "0.3": {
-        "predicted": 6,
+        "predicted": 9,
         "hits": [
           [
             "wab:Part",
             "ex:Thesis"
           ]
         ],
-        "precision": 0.167,
+        "precision": 0.111,
         "recall": 0.167,
-        "f1": 0.167
+        "f1": 0.133
       },
       "0.4": {
         "predicted": 2,
@@ -114,21 +144,9 @@
   "bm25_doc": {
     "top1": [
       {
-        "source": "wab:WittgensteinExternalSource",
-        "target": "align:TractatusProposition",
-        "score": 25.7802,
-        "in_reference": false
-      },
-      {
-        "source": "wab:scholar/0.1/Source",
+        "source": "wab:scholar/0.1/Date",
         "target": "schema:DefinedTermSet",
-        "score": 1.4029,
-        "in_reference": false
-      },
-      {
-        "source": "wab:scholar/0.1/PrimarySource",
-        "target": "align:TractatusProposition",
-        "score": 16.9413,
+        "score": 10.8148,
         "in_reference": false
       },
       {
@@ -138,9 +156,9 @@
         "in_reference": false
       },
       {
-        "source": "wab:Werk",
-        "target": "schema:Chapter",
-        "score": 16.7298,
+        "source": "wab:scholar/0.1/Subject",
+        "target": "ex:TextFragment",
+        "score": 4.2082,
         "in_reference": false
       },
       {
@@ -150,9 +168,45 @@
         "in_reference": false
       },
       {
+        "source": "wab:scholar/0.1/Person",
+        "target": "schema:DefinedTermSet",
+        "score": 6.6749,
+        "in_reference": false
+      },
+      {
+        "source": "wab:scholar/0.1/TextSubGenre",
+        "target": "ex:TextFragment",
+        "score": 11.4901,
+        "in_reference": false
+      },
+      {
+        "source": "align:TractatusProposition",
+        "target": "align:TractatusProposition",
+        "score": 2.8379,
+        "in_reference": false
+      },
+      {
+        "source": "wab:scholar/0.1/Source",
+        "target": "schema:DefinedTermSet",
+        "score": 1.4029,
+        "in_reference": false
+      },
+      {
         "source": "wab:WittgensteinSource",
         "target": "align:TractatusProposition",
         "score": 8.8389,
+        "in_reference": false
+      },
+      {
+        "source": "wab:scholar/0.1/Language",
+        "target": "ex:Thesis",
+        "score": 10.3399,
+        "in_reference": false
+      },
+      {
+        "source": "wab:scholar/0.1/PrimarySource",
+        "target": "align:TractatusProposition",
+        "score": 16.9413,
         "in_reference": false
       },
       {
@@ -162,37 +216,31 @@
         "in_reference": false
       },
       {
-        "source": "align:TractatusProposition",
+        "source": "wab:Werk",
+        "target": "schema:Chapter",
+        "score": 16.7298,
+        "in_reference": false
+      },
+      {
+        "source": "wab:WittgensteinExternalSource",
         "target": "align:TractatusProposition",
-        "score": 2.8379,
+        "score": 25.7802,
         "in_reference": false
       }
     ],
     "top1_correct": [],
     "score_stats": {
-      "total": 81,
-      "nonzero": 81
+      "total": 126,
+      "nonzero": 126
     },
     "per_threshold": {}
   },
   "sbert_doc": {
     "top1": [
       {
-        "source": "wab:WittgensteinExternalSource",
-        "target": "ex:Author",
-        "score": 0.3551,
-        "in_reference": false
-      },
-      {
-        "source": "wab:scholar/0.1/Source",
-        "target": "ex:Author",
-        "score": 0.3405,
-        "in_reference": false
-      },
-      {
-        "source": "wab:scholar/0.1/PrimarySource",
-        "target": "schema:Book",
-        "score": 0.339,
+        "source": "wab:scholar/0.1/Date",
+        "target": "schema:DefinedTerm",
+        "score": 0.275,
         "in_reference": false
       },
       {
@@ -202,9 +250,9 @@
         "in_reference": false
       },
       {
-        "source": "wab:Werk",
-        "target": "schema:CreativeWork",
-        "score": 0.483,
+        "source": "wab:scholar/0.1/Subject",
+        "target": "ex:Thesis",
+        "score": 0.3909,
         "in_reference": false
       },
       {
@@ -214,9 +262,45 @@
         "in_reference": false
       },
       {
+        "source": "wab:scholar/0.1/Person",
+        "target": "align:TractatusProposition",
+        "score": 0.2904,
+        "in_reference": false
+      },
+      {
+        "source": "wab:scholar/0.1/TextSubGenre",
+        "target": "ex:TextFragment",
+        "score": 0.4827,
+        "in_reference": false
+      },
+      {
+        "source": "align:TractatusProposition",
+        "target": "align:TractatusProposition",
+        "score": 1.0,
+        "in_reference": false
+      },
+      {
+        "source": "wab:scholar/0.1/Source",
+        "target": "ex:Author",
+        "score": 0.3405,
+        "in_reference": false
+      },
+      {
         "source": "wab:WittgensteinSource",
         "target": "schema:Book",
         "score": 0.3783,
+        "in_reference": false
+      },
+      {
+        "source": "wab:scholar/0.1/Language",
+        "target": "ex:Thesis",
+        "score": 0.3594,
+        "in_reference": false
+      },
+      {
+        "source": "wab:scholar/0.1/PrimarySource",
+        "target": "schema:Book",
+        "score": 0.339,
         "in_reference": false
       },
       {
@@ -226,9 +310,15 @@
         "in_reference": true
       },
       {
-        "source": "align:TractatusProposition",
-        "target": "align:TractatusProposition",
-        "score": 1.0,
+        "source": "wab:Werk",
+        "target": "schema:CreativeWork",
+        "score": 0.483,
+        "in_reference": false
+      },
+      {
+        "source": "wab:WittgensteinExternalSource",
+        "target": "ex:Author",
+        "score": 0.3551,
         "in_reference": false
       }
     ],
@@ -241,12 +331,12 @@
       }
     ],
     "score_stats": {
-      "total": 81,
-      "nonzero": 81
+      "total": 126,
+      "nonzero": 126
     },
     "per_threshold": {
       "0.3": {
-        "predicted": 37,
+        "predicted": 48,
         "hits": [
           [
             "wab:Bemerkung",
@@ -269,21 +359,21 @@
             "schema:CreativeWork"
           ]
         ],
-        "precision": 0.135,
+        "precision": 0.104,
         "recall": 0.833,
-        "f1": 0.233
+        "f1": 0.185
       },
       "0.4": {
-        "predicted": 7,
+        "predicted": 8,
         "hits": [
           [
             "wab:Part",
             "schema:Chapter"
           ]
         ],
-        "precision": 0.143,
+        "precision": 0.125,
         "recall": 0.167,
-        "f1": 0.154
+        "f1": 0.143
       },
       "0.5": {
         "predicted": 3,

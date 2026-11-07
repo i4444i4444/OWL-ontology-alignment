@@ -47,6 +47,22 @@ wab:WittgensteinSource a rdfs:Class ;
             Wittgenstein scholarship, authored or co-authored by Wittgenstein."""^^xsd:string ;
     rdfs:subClassOf ns1:PrimarySource .
 
+ns1:Date a rdfs:Class ;
+    rdfs:label "Date"^^xsd:string,
+        "Subject"^^xsd:string ;
+    rdfs:comment """Date, subclass of Subject: A date, either day-exact or estimated date span.
+            Example of instance: 19361105; 19450101-19451231 """^^xsd:string ;
+    rdfs:subClassOf ns1:Subject .
+
+ns1:Language a rdfs:Class ;
+    rdfs:label "Language"^^xsd:string ;
+    rdfs:subClassOf ns1:Subject .
+
+ns1:Person a rdfs:Class ;
+    rdfs:label "Person"^^xsd:string ;
+    rdfs:comment """Person: A historical person. Example of instance:
+      Plato; Paul Wittgenstein """^^xsd:string .
+
 ns1:PrimarySource a rdfs:Class ;
     rdfs:label "Primary Source"^^xsd:string ;
     rdfs:comment """Primary Source: A primary source for Wittgenstein scholarship, authored or
@@ -57,6 +73,16 @@ ns1:PrimarySource a rdfs:Class ;
 ns1:Source a rdfs:Class ;
     rdfs:label "Source"^^xsd:string ;
     rdfs:comment "Source: A primary or secondary source."^^xsd:string .
+
+ns1:Subject a rdfs:Class ;
+    rdfs:label "Subject"^^xsd:string ;
+    rdfs:comment "Subject: An entity of the Wittgenstein domain that is neither a source nor a person."^^xsd:string .
+
+ns1:TextSubGenre a rdfs:Class ;
+    rdfs:label "Text subgenre"^^xsd:string ;
+    rdfs:comment """<p style="margin-top: 0">\r
+      The text subgenre of a source or part of source. Example of instance: logical notation; secret code"""^^xsd:string ;
+    rdfs:subClassOf ns1:Subject .
 
 wab:contains a owl:ObjectProperty ;
     rdfs:label "contains"^^xsd:string ;
