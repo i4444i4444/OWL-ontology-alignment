@@ -1,130 +1,5 @@
 [
     {
-        "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Date",
-        "target-cands": [
-            "https://schema.org/DefinedTermSet",
-            "http://example.org/tractatus-alignment/TractatusProposition",
-            "http://example.org/wittgensteiniana/TextFragment",
-            "http://example.org/wittgensteiniana/Author",
-            "https://schema.org/Chapter",
-            "http://example.org/wittgensteiniana/Thesis",
-            "https://schema.org/CreativeWork",
-            "https://schema.org/Book",
-            "https://schema.org/DefinedTerm"
-        ],
-        "score-cands": [
-            10.814803128443202,
-            9.57549082712502,
-            8.196872320658274,
-            7.965130451210479,
-            7.86681803255311,
-            7.613872785806836,
-            6.831622051767739,
-            6.474699071218813,
-            6.469495840598259
-        ]
-    },
-    {
-        "source": "http://purl.org/wittgensteinsource/ont/Bemerkung",
-        "target-cands": [
-            "http://example.org/tractatus-alignment/TractatusProposition",
-            "https://schema.org/Chapter",
-            "https://schema.org/DefinedTermSet",
-            "https://schema.org/Book",
-            "http://example.org/wittgensteiniana/Thesis",
-            "http://example.org/wittgensteiniana/Author",
-            "https://schema.org/CreativeWork",
-            "http://example.org/wittgensteiniana/TextFragment",
-            "https://schema.org/DefinedTerm"
-        ],
-        "score-cands": [
-            30.936201133788558,
-            21.061904071696592,
-            21.026476343002404,
-            20.411597446408162,
-            20.19272427920569,
-            19.703217431941724,
-            18.485565551842118,
-            18.106263035336386,
-            13.804658639531079
-        ]
-    },
-    {
-        "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
-        "target-cands": [
-            "http://example.org/wittgensteiniana/TextFragment",
-            "https://schema.org/Chapter",
-            "https://schema.org/DefinedTerm",
-            "http://example.org/wittgensteiniana/Thesis",
-            "https://schema.org/DefinedTermSet",
-            "http://example.org/wittgensteiniana/Author",
-            "https://schema.org/Book",
-            "https://schema.org/CreativeWork",
-            "http://example.org/tractatus-alignment/TractatusProposition"
-        ],
-        "score-cands": [
-            4.208195941670881,
-            4.008603096671204,
-            3.6672157745908036,
-            3.577904918831047,
-            2.7559250632918824,
-            2.3243650360239894,
-            1.7265864189916837,
-            1.3633398993136465,
-            0.7365762174711555
-        ]
-    },
-    {
-        "source": "http://purl.org/wittgensteinsource/ont/TS",
-        "target-cands": [
-            "https://schema.org/DefinedTermSet",
-            "http://example.org/wittgensteiniana/TextFragment",
-            "http://example.org/wittgensteiniana/Thesis",
-            "https://schema.org/Chapter",
-            "http://example.org/wittgensteiniana/Author",
-            "https://schema.org/DefinedTerm",
-            "https://schema.org/CreativeWork",
-            "http://example.org/tractatus-alignment/TractatusProposition",
-            "https://schema.org/Book"
-        ],
-        "score-cands": [
-            3.2942991547030607,
-            2.696411494867858,
-            2.2352561857039936,
-            2.1301930162008262,
-            2.096086960844863,
-            1.8106264486654235,
-            1.6074404827688804,
-            1.473152434942311,
-            1.294939814243763
-        ]
-    },
-    {
-        "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
-        "target-cands": [
-            "https://schema.org/DefinedTermSet",
-            "http://example.org/wittgensteiniana/TextFragment",
-            "http://example.org/tractatus-alignment/TractatusProposition",
-            "http://example.org/wittgensteiniana/Thesis",
-            "https://schema.org/Chapter",
-            "http://example.org/wittgensteiniana/Author",
-            "https://schema.org/Book",
-            "https://schema.org/CreativeWork",
-            "https://schema.org/DefinedTerm"
-        ],
-        "score-cands": [
-            6.674939355624369,
-            5.39620617967102,
-            5.156033522298088,
-            4.782073408177161,
-            4.617845421359312,
-            4.611391313858698,
-            3.884819442731288,
-            3.61674108622998,
-            3.588271990767307
-        ]
-    },
-    {
         "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/TextSubGenre",
         "target-cands": [
             "http://example.org/wittgensteiniana/TextFragment",
@@ -147,81 +22,6 @@
             6.794439865680129,
             4.419457304826933,
             4.316466047479209
-        ]
-    },
-    {
-        "source": "http://example.org/tractatus-alignment/TractatusProposition",
-        "target-cands": [
-            "http://example.org/tractatus-alignment/TractatusProposition",
-            "http://example.org/wittgensteiniana/Thesis",
-            "https://schema.org/CreativeWork",
-            "https://schema.org/Book",
-            "https://schema.org/Chapter",
-            "http://example.org/wittgensteiniana/Author",
-            "https://schema.org/DefinedTermSet",
-            "http://example.org/wittgensteiniana/TextFragment",
-            "https://schema.org/DefinedTerm"
-        ],
-        "score-cands": [
-            2.837913981445328,
-            1.5749791816732996,
-            1.4787672568555303,
-            1.0983394120869412,
-            0.9095675276815774,
-            0.8384347843379452,
-            0.8037202413844402,
-            0.6231220735383461,
-            0.5132790094325659
-        ]
-    },
-    {
-        "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
-        "target-cands": [
-            "https://schema.org/DefinedTermSet",
-            "https://schema.org/Chapter",
-            "https://schema.org/DefinedTerm",
-            "http://example.org/wittgensteiniana/Thesis",
-            "http://example.org/wittgensteiniana/TextFragment",
-            "https://schema.org/Book",
-            "http://example.org/wittgensteiniana/Author",
-            "http://example.org/tractatus-alignment/TractatusProposition",
-            "https://schema.org/CreativeWork"
-        ],
-        "score-cands": [
-            1.4028845690848892,
-            1.2524635990941038,
-            1.020331223647186,
-            0.9468665386934279,
-            0.9301884592852754,
-            0.8632932094958419,
-            0.8384347843379452,
-            0.7365762174711555,
-            0.4018601206922201
-        ]
-    },
-    {
-        "source": "http://purl.org/wittgensteinsource/ont/WittgensteinSource",
-        "target-cands": [
-            "http://example.org/tractatus-alignment/TractatusProposition",
-            "https://schema.org/DefinedTermSet",
-            "http://example.org/wittgensteiniana/Thesis",
-            "http://example.org/wittgensteiniana/Author",
-            "https://schema.org/Book",
-            "https://schema.org/Chapter",
-            "https://schema.org/CreativeWork",
-            "http://example.org/wittgensteiniana/TextFragment",
-            "https://schema.org/DefinedTerm"
-        ],
-        "score-cands": [
-            8.838914609653864,
-            6.382965554628514,
-            6.152104495707373,
-            5.869043490365616,
-            5.611405861722972,
-            5.541976266586024,
-            5.224181568998859,
-            4.823009823932288,
-            4.244815485882491
         ]
     },
     {
@@ -250,28 +50,153 @@
         ]
     },
     {
-        "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/PrimarySource",
+        "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Date",
         "target-cands": [
-            "http://example.org/tractatus-alignment/TractatusProposition",
-            "http://example.org/wittgensteiniana/Thesis",
             "https://schema.org/DefinedTermSet",
-            "https://schema.org/Book",
-            "http://example.org/wittgensteiniana/Author",
-            "https://schema.org/CreativeWork",
+            "http://example.org/tractatus-alignment/TractatusProposition",
             "http://example.org/wittgensteiniana/TextFragment",
+            "http://example.org/wittgensteiniana/Author",
             "https://schema.org/Chapter",
+            "http://example.org/wittgensteiniana/Thesis",
+            "https://schema.org/CreativeWork",
+            "https://schema.org/Book",
             "https://schema.org/DefinedTerm"
         ],
         "score-cands": [
-            16.941253001836575,
-            11.516421945579786,
-            10.918854239784817,
-            10.359518513950105,
-            10.061217412055342,
-            9.91782979139215,
-            9.495546394376138,
-            9.116570156162624,
-            8.293693092919614
+            10.814803128443202,
+            9.57549082712502,
+            8.196872320658274,
+            7.965130451210479,
+            7.86681803255311,
+            7.613872785806836,
+            6.831622051767739,
+            6.474699071218813,
+            6.469495840598259
+        ]
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
+        "target-cands": [
+            "https://schema.org/DefinedTermSet",
+            "http://example.org/wittgensteiniana/TextFragment",
+            "http://example.org/tractatus-alignment/TractatusProposition",
+            "http://example.org/wittgensteiniana/Thesis",
+            "https://schema.org/Chapter",
+            "http://example.org/wittgensteiniana/Author",
+            "https://schema.org/Book",
+            "https://schema.org/CreativeWork",
+            "https://schema.org/DefinedTerm"
+        ],
+        "score-cands": [
+            6.674939355624369,
+            5.39620617967102,
+            5.156033522298088,
+            4.782073408177161,
+            4.617845421359312,
+            4.611391313858698,
+            3.884819442731288,
+            3.61674108622998,
+            3.588271990767307
+        ]
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/TS",
+        "target-cands": [
+            "https://schema.org/DefinedTermSet",
+            "http://example.org/wittgensteiniana/TextFragment",
+            "http://example.org/wittgensteiniana/Thesis",
+            "https://schema.org/Chapter",
+            "http://example.org/wittgensteiniana/Author",
+            "https://schema.org/DefinedTerm",
+            "https://schema.org/CreativeWork",
+            "http://example.org/tractatus-alignment/TractatusProposition",
+            "https://schema.org/Book"
+        ],
+        "score-cands": [
+            3.2942991547030607,
+            2.696411494867858,
+            2.2352561857039936,
+            2.1301930162008262,
+            2.096086960844863,
+            1.8106264486654235,
+            1.6074404827688804,
+            1.473152434942311,
+            1.294939814243763
+        ]
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
+        "target-cands": [
+            "http://example.org/wittgensteiniana/TextFragment",
+            "https://schema.org/Chapter",
+            "https://schema.org/DefinedTerm",
+            "http://example.org/wittgensteiniana/Thesis",
+            "https://schema.org/DefinedTermSet",
+            "http://example.org/wittgensteiniana/Author",
+            "https://schema.org/Book",
+            "https://schema.org/CreativeWork",
+            "http://example.org/tractatus-alignment/TractatusProposition"
+        ],
+        "score-cands": [
+            4.208195941670881,
+            4.008603096671204,
+            3.6672157745908036,
+            3.577904918831047,
+            2.7559250632918824,
+            2.3243650360239894,
+            1.7265864189916837,
+            1.3633398993136465,
+            0.7365762174711555
+        ]
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/Bemerkung",
+        "target-cands": [
+            "http://example.org/tractatus-alignment/TractatusProposition",
+            "https://schema.org/Chapter",
+            "https://schema.org/DefinedTermSet",
+            "https://schema.org/Book",
+            "http://example.org/wittgensteiniana/Thesis",
+            "http://example.org/wittgensteiniana/Author",
+            "https://schema.org/CreativeWork",
+            "http://example.org/wittgensteiniana/TextFragment",
+            "https://schema.org/DefinedTerm"
+        ],
+        "score-cands": [
+            30.936201133788558,
+            21.061904071696592,
+            21.026476343002404,
+            20.411597446408162,
+            20.19272427920569,
+            19.703217431941724,
+            18.485565551842118,
+            18.106263035336386,
+            13.804658639531079
+        ]
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/WittgensteinSource",
+        "target-cands": [
+            "http://example.org/tractatus-alignment/TractatusProposition",
+            "https://schema.org/DefinedTermSet",
+            "http://example.org/wittgensteiniana/Thesis",
+            "http://example.org/wittgensteiniana/Author",
+            "https://schema.org/Book",
+            "https://schema.org/Chapter",
+            "https://schema.org/CreativeWork",
+            "http://example.org/wittgensteiniana/TextFragment",
+            "https://schema.org/DefinedTerm"
+        ],
+        "score-cands": [
+            8.838914609653864,
+            6.382965554628514,
+            6.152104495707373,
+            5.869043490365616,
+            5.611405861722972,
+            5.541976266586024,
+            5.224181568998859,
+            4.823009823932288,
+            4.244815485882491
         ]
     },
     {
@@ -325,6 +250,31 @@
         ]
     },
     {
+        "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/PrimarySource",
+        "target-cands": [
+            "http://example.org/tractatus-alignment/TractatusProposition",
+            "http://example.org/wittgensteiniana/Thesis",
+            "https://schema.org/DefinedTermSet",
+            "https://schema.org/Book",
+            "http://example.org/wittgensteiniana/Author",
+            "https://schema.org/CreativeWork",
+            "http://example.org/wittgensteiniana/TextFragment",
+            "https://schema.org/Chapter",
+            "https://schema.org/DefinedTerm"
+        ],
+        "score-cands": [
+            16.941253001836575,
+            11.516421945579786,
+            10.918854239784817,
+            10.359518513950105,
+            10.061217412055342,
+            9.91782979139215,
+            9.495546394376138,
+            9.116570156162624,
+            8.293693092919614
+        ]
+    },
+    {
         "source": "http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource",
         "target-cands": [
             "http://example.org/tractatus-alignment/TractatusProposition",
@@ -347,6 +297,56 @@
             15.176150458956219,
             14.154122172928059,
             11.444871533589854
+        ]
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
+        "target-cands": [
+            "https://schema.org/DefinedTermSet",
+            "https://schema.org/Chapter",
+            "https://schema.org/DefinedTerm",
+            "http://example.org/wittgensteiniana/Thesis",
+            "http://example.org/wittgensteiniana/TextFragment",
+            "https://schema.org/Book",
+            "http://example.org/wittgensteiniana/Author",
+            "http://example.org/tractatus-alignment/TractatusProposition",
+            "https://schema.org/CreativeWork"
+        ],
+        "score-cands": [
+            1.4028845690848892,
+            1.2524635990941038,
+            1.020331223647186,
+            0.9468665386934279,
+            0.9301884592852754,
+            0.8632932094958419,
+            0.8384347843379452,
+            0.7365762174711555,
+            0.4018601206922201
+        ]
+    },
+    {
+        "source": "http://example.org/tractatus-alignment/TractatusProposition",
+        "target-cands": [
+            "http://example.org/tractatus-alignment/TractatusProposition",
+            "http://example.org/wittgensteiniana/Thesis",
+            "https://schema.org/CreativeWork",
+            "https://schema.org/Book",
+            "https://schema.org/Chapter",
+            "http://example.org/wittgensteiniana/Author",
+            "https://schema.org/DefinedTermSet",
+            "http://example.org/wittgensteiniana/TextFragment",
+            "https://schema.org/DefinedTerm"
+        ],
+        "score-cands": [
+            2.837913981445328,
+            1.5749791816732996,
+            1.4787672568555303,
+            1.0983394120869412,
+            0.9095675276815774,
+            0.8384347843379452,
+            0.8037202413844402,
+            0.6231220735383461,
+            0.5132790094325659
         ]
     }
 ]
