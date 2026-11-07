@@ -1,0 +1,12 @@
+[
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/Part",
+        "target": "https://schema.org/Chapter",
+        "relation": "="
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
+        "target": "http://example.org/wittgensteiniana/Author",
+        "relation": "="
+    }
+]

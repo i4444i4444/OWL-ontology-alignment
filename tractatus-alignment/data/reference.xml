@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:align="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell_C1">
+    <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+    <align:entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/Part"/>
+    <align:entity2 rdf:resource="http://example.org/wittgensteiniana/Thesis"/>
+    <align:relation>=</align:relation>
+    <align:measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</align:measure>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell_C3">
+    <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+    <align:entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/Bemerkung"/>
+    <align:entity2 rdf:resource="http://example.org/wittgensteiniana/TextFragment"/>
+    <align:relation>=</align:relation>
+    <align:measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</align:measure>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell_C5">
+    <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+    <align:entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/scholar/0.1/Person"/>
+    <align:entity2 rdf:resource="http://example.org/wittgensteiniana/Author"/>
+    <align:relation>=</align:relation>
+    <align:measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</align:measure>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentAlignment">
+    <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentAlignment"/>
+    <align:xml>yes</align:xml>
+    <align:onto1>tractatus-alignment/data/wab_tractatus_subgraph.ttl</align:onto1>
+    <align:onto2>tractatus-alignment/data/wittgensteiniana_final.ttl</align:onto2>
+    <align:map rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell_C0"/>
+    <align:map rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell_C1"/>
+    <align:map rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell_C2"/>
+    <align:map rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell_C3"/>
+    <align:map rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell_C4"/>
+    <align:map rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell_C5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell_C0">
+    <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+    <align:entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/Werk"/>
+    <align:entity2 rdf:resource="https://schema.org/Book"/>
+    <align:relation>=</align:relation>
+    <align:measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</align:measure>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell_C4">
+    <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+    <align:entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/WittgensteinSource"/>
+    <align:entity2 rdf:resource="https://schema.org/CreativeWork"/>
+    <align:relation>=</align:relation>
+    <align:measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</align:measure>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell_C2">
+    <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+    <align:entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/Part"/>
+    <align:entity2 rdf:resource="https://schema.org/Chapter"/>
+    <align:relation>=</align:relation>
+    <align:measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</align:measure>
+  </rdf:Description>
+</rdf:RDF>

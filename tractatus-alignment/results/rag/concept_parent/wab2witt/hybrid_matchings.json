@@ -1,0 +1,27 @@
+[
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/Werk",
+        "target": "https://schema.org/CreativeWork",
+        "score": 0.6993151903152466
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
+        "target": "http://example.org/wittgensteiniana/Author",
+        "score": 0.7308660745620728
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/TS",
+        "target": "http://example.org/wittgensteiniana/Thesis",
+        "score": 0.8001804351806641
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
+        "target": "https://schema.org/Book",
+        "score": 0.7102207541465759
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/Part",
+        "target": "https://schema.org/Chapter",
+        "score": 0.7823554277420044
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "source": "http://example.org/tractatus-alignment/TractatusProposition",
+        "target": "http://example.org/tractatus-alignment/TractatusProposition",
+        "relation": "="
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/Part",
+        "target": "http://example.org/wittgensteiniana/Thesis",
+        "relation": "="
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/Part",
+        "target": "https://schema.org/Chapter",
+        "relation": "="
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/Part",
+        "target": "https://schema.org/DefinedTerm",
+        "relation": "="
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/TS",
+        "target": "http://example.org/wittgensteiniana/Thesis",
+        "relation": "="
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/TS",
+        "target": "https://schema.org/DefinedTerm",
+        "relation": "="
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/TS",
+        "target": "https://schema.org/DefinedTermSet",
+        "relation": "="
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
+        "target": "http://example.org/wittgensteiniana/Author",
+        "relation": "="
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
+        "target": "http://example.org/wittgensteiniana/Thesis",
+        "relation": "="
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
+        "target": "https://schema.org/DefinedTerm",
+        "relation": "="
+    }
+]

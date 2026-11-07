@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <Alignment>
+    <xml>yes</xml>
+    <level>0</level>
+    <type>??</type>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://example.org/wittgensteiniana/TextFragment"/>
+        <entity2 rdf:resource="http://purl.org/wittgensteinsource/ont/scholar/0.1/Source"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.676235139369964</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://example.org/wittgensteiniana/Thesis"/>
+        <entity2 rdf:resource="http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.756257534027099</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://example.org/wittgensteiniana/Author"/>
+        <entity2 rdf:resource="http://purl.org/wittgensteinsource/ont/scholar/0.1/Person"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.730866193771362</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="https://schema.org/DefinedTerm"/>
+        <entity2 rdf:resource="http://purl.org/wittgensteinsource/ont/scholar/0.1/Language"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.689687550067901</measure>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

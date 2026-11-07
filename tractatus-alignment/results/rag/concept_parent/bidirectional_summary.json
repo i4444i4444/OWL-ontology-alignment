@@ -1,0 +1,54 @@
+{
+    "heuristic": {
+        "fw": {
+            "intersection": 3,
+            "precision": 17.647058823529413,
+            "recall": 50.0,
+            "f-score": 26.08695652173913,
+            "predictions-len": 17,
+            "reference-len": 6
+        },
+        "rev": {
+            "intersection": 3,
+            "precision": 30.0,
+            "recall": 50.0,
+            "f-score": 37.49999999999999,
+            "predictions-len": 10,
+            "reference-len": 6
+        },
+        "both": {
+            "intersection": 3,
+            "precision": 30.0,
+            "recall": 50.0,
+            "f-score": 37.49999999999999,
+            "predictions-len": 10,
+            "reference-len": 6
+        }
+    },
+    "hybrid": {
+        "fw": {
+            "intersection": 2,
+            "precision": 40.0,
+            "recall": 33.33333333333333,
+            "f-score": 36.36363636363636,
+            "predictions-len": 5,
+            "reference-len": 6
+        },
+        "rev": {
+            "intersection": 2,
+            "precision": 28.57142857142857,
+            "recall": 33.33333333333333,
+            "f-score": 30.769230769230766,
+            "predictions-len": 7,
+            "reference-len": 6
+        },
+        "both": {
+            "intersection": 2,
+            "precision": 100.0,
+            "recall": 33.33333333333333,
+            "f-score": 50.0,
+            "predictions-len": 2,
+            "reference-len": 6
+        }
+    }
+}

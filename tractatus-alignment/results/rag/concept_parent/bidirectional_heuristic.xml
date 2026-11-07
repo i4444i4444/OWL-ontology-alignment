@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <Alignment>
+    <xml>yes</xml>
+    <level>0</level>
+    <type>??</type>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://example.org/tractatus-alignment/TractatusProposition"/>
+        <entity2 rdf:resource="http://example.org/tractatus-alignment/TractatusProposition"/>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/Part"/>
+        <entity2 rdf:resource="http://example.org/wittgensteiniana/Thesis"/>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/Part"/>
+        <entity2 rdf:resource="https://schema.org/Chapter"/>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/Part"/>
+        <entity2 rdf:resource="https://schema.org/DefinedTerm"/>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/TS"/>
+        <entity2 rdf:resource="http://example.org/wittgensteiniana/Thesis"/>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/TS"/>
+        <entity2 rdf:resource="https://schema.org/DefinedTerm"/>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/TS"/>
+        <entity2 rdf:resource="https://schema.org/DefinedTermSet"/>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/scholar/0.1/Person"/>
+        <entity2 rdf:resource="http://example.org/wittgensteiniana/Author"/>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject"/>
+        <entity2 rdf:resource="http://example.org/wittgensteiniana/Thesis"/>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject"/>
+        <entity2 rdf:resource="https://schema.org/DefinedTerm"/>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

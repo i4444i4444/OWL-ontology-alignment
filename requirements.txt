@@ -1,5 +1,7 @@
 # Ontology handling and alignment (OntoAligner)
 rdflib==7.6.0
 ontoaligner==1.9.4
-torch==2.14.1
 sentence-transformers==5.7.0
+# CUDA build: pip install torch==2.14.1+cu130 --index-url https://download.pytorch.org/whl/cu130
+torch==2.14.1+cu130
+accelerate==1.15.0

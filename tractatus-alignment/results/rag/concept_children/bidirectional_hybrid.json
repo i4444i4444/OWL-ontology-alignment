@@ -1,0 +1,7 @@
+[
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
+        "target": "http://example.org/wittgensteiniana/Thesis",
+        "relation": "="
+    }
+]

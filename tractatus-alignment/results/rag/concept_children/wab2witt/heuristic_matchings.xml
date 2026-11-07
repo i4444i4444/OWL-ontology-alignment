@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <Alignment>
+    <xml>yes</xml>
+    <level>0</level>
+    <type>??</type>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/scholar/0.1/Language"/>
+        <entity2 rdf:resource="https://schema.org/DefinedTerm"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.689687550067901</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/Werk"/>
+        <entity2 rdf:resource="http://example.org/wittgensteiniana/Thesis"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.719004154205322</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/Werk"/>
+        <entity2 rdf:resource="https://schema.org/CreativeWork"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.699315190315246</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/scholar/0.1/Person"/>
+        <entity2 rdf:resource="http://example.org/wittgensteiniana/Author"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.730866074562072</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://example.org/tractatus-alignment/TractatusProposition"/>
+        <entity2 rdf:resource="http://example.org/tractatus-alignment/TractatusProposition"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.999848663806915</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://example.org/tractatus-alignment/TractatusProposition"/>
+        <entity2 rdf:resource="https://schema.org/DefinedTerm"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.692026555538177</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/TS"/>
+        <entity2 rdf:resource="http://example.org/wittgensteiniana/Thesis"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.800180435180664</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/TS"/>
+        <entity2 rdf:resource="https://schema.org/DefinedTermSet"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.720228135585784</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/TS"/>
+        <entity2 rdf:resource="https://schema.org/DefinedTerm"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.715645015239715</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject"/>
+        <entity2 rdf:resource="http://example.org/wittgensteiniana/Thesis"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.756257534027099</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject"/>
+        <entity2 rdf:resource="https://schema.org/DefinedTerm"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.729367136955261</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject"/>
+        <entity2 rdf:resource="https://schema.org/Book"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.710220754146575</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/Part"/>
+        <entity2 rdf:resource="https://schema.org/Chapter"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.782355427742004</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/Part"/>
+        <entity2 rdf:resource="https://schema.org/DefinedTerm"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.731976687908172</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/Part"/>
+        <entity2 rdf:resource="http://example.org/wittgensteiniana/Thesis"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.721532583236694</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/scholar/0.1/Source"/>
+        <entity2 rdf:resource="http://example.org/wittgensteiniana/Author"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.684621036052703</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource"/>
+        <entity2 rdf:resource="http://example.org/tractatus-alignment/TractatusProposition"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.678140699863433</measure>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

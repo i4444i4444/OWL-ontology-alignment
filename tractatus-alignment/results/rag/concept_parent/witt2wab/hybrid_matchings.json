@@ -1,0 +1,37 @@
+[
+    {
+        "source": "http://example.org/wittgensteiniana/TextFragment",
+        "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/TextSubGenre",
+        "score": 0.6391254663467407
+    },
+    {
+        "source": "http://example.org/tractatus-alignment/TractatusProposition",
+        "target": "http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource",
+        "score": 0.6781406998634338
+    },
+    {
+        "source": "https://schema.org/DefinedTermSet",
+        "target": "http://purl.org/wittgensteinsource/ont/TS",
+        "score": 0.7202281355857849
+    },
+    {
+        "source": "https://schema.org/Chapter",
+        "target": "http://purl.org/wittgensteinsource/ont/Part",
+        "score": 0.7823554277420044
+    },
+    {
+        "source": "http://example.org/wittgensteiniana/Thesis",
+        "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
+        "score": 0.7562575340270996
+    },
+    {
+        "source": "http://example.org/wittgensteiniana/Author",
+        "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
+        "score": 0.7308661937713623
+    },
+    {
+        "source": "https://schema.org/DefinedTerm",
+        "target": "http://example.org/tractatus-alignment/TractatusProposition",
+        "score": 0.6920265555381775
+    }
+]
