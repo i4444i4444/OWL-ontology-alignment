@@ -1,27 +1,27 @@
 {
     "heuristic": {
         "fw": {
-            "intersection": 3,
-            "precision": 17.647058823529413,
-            "recall": 50.0,
-            "f-score": 26.08695652173913,
-            "predictions-len": 17,
+            "intersection": 4,
+            "precision": 21.052631578947366,
+            "recall": 66.66666666666666,
+            "f-score": 32.0,
+            "predictions-len": 19,
             "reference-len": 6
         },
         "rev": {
             "intersection": 3,
-            "precision": 30.0,
+            "precision": 33.33333333333333,
             "recall": 50.0,
-            "f-score": 37.49999999999999,
-            "predictions-len": 10,
+            "f-score": 40.0,
+            "predictions-len": 9,
             "reference-len": 6
         },
         "both": {
             "intersection": 3,
-            "precision": 30.0,
+            "precision": 33.33333333333333,
             "recall": 50.0,
-            "f-score": 37.49999999999999,
-            "predictions-len": 10,
+            "f-score": 40.0,
+            "predictions-len": 9,
             "reference-len": 6
         }
     },
@@ -35,10 +35,10 @@
             "reference-len": 6
         },
         "rev": {
-            "intersection": 2,
-            "precision": 28.57142857142857,
-            "recall": 33.33333333333333,
-            "f-score": 30.769230769230766,
+            "intersection": 4,
+            "precision": 57.14285714285714,
+            "recall": 66.66666666666666,
+            "f-score": 61.53846153846153,
             "predictions-len": 7,
             "reference-len": 6
         },

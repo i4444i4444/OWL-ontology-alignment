@@ -6,18 +6,42 @@
     <type>??</type>
     <map>
       <Cell>
-        <entity1 rdf:resource="http://example.org/tractatus-alignment/TractatusProposition"/>
-        <entity2 rdf:resource="http://example.org/tractatus-alignment/TractatusProposition"/>
+        <entity1 rdf:resource="http://example.org/wittgensteiniana/Thesis"/>
+        <entity2 rdf:resource="http://purl.org/wittgensteinsource/ont/TS"/>
         <relation>=</relation>
-        <measure rdf:datatype="xsd:float">0.999848723411560</measure>
+        <measure rdf:datatype="xsd:float">0.801611006259918</measure>
       </Cell>
     </map>
     <map>
       <Cell>
-        <entity1 rdf:resource="https://schema.org/DefinedTermSet"/>
-        <entity2 rdf:resource="http://purl.org/wittgensteinsource/ont/TS"/>
+        <entity1 rdf:resource="http://example.org/wittgensteiniana/Thesis"/>
+        <entity2 rdf:resource="http://purl.org/wittgensteinsource/ont/Part"/>
         <relation>=</relation>
-        <measure rdf:datatype="xsd:float">0.720228135585784</measure>
+        <measure rdf:datatype="xsd:float">0.720240235328674</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://example.org/wittgensteiniana/Thesis"/>
+        <entity2 rdf:resource="http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.756326317787170</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="https://schema.org/DefinedTerm"/>
+        <entity2 rdf:resource="http://purl.org/wittgensteinsource/ont/Part"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.731227576732635</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="https://schema.org/DefinedTerm"/>
+        <entity2 rdf:resource="http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.729430913925170</measure>
       </Cell>
     </map>
     <map>
@@ -25,31 +49,15 @@
         <entity1 rdf:resource="https://schema.org/Chapter"/>
         <entity2 rdf:resource="http://purl.org/wittgensteinsource/ont/Part"/>
         <relation>=</relation>
-        <measure rdf:datatype="xsd:float">0.782355427742004</measure>
+        <measure rdf:datatype="xsd:float">0.781800866127014</measure>
       </Cell>
     </map>
     <map>
       <Cell>
-        <entity1 rdf:resource="http://example.org/wittgensteiniana/Thesis"/>
-        <entity2 rdf:resource="http://purl.org/wittgensteinsource/ont/TS"/>
+        <entity1 rdf:resource="http://example.org/tractatus-alignment/TractatusProposition"/>
+        <entity2 rdf:resource="http://example.org/tractatus-alignment/TractatusProposition"/>
         <relation>=</relation>
-        <measure rdf:datatype="xsd:float">0.800180435180664</measure>
-      </Cell>
-    </map>
-    <map>
-      <Cell>
-        <entity1 rdf:resource="http://example.org/wittgensteiniana/Thesis"/>
-        <entity2 rdf:resource="http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject"/>
-        <relation>=</relation>
-        <measure rdf:datatype="xsd:float">0.756257534027099</measure>
-      </Cell>
-    </map>
-    <map>
-      <Cell>
-        <entity1 rdf:resource="http://example.org/wittgensteiniana/Thesis"/>
-        <entity2 rdf:resource="http://purl.org/wittgensteinsource/ont/Part"/>
-        <relation>=</relation>
-        <measure rdf:datatype="xsd:float">0.721532583236694</measure>
+        <measure rdf:datatype="xsd:float">0.999869585037231</measure>
       </Cell>
     </map>
     <map>
@@ -57,31 +65,15 @@
         <entity1 rdf:resource="http://example.org/wittgensteiniana/Author"/>
         <entity2 rdf:resource="http://purl.org/wittgensteinsource/ont/scholar/0.1/Person"/>
         <relation>=</relation>
-        <measure rdf:datatype="xsd:float">0.730866193771362</measure>
+        <measure rdf:datatype="xsd:float">0.732669949531555</measure>
       </Cell>
     </map>
     <map>
       <Cell>
-        <entity1 rdf:resource="https://schema.org/DefinedTerm"/>
-        <entity2 rdf:resource="http://purl.org/wittgensteinsource/ont/Part"/>
-        <relation>=</relation>
-        <measure rdf:datatype="xsd:float">0.731976687908172</measure>
-      </Cell>
-    </map>
-    <map>
-      <Cell>
-        <entity1 rdf:resource="https://schema.org/DefinedTerm"/>
+        <entity1 rdf:resource="https://schema.org/DefinedTermSet"/>
         <entity2 rdf:resource="http://purl.org/wittgensteinsource/ont/TS"/>
         <relation>=</relation>
-        <measure rdf:datatype="xsd:float">0.715645015239715</measure>
-      </Cell>
-    </map>
-    <map>
-      <Cell>
-        <entity1 rdf:resource="https://schema.org/DefinedTerm"/>
-        <entity2 rdf:resource="http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject"/>
-        <relation>=</relation>
-        <measure rdf:datatype="xsd:float">0.729367136955261</measure>
+        <measure rdf:datatype="xsd:float">0.720116794109344</measure>
       </Cell>
     </map>
   </Alignment>

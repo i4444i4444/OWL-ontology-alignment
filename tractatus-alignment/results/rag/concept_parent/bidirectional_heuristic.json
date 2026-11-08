@@ -26,11 +26,6 @@
     },
     {
         "source": "http://purl.org/wittgensteinsource/ont/TS",
-        "target": "https://schema.org/DefinedTerm",
-        "relation": "="
-    },
-    {
-        "source": "http://purl.org/wittgensteinsource/ont/TS",
         "target": "https://schema.org/DefinedTermSet",
         "relation": "="
     },

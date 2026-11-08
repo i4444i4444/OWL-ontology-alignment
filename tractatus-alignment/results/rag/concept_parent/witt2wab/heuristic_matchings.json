@@ -1,72 +1,65 @@
 [
     {
-        "source": "http://example.org/tractatus-alignment/TractatusProposition",
-        "target": "http://example.org/tractatus-alignment/TractatusProposition",
-        "score": 0.9998487234115601,
-        "confidence": 0.7772998809814453,
-        "confidence-ratio": 0.7771822937072557
+        "source": "http://example.org/wittgensteiniana/Thesis",
+        "target": "http://purl.org/wittgensteinsource/ont/TS",
+        "score": 0.8016110062599182,
+        "confidence": 0.7772998213768005,
+        "confidence-ratio": 0.6230920919795118
     },
     {
-        "source": "https://schema.org/DefinedTermSet",
-        "target": "http://purl.org/wittgensteinsource/ont/TS",
-        "score": 0.7202281355857849,
-        "confidence": 0.9081846475601196,
-        "confidence-ratio": 0.6541001354798581
+        "source": "http://example.org/wittgensteiniana/Thesis",
+        "target": "http://purl.org/wittgensteinsource/ont/Part",
+        "score": 0.7202402353286743,
+        "confidence": 0.8411310911178589,
+        "confidence-ratio": 0.6058164550089913
+    },
+    {
+        "source": "http://example.org/wittgensteiniana/Thesis",
+        "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
+        "score": 0.7563263177871704,
+        "confidence": 0.7391709685325623,
+        "confidence-ratio": 0.5590544568454092
+    },
+    {
+        "source": "https://schema.org/DefinedTerm",
+        "target": "http://purl.org/wittgensteinsource/ont/Part",
+        "score": 0.7312275767326355,
+        "confidence": 0.8411310911178589,
+        "confidence-ratio": 0.6150582494725896
+    },
+    {
+        "source": "https://schema.org/DefinedTerm",
+        "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
+        "score": 0.7294309139251709,
+        "confidence": 0.8670358061790466,
+        "confidence-ratio": 0.6324427205070293
     },
     {
         "source": "https://schema.org/Chapter",
         "target": "http://purl.org/wittgensteinsource/ont/Part",
-        "score": 0.7823554277420044,
-        "confidence": 0.8670357465744019,
-        "confidence-ratio": 0.6783301223788243
+        "score": 0.7818008661270142,
+        "confidence": 0.8112779855728149,
+        "confidence-ratio": 0.634257831790606
     },
     {
-        "source": "http://example.org/wittgensteiniana/Thesis",
-        "target": "http://purl.org/wittgensteinsource/ont/TS",
-        "score": 0.8001804351806641,
+        "source": "http://example.org/tractatus-alignment/TractatusProposition",
+        "target": "http://example.org/tractatus-alignment/TractatusProposition",
+        "score": 0.9998695850372314,
         "confidence": 0.7772998809814453,
-        "confidence-ratio": 0.6219801570296113
-    },
-    {
-        "source": "http://example.org/wittgensteiniana/Thesis",
-        "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
-        "score": 0.7562575340270996,
-        "confidence": 0.811277449131012,
-        "confidence-ratio": 0.6135346830916149
-    },
-    {
-        "source": "http://example.org/wittgensteiniana/Thesis",
-        "target": "http://purl.org/wittgensteinsource/ont/Part",
-        "score": 0.7215325832366943,
-        "confidence": 0.8411310911178589,
-        "confidence-ratio": 0.606903489014968
+        "confidence-ratio": 0.7771985094464071
     },
     {
         "source": "http://example.org/wittgensteiniana/Author",
         "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
-        "score": 0.7308661937713623,
-        "confidence": 0.8670358061790466,
-        "confidence-ratio": 0.6336871595255644
-    },
-    {
-        "source": "https://schema.org/DefinedTerm",
-        "target": "http://purl.org/wittgensteinsource/ont/Part",
-        "score": 0.7319766879081726,
-        "confidence": 0.9241418242454529,
-        "confidence-ratio": 0.6764502716686032
-    },
-    {
-        "source": "https://schema.org/DefinedTerm",
-        "target": "http://purl.org/wittgensteinsource/ont/TS",
-        "score": 0.7156450152397156,
+        "score": 0.7326699495315552,
         "confidence": 0.8892725706100464,
-        "confidence-ratio": 0.6364034823464877
+        "confidence-ratio": 0.651543289428659
     },
     {
-        "source": "https://schema.org/DefinedTerm",
-        "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
-        "score": 0.7293671369552612,
-        "confidence": 0.8670358061790466,
-        "confidence-ratio": 0.632387423590508
+        "source": "https://schema.org/DefinedTermSet",
+        "target": "http://purl.org/wittgensteinsource/ont/TS",
+        "score": 0.7201167941093445,
+        "confidence": 0.8670357465744019,
+        "confidence-ratio": 0.6243670022013603
     }
 ]

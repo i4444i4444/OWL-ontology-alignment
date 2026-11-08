@@ -42,13 +42,6 @@
     <map>
       <Cell>
         <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/TS"/>
-        <entity2 rdf:resource="https://schema.org/DefinedTerm"/>
-        <relation>=</relation>
-      </Cell>
-    </map>
-    <map>
-      <Cell>
-        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/TS"/>
         <entity2 rdf:resource="https://schema.org/DefinedTermSet"/>
         <relation>=</relation>
       </Cell>
