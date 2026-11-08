@@ -1,9 +1,9 @@
 """
 RAG alignment WAB <-> Wittgensteiniana with OntoAligner, following the official
 OntoAligner RAG guide (LLMs4OM): GenericOMDataset collection, RAGEncoders,
-Qwen LLM with MiniLM retriever, heuristic + hybrid postprocessing and XML export.
-Both directions are run; pairs accepted in both directions are reported as
-bidirectionally confirmed.
+Qwen3-0.6B LLM with Qwen3-Embedding-0.6B retriever, heuristic + hybrid
+postprocessing and XML export. Both directions are run; pairs accepted in
+both directions are reported as bidirectionally confirmed.
 """
 
 import json

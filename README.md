@@ -42,10 +42,11 @@ The project follows several stages:
 
 ## Project Status
 
-The project is currently in the ontology inspection and alignment stage. Retrieval
-models (TF-IDF, BM25, SBERT) from OntoAligner run over documented classes both
-directions, and the LLM-based RAG alignment (OntoAligner LLMs4OM guide) is
-implemented and evaluated against a hand-checked OAEI-style reference.
+The project reached the alignment stage: the LLM-based RAG alignment
+(OntoAligner LLMs4OM guide) is implemented and evaluated in both directions
+against a hand-checked OAEI-style reference. Pure retrieval experiments
+(TF-IDF, BM25, SBERT baselines) served as early baselines and were removed;
+the RAG pipeline performs its own retrieval internally.
 
 ## Results
 
