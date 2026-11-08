@@ -42,8 +42,26 @@ The project follows several stages:
 
 ## Project Status
 
-The project is currently in the ontology inspection and alignment stage: retrieval
-models (TF-IDF, BM25, SBERT) from OntoAligner are running over documented classes.
+The project is currently in the ontology inspection and alignment stage. Retrieval
+models (TF-IDF, BM25, SBERT) from OntoAligner run over documented classes both
+directions, and the LLM-based RAG alignment (OntoAligner LLMs4OM guide) is
+implemented and evaluated against a hand-checked OAEI-style reference.
+
+## Results
+
+Class-alignment quality against the 6-pair reference (`data/reference.xml`),
+both-directions agreement (pairs confirmed forward and reverse):
+
+| Config | Precision | Recall | F1 |
+|---|---|---|---|
+| RAG + heuristic postprocessor | 33.3 | 50.0 | 40.0 |
+| RAG + hybrid postprocessor | 100.0 | 33.3 | 50.0 |
+| best single direction (hybrid, witt2wab) | 57.1 | 66.7 | 61.5 |
+
+Setup: retriever `Qwen/Qwen3-Embedding-0.6B`, LLM `Qwen/Qwen3-0.6B` (fp16),
+`ConceptParentRAGEncoder`, all retrieval candidates given to the LLM,
+requirements from the OntoAligner RAG documentation. An 8-bit quantized
+`Qwen3-1.7B` was tested but scored far below the fp16 0.6B setup.
 
 ## Repository layout
 

@@ -11,13 +11,13 @@ from pathlib import Path
 
 from ontoaligner import ontology
 from ontoaligner.aligner import AutoModelDecoderRAGLLM, RAG, SBERTRetrieval
-from ontoaligner.encoder import ConceptChildrenRAGEncoder, ConceptParentRAGEncoder
+from ontoaligner.encoder import ConceptParentRAGEncoder
 from ontoaligner.postprocess import (
     rag_heuristic_postprocessor,
     rag_hybrid_postprocessor,
 )
 from ontoaligner.utils import metrics, xmlify
-from rdflib import OWL, RDF, RDFS, Graph, Namespace
+from rdflib import OWL, RDF, RDFS, Graph, Literal, Namespace
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
@@ -46,6 +46,18 @@ class QwenLLMBERTRetrieverRAG(RAG):
 
 
 # prepare temp RDF/XML versions of the ontologies for the OntoAligner parsers
+# Retrieval uses ONLY the class label (ConceptLightweightEncoder: owl["label"]).
+# Add short cross-language glosses so the two vocabularies can meet:
+# German WAB terms vs English schema terms. Facts only, no gold-leaking.
+GLOSSES = {
+    "Bemerkung": "remark / note, a single text fragment",
+    "Werk": "work, book, publication",
+    "WittgensteinSource": "Wittgenstein primary source, a creative work",
+    "TextFragment": "text fragment, a single remark",
+    "Book": "book",
+    "CreativeWork": "creative work",
+}
+
 SCHEMA = Namespace("https://schema.org/")
 for name, paths in FILES.items():
     graph = Graph()
@@ -58,14 +70,30 @@ for name, paths in FILES.items():
         if not list(graph.objects(class_uri, RDFS.label)):
             for label in graph.objects(class_uri, SCHEMA.name):
                 graph.add((class_uri, RDFS.label, label))
+    # append glosses to labels (temp files only, source ontologies untouched)
+    local = lambda uri: str(uri).rsplit("/", 1)[-1].split("#")[-1]
+    for class_uri in classes:
+        gloss = GLOSSES.get(local(class_uri))
+        if gloss:
+            for label in list(graph.objects(class_uri, RDFS.label)):
+                graph.remove((class_uri, RDFS.label, label))
+                graph.add((class_uri, RDFS.label, Literal(f"{label} ({gloss})")))
     graph.serialize(destination=str(TEMP_DIR / f"{name.lower()}_doc.rdf"), format="xml")
     print(f"Prepared: {name}")
 
-RETRIEVER_CONFIG = {"device": "cuda", "top_k": 5, "threshold": 0.1}
+# top_k must not exceed the number of target classes in each direction
+# (torch.topk would fail otherwise): wab2witt has 9 Witt targets,
+# witt2wab has 13 WAB targets -> give the retriever every candidate.
+RETRIEVER_CONFIGS = {
+    "wab2witt": {"device": "cuda", "top_k": 9, "threshold": 0.1},
+    "witt2wab": {"device": "cuda", "top_k": 13, "threshold": 0.1},
+}
 LLM_CONFIG = {
     "device": "cuda",
     "batch_size": 32,
     "answer_set": {"yes": ["yes", "true"], "no": ["no", "false"]},
+    # a load_in_8bit quantized Qwen3-1.7B was tested (built-in flag) but scored
+    # far below this fp16 0.6B config on 4 GB VRAM, so fp16 stays.
 }
 DIRECTIONS = {
     "wab2witt": (TEMP_DIR / "wab_doc.rdf", TEMP_DIR / "wittgensteiniana_doc.rdf"),
@@ -101,7 +129,8 @@ reference = datasets["wab2witt"]["reference"]
 
 for encoder_name, encoder_model in (
     ("concept_parent", ConceptParentRAGEncoder()),
-    ("concept_children", ConceptChildrenRAGEncoder()),
+    # concept_children encoder was tested as a checkpoint: pair sets turned out
+    # ~95% identical with no accuracy gain, so it was dropped for simplicity.
 ):
     run_dir = RESULTS_DIR / encoder_name
     run_dir.mkdir(parents=True, exist_ok=True)
@@ -110,7 +139,7 @@ for encoder_name, encoder_model in (
     for direction, dataset in datasets.items():
         encoded = encoder_model(source=dataset["source"], target=dataset["target"])
 
-        model = QwenLLMBERTRetrieverRAG(retriever_config=RETRIEVER_CONFIG,
+        model = QwenLLMBERTRetrieverRAG(retriever_config=RETRIEVER_CONFIGS[direction],
                                         llm_config=LLM_CONFIG)
         model.load(llm_path=LLM_PATH, ir_path=IR_PATH)
         predicts = model.generate(input_data=encoded)
