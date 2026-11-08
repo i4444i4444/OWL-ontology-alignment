@@ -1,8 +1,18 @@
 [
     {
+        "source": "http://example.org/wittgensteiniana/Author",
+        "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
+        "score": 0.7326699495315552
+    },
+    {
         "source": "https://schema.org/DefinedTerm",
         "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
-        "score": 0.7294309139251709
+        "score": 0.7294308543205261
+    },
+    {
+        "source": "https://schema.org/DefinedTermSet",
+        "target": "http://purl.org/wittgensteinsource/ont/TS",
+        "score": 0.7201167941093445
     },
     {
         "source": "https://schema.org/Book",
@@ -10,9 +20,9 @@
         "score": 0.7039003372192383
     },
     {
-        "source": "https://schema.org/Chapter",
-        "target": "http://purl.org/wittgensteinsource/ont/Part",
-        "score": 0.7818008661270142
+        "source": "http://example.org/wittgensteiniana/TextFragment",
+        "target": "http://purl.org/wittgensteinsource/ont/Bemerkung",
+        "score": 0.6532615423202515
     },
     {
         "source": "http://example.org/tractatus-alignment/TractatusProposition",
@@ -20,18 +30,8 @@
         "score": 0.6776468753814697
     },
     {
-        "source": "http://example.org/wittgensteiniana/TextFragment",
-        "target": "http://purl.org/wittgensteinsource/ont/Bemerkung",
-        "score": 0.6532615423202515
-    },
-    {
-        "source": "http://example.org/wittgensteiniana/Author",
-        "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
-        "score": 0.7326699495315552
-    },
-    {
-        "source": "https://schema.org/DefinedTermSet",
-        "target": "http://purl.org/wittgensteinsource/ont/TS",
-        "score": 0.7201167941093445
+        "source": "https://schema.org/Chapter",
+        "target": "http://purl.org/wittgensteinsource/ont/Part",
+        "score": 0.7818008661270142
     }
 ]

@@ -92,8 +92,11 @@ LLM_CONFIG = {
     "device": "cuda",
     "batch_size": 32,
     "answer_set": {"yes": ["yes", "true"], "no": ["no", "false"]},
-    # a load_in_8bit quantized Qwen3-1.7B was tested (built-in flag) but scored
-    # far below this fp16 0.6B config on 4 GB VRAM, so fp16 stays.
+    # near-greedy decoding: Qwen3 ships sampling enabled in its generation config,
+    # which made run-to-run results fluctuate; these documented knobs pin it down
+    "temperature": 1e-6,
+    "top_p": 1.0,
+    "num_beams": 1,
 }
 DIRECTIONS = {
     "wab2witt": (TEMP_DIR / "wab_doc.rdf", TEMP_DIR / "wittgensteiniana_doc.rdf"),

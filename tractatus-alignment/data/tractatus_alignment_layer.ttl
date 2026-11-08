@@ -9,6 +9,8 @@ align:denotesProposition a owl:ObjectProperty ;
 align:hasNumber a owl:DatatypeProperty ;
     rdfs:label "literal proposition number as a string"@en .
 
+<http://purl.org/wittgensteinsource/ont/instances/W-TLP> owl:sameAs <http://wittgensteiniana.michelepasin.org/id/tractatus> .
+
 <http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%201> align:denotesProposition align:Prop_1 .
 
 <http://purl.org/wittgensteinsource/ont/instances/W-TLP%3A%201.1> align:denotesProposition align:Prop_1_1 .

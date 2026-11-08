@@ -6,14 +6,6 @@
     <type>??</type>
     <map>
       <Cell>
-        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject"/>
-        <entity2 rdf:resource="https://schema.org/Book"/>
-        <relation>=</relation>
-        <measure rdf:datatype="xsd:float">0.709982872009277</measure>
-      </Cell>
-    </map>
-    <map>
-      <Cell>
         <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/Part"/>
         <entity2 rdf:resource="https://schema.org/Chapter"/>
         <relation>=</relation>
@@ -34,6 +26,14 @@
         <entity2 rdf:resource="http://example.org/wittgensteiniana/Author"/>
         <relation>=</relation>
         <measure rdf:datatype="xsd:float">0.732669949531555</measure>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject"/>
+        <entity2 rdf:resource="https://schema.org/Book"/>
+        <relation>=</relation>
+        <measure rdf:datatype="xsd:float">0.709982872009277</measure>
       </Cell>
     </map>
     <map>

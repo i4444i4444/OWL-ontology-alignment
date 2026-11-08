@@ -1,54 +1,54 @@
 {
     "heuristic": {
         "fw": {
-            "intersection": 4,
-            "precision": 21.052631578947366,
-            "recall": 66.66666666666666,
-            "f-score": 32.0,
+            "intersection": 3,
+            "precision": 15.789473684210526,
+            "recall": 60.0,
+            "f-score": 25.0,
             "predictions-len": 19,
-            "reference-len": 6
+            "reference-len": 5
         },
         "rev": {
-            "intersection": 3,
-            "precision": 33.33333333333333,
-            "recall": 50.0,
-            "f-score": 40.0,
+            "intersection": 2,
+            "precision": 22.22222222222222,
+            "recall": 40.0,
+            "f-score": 28.57142857142857,
             "predictions-len": 9,
-            "reference-len": 6
+            "reference-len": 5
         },
         "both": {
-            "intersection": 3,
-            "precision": 33.33333333333333,
-            "recall": 50.0,
-            "f-score": 40.0,
+            "intersection": 2,
+            "precision": 22.22222222222222,
+            "recall": 40.0,
+            "f-score": 28.57142857142857,
             "predictions-len": 9,
-            "reference-len": 6
+            "reference-len": 5
         }
     },
     "hybrid": {
         "fw": {
             "intersection": 2,
             "precision": 40.0,
-            "recall": 33.33333333333333,
-            "f-score": 36.36363636363636,
+            "recall": 40.0,
+            "f-score": 40.00000000000001,
             "predictions-len": 5,
-            "reference-len": 6
+            "reference-len": 5
         },
         "rev": {
             "intersection": 4,
             "precision": 57.14285714285714,
-            "recall": 66.66666666666666,
-            "f-score": 61.53846153846153,
+            "recall": 80.0,
+            "f-score": 66.66666666666666,
             "predictions-len": 7,
-            "reference-len": 6
+            "reference-len": 5
         },
         "both": {
             "intersection": 2,
             "precision": 100.0,
-            "recall": 33.33333333333333,
-            "f-score": 50.0,
+            "recall": 40.0,
+            "f-score": 57.14285714285715,
             "predictions-len": 2,
-            "reference-len": 6
+            "reference-len": 5
         }
     }
 }

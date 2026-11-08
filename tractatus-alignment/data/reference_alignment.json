@@ -1,8 +1,9 @@
 {
     "meta": {
-        "title": "Reference alignment, WAB -> Wittgensteiniana (Pasin), draft v1",
+        "title": "Reference alignment, WAB -> Wittgensteiniana (Pasin), draft v2",
         "created": "2026-11-03",
         "status": "draft: manual, semi-formal, revised on review",
+        "revision_v2": "v1 mapped Part -> Thesis (C2). Removed: the numbered TLP propositions are already linked instance-to-instance across both ontologies by the TractatusProposition bridge overlay (tractatus_alignment_layer.ttl, ~530 shared individuals), so a class-level Part -> Thesis mapping would duplicate the bridge. The Wittgensteiniana export types the same proposition units BOTH ex:Thesis and schema:Chapter; Part maps to Chapter (C2 in this version).",
         "source_ontology": "tractatus-alignment/data/wab_tractatus_subgraph.ttl",
         "target_ontology": "tractatus-alignment/data/wittgensteiniana_final.ttl",
         "grounding": "class/property definitions and rdfs:comment content documented in the comment overlays (wab_tractatus_comments.ttl, wittgensteiniana_comments.ttl), plus instance-level samples from both datasets",
@@ -19,27 +20,19 @@
         {
             "id": "C2",
             "source": "http://purl.org/wittgensteinsource/ont/Part",
-            "target": "http://example.org/wittgensteiniana/Thesis",
+            "target": "https://schema.org/Chapter",
             "strength": "strong",
-            "justification": "WAB Part instances (531) are labelled 'Tractatus logico-philosophicus (TLP, 1922 et 1933) <number>' (e.g. 'TLP 1.1') - individual numbered TLP remarks. Wittgensteiniana Thesis (526): abstract logical unit of a text, one per numbered proposition."
+            "justification": "In the Wittgensteiniana export the proposition units are typed schema:Chapter (extensionally along with ex:Thesis, see meta.revision_v2). WAB Part instances (531) are labelled 'Tractatus logico-philosophicus (TLP, 1922 et 1933) <number>' (e.g. 'TLP 1.1') - individual numbered TLP remarks."
         },
         {
             "id": "C3",
-            "source": "http://purl.org/wittgensteinsource/ont/Part",
-            "target": "https://schema.org/Chapter",
-            "strength": "strong",
-            "twin_of": "C2",
-            "justification": "In the Wittgensteiniana export the same 526 resources are typed BOTH ex:Thesis and schema:Chapter (extensionally identical). Every numbered proposition at every nesting level is exported as schema:Chapter."
-        },
-        {
-            "id": "C4",
             "source": "http://purl.org/wittgensteinsource/ont/Bemerkung",
             "target": "http://example.org/wittgensteiniana/TextFragment",
             "strength": "medium",
             "justification": "WAB Bemerkung (1616): a remark identified by a siglum - the material textual record of a remark in a Wittgenstein source. Wittgensteiniana TextFragment (1578): the symbolic contents of a text unit, in the export one fragment per proposition per edition/language (both double-typed schema:CreativeWork)."
         },
         {
-            "id": "C5",
+            "id": "C4",
             "source": "http://purl.org/wittgensteinsource/ont/WittgensteinSource",
             "target": "https://schema.org/CreativeWork",
             "strength": "weak",
@@ -47,7 +40,7 @@
             "justification": "WAB WittgensteinSource is the generic superclass of Werk, Bemerkung, Part, TS; schema:CreativeWork is the generic superclass Book/text fragments under schema.org typing."
         },
         {
-            "id": "C6",
+            "id": "C5",
             "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
             "target": "http://example.org/wittgensteiniana/Author",
             "strength": "medium",

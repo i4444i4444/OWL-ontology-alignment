@@ -11,7 +11,7 @@ shared TractatusProposition individuals link the two sides together.
 import re
 from pathlib import Path
 
-from rdflib import OWL, RDF, RDFS, Graph, Literal, Namespace
+from rdflib import OWL, RDF, RDFS, Graph, Literal, Namespace, URIRef
 from rdflib.namespace import XSD
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -84,6 +84,15 @@ for number in sorted(set(witt_numbers) | set(wab_numbers), key=sort_key):
         layer.add((witt_numbers[number], ALIGN.denotesProposition, proposition))
     if number in wab_numbers:
         layer.add((wab_numbers[number], ALIGN.denotesProposition, proposition))
+
+# The Tractatus itself: the same work lives in both ontologies under
+# different IRIs - WAB has a single Werk instance (label mentions 1922 et 1933),
+# Wittgensteiniana has the German original id/expression/tractatus plus two
+# translation expressions (ogden, pears) which have no WAB counterpart.
+# Declare identity for the German original at work level.
+W_TLP = URIRef("http://purl.org/wittgensteinsource/ont/instances/W-TLP")
+TRACTATUS = URIRef("http://wittgensteiniana.michelepasin.org/id/tractatus")
+layer.add((W_TLP, OWL.sameAs, TRACTATUS))
 
 layer.serialize(destination=str(ALIGNMENT_PATH), format="turtle")
 print(f"Alignment layer (bridge): {len(layer)} triples -> {ALIGNMENT_PATH.name}")

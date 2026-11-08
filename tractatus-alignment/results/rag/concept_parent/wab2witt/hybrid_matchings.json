@@ -1,10 +1,5 @@
 [
     {
-        "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
-        "target": "https://schema.org/Book",
-        "score": 0.7099828720092773
-    },
-    {
         "source": "http://purl.org/wittgensteinsource/ont/Part",
         "target": "https://schema.org/Chapter",
         "score": 0.7818008065223694
@@ -18,6 +13,11 @@
         "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
         "target": "http://example.org/wittgensteiniana/Author",
         "score": 0.7326699495315552
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
+        "target": "https://schema.org/Book",
+        "score": 0.7099828720092773
     },
     {
         "source": "http://purl.org/wittgensteinsource/ont/Werk",

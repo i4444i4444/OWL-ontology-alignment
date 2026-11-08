@@ -50,19 +50,26 @@ the RAG pipeline performs its own retrieval internally.
 
 ## Results
 
-Class-alignment quality against the 6-pair reference (`data/reference.xml`),
-both-directions agreement (pairs confirmed forward and reverse):
+Class-alignment quality against the 5-pair reference (`data/reference.xml`;
+`Part -> Thesis` was dropped in reference v2 because the numbered TLP
+propositions are already linked instance-to-instance by the
+TractatusProposition bridge), both-directions agreement:
 
 | Config | Precision | Recall | F1 |
 |---|---|---|---|
-| RAG + heuristic postprocessor | 33.3 | 50.0 | 40.0 |
-| RAG + hybrid postprocessor | 100.0 | 33.3 | 50.0 |
-| best single direction (hybrid, witt2wab) | 57.1 | 66.7 | 61.5 |
+| RAG + heuristic postprocessor | 22.2 | 40.0 | 28.6 |
+| RAG + hybrid postprocessor | 100.0 | 40.0 | 57.1 |
+| best single direction (hybrid, witt2wab) | 57.1 | 80.0 | 66.7 |
 
-Setup: retriever `Qwen/Qwen3-Embedding-0.6B`, LLM `Qwen/Qwen3-0.6B` (fp16),
+Setup: retriever `Qwen/Qwen3-Embedding-0.6B`, LLM `Qwen/Qwen3-0.6B` (fp16,
+near-greedy decoding pinned via `temperature`/`top_p`/`num_beams`),
 `ConceptParentRAGEncoder`, all retrieval candidates given to the LLM,
-requirements from the OntoAligner RAG documentation. An 8-bit quantized
-`Qwen3-1.7B` was tested but scored far below the fp16 0.6B setup.
+cross-language glosses appended to class labels for retrieval, requirements
+from the OntoAligner RAG documentation. An 8-bit quantized `Qwen3-1.7B` was
+tested but scored far below the fp16 0.6B setup. The hybrid single-direction
+run additionally confirms `Book -> Werk` and `TextFragment -> Bemerkung`; the
+work-level identity `wab:W-TLP owl:sameAs ex:tractatus` is recorded in the
+bridge layer.
 
 ## Repository layout
 
