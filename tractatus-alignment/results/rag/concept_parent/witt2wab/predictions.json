@@ -2,171 +2,6 @@
     {
         "ir-outputs": [
             {
-                "source": "http://example.org/wittgensteiniana/Author",
-                "target-cands": [
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
-                    "http://purl.org/wittgensteinsource/ont/Part",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Language",
-                    "http://purl.org/wittgensteinsource/ont/TS",
-                    "http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/TextSubGenre",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/PrimarySource",
-                    "http://purl.org/wittgensteinsource/ont/Werk",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Date",
-                    "http://purl.org/wittgensteinsource/ont/WittgensteinSource",
-                    "http://example.org/tractatus-alignment/TractatusProposition"
-                ],
-                "score-cands": [
-                    0.7326699495315552,
-                    0.683865487575531,
-                    0.6819835305213928,
-                    0.6669559478759766,
-                    0.6621145009994507,
-                    0.6261757612228394,
-                    0.6175151467323303,
-                    0.6167861223220825,
-                    0.6138103604316711,
-                    0.6052232384681702,
-                    0.5932339429855347,
-                    0.5797885060310364,
-                    0.5782153606414795
-                ]
-            },
-            {
-                "source": "https://schema.org/DefinedTerm",
-                "target-cands": [
-                    "http://purl.org/wittgensteinsource/ont/Part",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
-                    "http://purl.org/wittgensteinsource/ont/TS",
-                    "http://example.org/tractatus-alignment/TractatusProposition",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Language",
-                    "http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Date",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/TextSubGenre",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/PrimarySource",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
-                    "http://purl.org/wittgensteinsource/ont/Bemerkung",
-                    "http://purl.org/wittgensteinsource/ont/Werk"
-                ],
-                "score-cands": [
-                    0.7312275767326355,
-                    0.7294308543205261,
-                    0.7161689400672913,
-                    0.6921536922454834,
-                    0.6898236274719238,
-                    0.6601405143737793,
-                    0.6476517915725708,
-                    0.6246721744537354,
-                    0.6205525994300842,
-                    0.5995966792106628,
-                    0.566070556640625,
-                    0.5655040144920349,
-                    0.5640290379524231
-                ]
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Thesis",
-                "target-cands": [
-                    "http://purl.org/wittgensteinsource/ont/TS",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
-                    "http://purl.org/wittgensteinsource/ont/Part",
-                    "http://example.org/tractatus-alignment/TractatusProposition",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
-                    "http://purl.org/wittgensteinsource/ont/Werk",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Language",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/PrimarySource",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/TextSubGenre",
-                    "http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource",
-                    "http://purl.org/wittgensteinsource/ont/Bemerkung",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Date",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person"
-                ],
-                "score-cands": [
-                    0.8016112446784973,
-                    0.75632643699646,
-                    0.7202402353286743,
-                    0.6763522028923035,
-                    0.6704836487770081,
-                    0.6598708629608154,
-                    0.6524695158004761,
-                    0.6352482438087463,
-                    0.6274592280387878,
-                    0.624238133430481,
-                    0.5997101664543152,
-                    0.5980120301246643,
-                    0.5590994954109192
-                ]
-            },
-            {
-                "source": "https://schema.org/DefinedTermSet",
-                "target-cands": [
-                    "http://purl.org/wittgensteinsource/ont/TS",
-                    "http://purl.org/wittgensteinsource/ont/Part",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
-                    "http://example.org/tractatus-alignment/TractatusProposition",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Language",
-                    "http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Date",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/TextSubGenre",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/PrimarySource",
-                    "http://purl.org/wittgensteinsource/ont/Bemerkung",
-                    "http://purl.org/wittgensteinsource/ont/WittgensteinSource",
-                    "http://purl.org/wittgensteinsource/ont/Werk"
-                ],
-                "score-cands": [
-                    0.7201167941093445,
-                    0.6825207471847534,
-                    0.6678335070610046,
-                    0.6604693531990051,
-                    0.6527105569839478,
-                    0.6511187553405762,
-                    0.6111199855804443,
-                    0.6092609167098999,
-                    0.6053705811500549,
-                    0.5633739829063416,
-                    0.5566613078117371,
-                    0.5493456125259399,
-                    0.5471150279045105
-                ]
-            },
-            {
-                "source": "https://schema.org/Book",
-                "target-cands": [
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
-                    "http://purl.org/wittgensteinsource/ont/Werk",
-                    "http://purl.org/wittgensteinsource/ont/Part",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
-                    "http://purl.org/wittgensteinsource/ont/TS",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/TextSubGenre",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Language",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Date",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
-                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/PrimarySource",
-                    "http://example.org/tractatus-alignment/TractatusProposition",
-                    "http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource",
-                    "http://purl.org/wittgensteinsource/ont/Bemerkung"
-                ],
-                "score-cands": [
-                    0.7099828720092773,
-                    0.7039003372192383,
-                    0.6882387399673462,
-                    0.6575943231582642,
-                    0.6467435956001282,
-                    0.6450892090797424,
-                    0.642280638217926,
-                    0.5810026526451111,
-                    0.5775249600410461,
-                    0.5766761302947998,
-                    0.5754886865615845,
-                    0.5605994462966919,
-                    0.5348989367485046
-                ]
-            },
-            {
                 "source": "http://example.org/wittgensteiniana/TextFragment",
                 "target-cands": [
                     "http://purl.org/wittgensteinsource/ont/Part",
@@ -184,19 +19,19 @@
                     "http://purl.org/wittgensteinsource/ont/Werk"
                 ],
                 "score-cands": [
-                    0.7077410221099854,
-                    0.6764683127403259,
-                    0.6690616607666016,
-                    0.6532615423202515,
-                    0.6400684118270874,
-                    0.6341331005096436,
-                    0.6317534446716309,
-                    0.6190151572227478,
-                    0.6062990427017212,
-                    0.6051554679870605,
-                    0.5959495902061462,
-                    0.5566537976264954,
-                    0.5399274826049805
+                    0.7067694664001465,
+                    0.676017165184021,
+                    0.669068455696106,
+                    0.6538947820663452,
+                    0.6401804685592651,
+                    0.6337800621986389,
+                    0.6314634084701538,
+                    0.618058443069458,
+                    0.6066988706588745,
+                    0.6053996682167053,
+                    0.5956036448478699,
+                    0.5570005774497986,
+                    0.5395895838737488
                 ]
             },
             {
@@ -217,19 +52,85 @@
                     "http://purl.org/wittgensteinsource/ont/Werk"
                 ],
                 "score-cands": [
-                    0.9998695850372314,
-                    0.6935219764709473,
-                    0.6884138584136963,
-                    0.6841151714324951,
-                    0.6776468753814697,
-                    0.6404786109924316,
-                    0.615760326385498,
-                    0.6091153621673584,
-                    0.6069852709770203,
-                    0.604343593120575,
-                    0.5907129049301147,
-                    0.5724957585334778,
-                    0.5410014390945435
+                    0.9998918771743774,
+                    0.6924828290939331,
+                    0.687958300113678,
+                    0.6833741664886475,
+                    0.6770976185798645,
+                    0.6397393345832825,
+                    0.6154004335403442,
+                    0.6098884344100952,
+                    0.6066237688064575,
+                    0.6038567423820496,
+                    0.5909351110458374,
+                    0.571908712387085,
+                    0.5402277112007141
+                ]
+            },
+            {
+                "source": "http://example.org/wittgensteiniana/Author",
+                "target-cands": [
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
+                    "http://purl.org/wittgensteinsource/ont/Part",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Language",
+                    "http://purl.org/wittgensteinsource/ont/TS",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/TextSubGenre",
+                    "http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/PrimarySource",
+                    "http://purl.org/wittgensteinsource/ont/Werk",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Date",
+                    "http://purl.org/wittgensteinsource/ont/WittgensteinSource",
+                    "http://example.org/tractatus-alignment/TractatusProposition"
+                ],
+                "score-cands": [
+                    0.7325071096420288,
+                    0.6826863288879395,
+                    0.6818770170211792,
+                    0.6662615537643433,
+                    0.6619389653205872,
+                    0.6253834962844849,
+                    0.6166320443153381,
+                    0.6162607073783875,
+                    0.6126922369003296,
+                    0.6048811674118042,
+                    0.5930817127227783,
+                    0.5784206390380859,
+                    0.5778425931930542
+                ]
+            },
+            {
+                "source": "https://schema.org/Book",
+                "target-cands": [
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
+                    "http://purl.org/wittgensteinsource/ont/Werk",
+                    "http://purl.org/wittgensteinsource/ont/Part",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
+                    "http://purl.org/wittgensteinsource/ont/TS",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/TextSubGenre",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Language",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Date",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/PrimarySource",
+                    "http://example.org/tractatus-alignment/TractatusProposition",
+                    "http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource",
+                    "http://purl.org/wittgensteinsource/ont/Bemerkung"
+                ],
+                "score-cands": [
+                    0.7100160121917725,
+                    0.7032359838485718,
+                    0.6886249780654907,
+                    0.6571832299232483,
+                    0.6475109457969666,
+                    0.6456125974655151,
+                    0.6430728435516357,
+                    0.581816554069519,
+                    0.5777897238731384,
+                    0.5764458775520325,
+                    0.5758156180381775,
+                    0.5610200762748718,
+                    0.5350337624549866
                 ]
             },
             {
@@ -250,19 +151,52 @@
                     "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person"
                 ],
                 "score-cands": [
-                    0.7818008661270142,
-                    0.7078942656517029,
-                    0.6932527422904968,
-                    0.6727684140205383,
-                    0.650865912437439,
-                    0.6400558948516846,
-                    0.6208903789520264,
-                    0.6167870163917542,
-                    0.6129838228225708,
-                    0.607804000377655,
-                    0.5908428430557251,
-                    0.5627598762512207,
-                    0.5539460182189941
+                    0.7821817398071289,
+                    0.707076907157898,
+                    0.6929110288619995,
+                    0.6727157235145569,
+                    0.6503379344940186,
+                    0.6398177742958069,
+                    0.6208218932151794,
+                    0.6161436438560486,
+                    0.6129648685455322,
+                    0.607512354850769,
+                    0.5907303094863892,
+                    0.5624121427536011,
+                    0.5536737442016602
+                ]
+            },
+            {
+                "source": "https://schema.org/DefinedTerm",
+                "target-cands": [
+                    "http://purl.org/wittgensteinsource/ont/Part",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
+                    "http://purl.org/wittgensteinsource/ont/TS",
+                    "http://example.org/tractatus-alignment/TractatusProposition",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Language",
+                    "http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Date",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/TextSubGenre",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/PrimarySource",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
+                    "http://purl.org/wittgensteinsource/ont/Bemerkung",
+                    "http://purl.org/wittgensteinsource/ont/Werk"
+                ],
+                "score-cands": [
+                    0.7305895090103149,
+                    0.7286338210105896,
+                    0.7149781584739685,
+                    0.6921793222427368,
+                    0.6889942288398743,
+                    0.6603601574897766,
+                    0.6471947431564331,
+                    0.6237273216247559,
+                    0.6199731230735779,
+                    0.5996001362800598,
+                    0.5652064681053162,
+                    0.56501704454422,
+                    0.5628906488418579
                 ]
             },
             {
@@ -283,350 +217,58 @@
                     "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person"
                 ],
                 "score-cands": [
-                    0.6438634395599365,
-                    0.6227707266807556,
-                    0.5940945148468018,
-                    0.5830493569374084,
-                    0.5801419019699097,
-                    0.5755104422569275,
-                    0.5667895674705505,
-                    0.5663502216339111,
-                    0.561098575592041,
-                    0.5367239713668823,
-                    0.5092814564704895,
-                    0.5075610876083374,
-                    0.5067411065101624
+                    0.6439160704612732,
+                    0.6225565075874329,
+                    0.5932912230491638,
+                    0.5826902389526367,
+                    0.5791870355606079,
+                    0.5747255086898804,
+                    0.5667271018028259,
+                    0.5659054517745972,
+                    0.5609833002090454,
+                    0.5367134213447571,
+                    0.5083068013191223,
+                    0.5073477029800415,
+                    0.5070047974586487
+                ]
+            },
+            {
+                "source": "https://schema.org/DefinedTermSet",
+                "target-cands": [
+                    "http://purl.org/wittgensteinsource/ont/TS",
+                    "http://purl.org/wittgensteinsource/ont/Part",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
+                    "http://example.org/tractatus-alignment/TractatusProposition",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Language",
+                    "http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Date",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/TextSubGenre",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
+                    "http://purl.org/wittgensteinsource/ont/scholar/0.1/PrimarySource",
+                    "http://purl.org/wittgensteinsource/ont/Bemerkung",
+                    "http://purl.org/wittgensteinsource/ont/WittgensteinSource",
+                    "http://purl.org/wittgensteinsource/ont/Werk"
+                ],
+                "score-cands": [
+                    0.7194662690162659,
+                    0.6823124289512634,
+                    0.6670938730239868,
+                    0.6603673100471497,
+                    0.6516600847244263,
+                    0.6512140035629272,
+                    0.6114465594291687,
+                    0.6098848581314087,
+                    0.6051031351089478,
+                    0.5635383129119873,
+                    0.5570618510246277,
+                    0.549351155757904,
+                    0.5468276739120483
                 ]
             }
         ]
     },
     {
         "llm-output": [
-            {
-                "source": "http://example.org/wittgensteiniana/Author",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
-                "score": 0.8892729878425598
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Author",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
-                "score": 0.8892725706100464
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Author",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
-                "score": 0.8411310911178589
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Author",
-                "target": "http://purl.org/wittgensteinsource/ont/Part",
-                "score": 0.8411310911178589
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Author",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Language",
-                "score": 0.8892725706100464
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Author",
-                "target": "http://purl.org/wittgensteinsource/ont/TS",
-                "score": 0.811277449131012
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Author",
-                "target": "http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource",
-                "score": 0.811277449131012
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Author",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/TextSubGenre",
-                "score": 0.7772998809814453
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Author",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/PrimarySource",
-                "score": 0.7772998809814453
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Author",
-                "target": "http://purl.org/wittgensteinsource/ont/Werk",
-                "score": 0.8411310911178589
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Author",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Date",
-                "score": 0.8411310911178589
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Author",
-                "target": "http://purl.org/wittgensteinsource/ont/WittgensteinSource",
-                "score": 0.7772998809814453
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Author",
-                "target": "http://example.org/tractatus-alignment/TractatusProposition",
-                "score": 0.7391716837882996
-            },
-            {
-                "source": "https://schema.org/DefinedTerm",
-                "target": "http://purl.org/wittgensteinsource/ont/Part",
-                "score": 0.8411310911178589
-            },
-            {
-                "source": "https://schema.org/DefinedTerm",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
-                "score": 0.8670358061790466
-            },
-            {
-                "source": "https://schema.org/DefinedTerm",
-                "target": "http://purl.org/wittgensteinsource/ont/TS",
-                "score": 0.7772998809814453
-            },
-            {
-                "source": "https://schema.org/DefinedTerm",
-                "target": "http://example.org/tractatus-alignment/TractatusProposition",
-                "score": 0.811277449131012
-            },
-            {
-                "source": "https://schema.org/DefinedTerm",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Language",
-                "score": 0.9081843495368958
-            },
-            {
-                "source": "https://schema.org/DefinedTerm",
-                "target": "http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource",
-                "score": 0.8670357465744019
-            },
-            {
-                "source": "https://schema.org/DefinedTerm",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
-                "score": 0.9081846475601196
-            },
-            {
-                "source": "https://schema.org/DefinedTerm",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Date",
-                "score": 0.8892729878425598
-            },
-            {
-                "source": "https://schema.org/DefinedTerm",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/TextSubGenre",
-                "score": 0.8892729878425598
-            },
-            {
-                "source": "https://schema.org/DefinedTerm",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/PrimarySource",
-                "score": 0.8892725706100464
-            },
-            {
-                "source": "https://schema.org/DefinedTerm",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
-                "score": 0.9081846475601196
-            },
-            {
-                "source": "https://schema.org/DefinedTerm",
-                "target": "http://purl.org/wittgensteinsource/ont/Bemerkung",
-                "score": 0.8892725706100464
-            },
-            {
-                "source": "https://schema.org/DefinedTerm",
-                "target": "http://purl.org/wittgensteinsource/ont/Werk",
-                "score": 0.8411310911178589
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Thesis",
-                "target": "http://purl.org/wittgensteinsource/ont/TS",
-                "score": 0.7772998213768005
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Thesis",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
-                "score": 0.7391709685325623
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Thesis",
-                "target": "http://purl.org/wittgensteinsource/ont/Part",
-                "score": 0.8411310911178589
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Thesis",
-                "target": "http://example.org/tractatus-alignment/TractatusProposition",
-                "score": 0.6970589756965637
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Thesis",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
-                "score": 0.8112779855728149
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Thesis",
-                "target": "http://purl.org/wittgensteinsource/ont/Werk",
-                "score": 0.8670357465744019
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Thesis",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Language",
-                "score": 0.8411310911178589
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Thesis",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/PrimarySource",
-                "score": 0.7391716837882996
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Thesis",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/TextSubGenre",
-                "score": 0.7772998809814453
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Thesis",
-                "target": "http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource",
-                "score": 0.8411304950714111
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Thesis",
-                "target": "http://purl.org/wittgensteinsource/ont/Bemerkung",
-                "score": 0.8670357465744019
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Thesis",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Date",
-                "score": 0.811277449131012
-            },
-            {
-                "source": "http://example.org/wittgensteiniana/Thesis",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
-                "score": 0.8112779855728149
-            },
-            {
-                "source": "https://schema.org/DefinedTermSet",
-                "target": "http://purl.org/wittgensteinsource/ont/TS",
-                "score": 0.8670357465744019
-            },
-            {
-                "source": "https://schema.org/DefinedTermSet",
-                "target": "http://purl.org/wittgensteinsource/ont/Part",
-                "score": 0.8670357465744019
-            },
-            {
-                "source": "https://schema.org/DefinedTermSet",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
-                "score": 0.8411304950714111
-            },
-            {
-                "source": "https://schema.org/DefinedTermSet",
-                "target": "http://example.org/tractatus-alignment/TractatusProposition",
-                "score": 0.8112779855728149
-            },
-            {
-                "source": "https://schema.org/DefinedTermSet",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Language",
-                "score": 0.9081846475601196
-            },
-            {
-                "source": "https://schema.org/DefinedTermSet",
-                "target": "http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource",
-                "score": 0.8892729878425598
-            },
-            {
-                "source": "https://schema.org/DefinedTermSet",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Date",
-                "score": 0.8892725706100464
-            },
-            {
-                "source": "https://schema.org/DefinedTermSet",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/TextSubGenre",
-                "score": 0.9081846475601196
-            },
-            {
-                "source": "https://schema.org/DefinedTermSet",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
-                "score": 0.9081846475601196
-            },
-            {
-                "source": "https://schema.org/DefinedTermSet",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/PrimarySource",
-                "score": 0.8670357465744019
-            },
-            {
-                "source": "https://schema.org/DefinedTermSet",
-                "target": "http://purl.org/wittgensteinsource/ont/Bemerkung",
-                "score": 0.9241418242454529
-            },
-            {
-                "source": "https://schema.org/DefinedTermSet",
-                "target": "http://purl.org/wittgensteinsource/ont/WittgensteinSource",
-                "score": 0.8411310911178589
-            },
-            {
-                "source": "https://schema.org/DefinedTermSet",
-                "target": "http://purl.org/wittgensteinsource/ont/Werk",
-                "score": 0.8892725706100464
-            },
-            {
-                "source": "https://schema.org/Book",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
-                "score": 0.8411304950714111
-            },
-            {
-                "source": "https://schema.org/Book",
-                "target": "http://purl.org/wittgensteinsource/ont/Werk",
-                "score": 0.8670358061790466
-            },
-            {
-                "source": "https://schema.org/Book",
-                "target": "http://purl.org/wittgensteinsource/ont/Part",
-                "score": 0.8112779855728149
-            },
-            {
-                "source": "https://schema.org/Book",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
-                "score": 0.8411310911178589
-            },
-            {
-                "source": "https://schema.org/Book",
-                "target": "http://purl.org/wittgensteinsource/ont/TS",
-                "score": 0.7391716837882996
-            },
-            {
-                "source": "https://schema.org/Book",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/TextSubGenre",
-                "score": 0.7772998809814453
-            },
-            {
-                "source": "https://schema.org/Book",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Language",
-                "score": 0.8670357465744019
-            },
-            {
-                "source": "https://schema.org/Book",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Date",
-                "score": 0.7772998809814453
-            },
-            {
-                "source": "https://schema.org/Book",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
-                "score": 0.8411310911178589
-            },
-            {
-                "source": "https://schema.org/Book",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/PrimarySource",
-                "score": 0.7391716837882996
-            },
-            {
-                "source": "https://schema.org/Book",
-                "target": "http://example.org/tractatus-alignment/TractatusProposition",
-                "score": 0.6970589756965637
-            },
-            {
-                "source": "https://schema.org/Book",
-                "target": "http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource",
-                "score": 0.8112779855728149
-            },
-            {
-                "source": "https://schema.org/Book",
-                "target": "http://purl.org/wittgensteinsource/ont/Bemerkung",
-                "score": 0.8411310911178589
-            },
             {
                 "source": "http://example.org/wittgensteiniana/TextFragment",
                 "target": "http://purl.org/wittgensteinsource/ont/Part",
@@ -758,64 +400,194 @@
                 "score": 0.8670357465744019
             },
             {
-                "source": "https://schema.org/Chapter",
-                "target": "http://purl.org/wittgensteinsource/ont/Part",
-                "score": 0.8112779855728149
+                "source": "http://example.org/wittgensteiniana/Author",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
+                "score": 0.8892725706100464
             },
             {
-                "source": "https://schema.org/Chapter",
+                "source": "http://example.org/wittgensteiniana/Author",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
+                "score": 0.8670358061790466
+            },
+            {
+                "source": "http://example.org/wittgensteiniana/Author",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
+                "score": 0.8670358061790466
+            },
+            {
+                "source": "http://example.org/wittgensteiniana/Author",
+                "target": "http://purl.org/wittgensteinsource/ont/Part",
+                "score": 0.8411310911178589
+            },
+            {
+                "source": "http://example.org/wittgensteiniana/Author",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Language",
+                "score": 0.8892725706100464
+            },
+            {
+                "source": "http://example.org/wittgensteiniana/Author",
                 "target": "http://purl.org/wittgensteinsource/ont/TS",
                 "score": 0.7772998809814453
             },
             {
-                "source": "https://schema.org/Chapter",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
+                "source": "http://example.org/wittgensteiniana/Author",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/TextSubGenre",
                 "score": 0.8112779855728149
             },
             {
-                "source": "https://schema.org/Chapter",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
-                "score": 0.8411310911178589
-            },
-            {
-                "source": "https://schema.org/Chapter",
-                "target": "http://example.org/tractatus-alignment/TractatusProposition",
-                "score": 0.6513549089431763
-            },
-            {
-                "source": "https://schema.org/Chapter",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/PrimarySource",
-                "score": 0.7772998809814453
-            },
-            {
-                "source": "https://schema.org/Chapter",
+                "source": "http://example.org/wittgensteiniana/Author",
                 "target": "http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource",
                 "score": 0.8411310911178589
             },
             {
-                "source": "https://schema.org/Chapter",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Language",
-                "score": 0.8411310911178589
-            },
-            {
-                "source": "https://schema.org/Chapter",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/TextSubGenre",
-                "score": 0.7772998809814453
-            },
-            {
-                "source": "https://schema.org/Chapter",
-                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Date",
+                "source": "http://example.org/wittgensteiniana/Author",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/PrimarySource",
                 "score": 0.8112779855728149
             },
             {
-                "source": "https://schema.org/Chapter",
+                "source": "http://example.org/wittgensteiniana/Author",
+                "target": "http://purl.org/wittgensteinsource/ont/Werk",
+                "score": 0.8670357465744019
+            },
+            {
+                "source": "http://example.org/wittgensteiniana/Author",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Date",
+                "score": 0.8411310911178589
+            },
+            {
+                "source": "http://example.org/wittgensteiniana/Author",
+                "target": "http://purl.org/wittgensteinsource/ont/WittgensteinSource",
+                "score": 0.7391716837882996
+            },
+            {
+                "source": "http://example.org/wittgensteiniana/Author",
+                "target": "http://example.org/tractatus-alignment/TractatusProposition",
+                "score": 0.7391716837882996
+            },
+            {
+                "source": "https://schema.org/Book",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
+                "score": 0.8411310911178589
+            },
+            {
+                "source": "https://schema.org/Book",
+                "target": "http://purl.org/wittgensteinsource/ont/Werk",
+                "score": 0.8411310911178589
+            },
+            {
+                "source": "https://schema.org/Book",
+                "target": "http://purl.org/wittgensteinsource/ont/Part",
+                "score": 0.7772998809814453
+            },
+            {
+                "source": "https://schema.org/Book",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
+                "score": 0.8670357465744019
+            },
+            {
+                "source": "https://schema.org/Book",
+                "target": "http://purl.org/wittgensteinsource/ont/TS",
+                "score": 0.7772998809814453
+            },
+            {
+                "source": "https://schema.org/Book",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/TextSubGenre",
+                "score": 0.7391709685325623
+            },
+            {
+                "source": "https://schema.org/Book",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Language",
+                "score": 0.811277449131012
+            },
+            {
+                "source": "https://schema.org/Book",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Date",
+                "score": 0.7772998809814453
+            },
+            {
+                "source": "https://schema.org/Book",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
+                "score": 0.8411310911178589
+            },
+            {
+                "source": "https://schema.org/Book",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/PrimarySource",
+                "score": 0.7391709685325623
+            },
+            {
+                "source": "https://schema.org/Book",
+                "target": "http://example.org/tractatus-alignment/TractatusProposition",
+                "score": 0.6513549089431763
+            },
+            {
+                "source": "https://schema.org/Book",
+                "target": "http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource",
+                "score": 0.8411310911178589
+            },
+            {
+                "source": "https://schema.org/Book",
                 "target": "http://purl.org/wittgensteinsource/ont/Bemerkung",
                 "score": 0.8411310911178589
             },
             {
                 "source": "https://schema.org/Chapter",
-                "target": "http://purl.org/wittgensteinsource/ont/Werk",
+                "target": "http://purl.org/wittgensteinsource/ont/Part",
+                "score": 0.8112779855728149
+            },
+            {
+                "source": "https://schema.org/Chapter",
+                "target": "http://purl.org/wittgensteinsource/ont/TS",
                 "score": 0.811277449131012
+            },
+            {
+                "source": "https://schema.org/Chapter",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
+                "score": 0.8411310911178589
+            },
+            {
+                "source": "https://schema.org/Chapter",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
+                "score": 0.8670357465744019
+            },
+            {
+                "source": "https://schema.org/Chapter",
+                "target": "http://example.org/tractatus-alignment/TractatusProposition",
+                "score": 0.6970590353012085
+            },
+            {
+                "source": "https://schema.org/Chapter",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/PrimarySource",
+                "score": 0.7772998809814453
+            },
+            {
+                "source": "https://schema.org/Chapter",
+                "target": "http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource",
+                "score": 0.8670358061790466
+            },
+            {
+                "source": "https://schema.org/Chapter",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Language",
+                "score": 0.8411310911178589
+            },
+            {
+                "source": "https://schema.org/Chapter",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/TextSubGenre",
+                "score": 0.7391716837882996
+            },
+            {
+                "source": "https://schema.org/Chapter",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Date",
+                "score": 0.8411310911178589
+            },
+            {
+                "source": "https://schema.org/Chapter",
+                "target": "http://purl.org/wittgensteinsource/ont/Bemerkung",
+                "score": 0.8411304950714111
+            },
+            {
+                "source": "https://schema.org/Chapter",
+                "target": "http://purl.org/wittgensteinsource/ont/Werk",
+                "score": 0.8411310911178589
             },
             {
                 "source": "https://schema.org/Chapter",
@@ -823,14 +595,79 @@
                 "score": 0.8411310911178589
             },
             {
+                "source": "https://schema.org/DefinedTerm",
+                "target": "http://purl.org/wittgensteinsource/ont/Part",
+                "score": 0.8411310911178589
+            },
+            {
+                "source": "https://schema.org/DefinedTerm",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
+                "score": 0.8670358061790466
+            },
+            {
+                "source": "https://schema.org/DefinedTerm",
+                "target": "http://purl.org/wittgensteinsource/ont/TS",
+                "score": 0.7772998809814453
+            },
+            {
+                "source": "https://schema.org/DefinedTerm",
+                "target": "http://example.org/tractatus-alignment/TractatusProposition",
+                "score": 0.811277449131012
+            },
+            {
+                "source": "https://schema.org/DefinedTerm",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Language",
+                "score": 0.9081843495368958
+            },
+            {
+                "source": "https://schema.org/DefinedTerm",
+                "target": "http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource",
+                "score": 0.8670357465744019
+            },
+            {
+                "source": "https://schema.org/DefinedTerm",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
+                "score": 0.9081846475601196
+            },
+            {
+                "source": "https://schema.org/DefinedTerm",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Date",
+                "score": 0.8892729878425598
+            },
+            {
+                "source": "https://schema.org/DefinedTerm",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/TextSubGenre",
+                "score": 0.8892729878425598
+            },
+            {
+                "source": "https://schema.org/DefinedTerm",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/PrimarySource",
+                "score": 0.8892725706100464
+            },
+            {
+                "source": "https://schema.org/DefinedTerm",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
+                "score": 0.9081846475601196
+            },
+            {
+                "source": "https://schema.org/DefinedTerm",
+                "target": "http://purl.org/wittgensteinsource/ont/Bemerkung",
+                "score": 0.8892725706100464
+            },
+            {
+                "source": "https://schema.org/DefinedTerm",
+                "target": "http://purl.org/wittgensteinsource/ont/Werk",
+                "score": 0.8411310911178589
+            },
+            {
                 "source": "https://schema.org/CreativeWork",
                 "target": "http://purl.org/wittgensteinsource/ont/Werk",
-                "score": 0.8670357465744019
+                "score": 0.8411310911178589
             },
             {
                 "source": "https://schema.org/CreativeWork",
                 "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
-                "score": 0.7391716837882996
+                "score": 0.6513549089431763
             },
             {
                 "source": "https://schema.org/CreativeWork",
@@ -840,22 +677,22 @@
             {
                 "source": "https://schema.org/CreativeWork",
                 "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
-                "score": 0.6513549089431763
+                "score": 0.6970590353012085
             },
             {
                 "source": "https://schema.org/CreativeWork",
                 "target": "http://purl.org/wittgensteinsource/ont/Part",
-                "score": 0.811277449131012
+                "score": 0.8112773895263672
             },
             {
                 "source": "https://schema.org/CreativeWork",
                 "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/TextSubGenre",
-                "score": 0.6970589756965637
+                "score": 0.6513548493385315
             },
             {
                 "source": "https://schema.org/CreativeWork",
                 "target": "http://purl.org/wittgensteinsource/ont/WittgensteinSource",
-                "score": 0.7772998809814453
+                "score": 0.8112773895263672
             },
             {
                 "source": "https://schema.org/CreativeWork",
@@ -875,7 +712,7 @@
             {
                 "source": "https://schema.org/CreativeWork",
                 "target": "http://example.org/tractatus-alignment/TractatusProposition",
-                "score": 0.6026856303215027
+                "score": 0.6513549089431763
             },
             {
                 "source": "https://schema.org/CreativeWork",
@@ -885,7 +722,72 @@
             {
                 "source": "https://schema.org/CreativeWork",
                 "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
-                "score": 0.6970590353012085
+                "score": 0.6513549089431763
+            },
+            {
+                "source": "https://schema.org/DefinedTermSet",
+                "target": "http://purl.org/wittgensteinsource/ont/TS",
+                "score": 0.8670357465744019
+            },
+            {
+                "source": "https://schema.org/DefinedTermSet",
+                "target": "http://purl.org/wittgensteinsource/ont/Part",
+                "score": 0.8670357465744019
+            },
+            {
+                "source": "https://schema.org/DefinedTermSet",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
+                "score": 0.8670357465744019
+            },
+            {
+                "source": "https://schema.org/DefinedTermSet",
+                "target": "http://example.org/tractatus-alignment/TractatusProposition",
+                "score": 0.8670357465744019
+            },
+            {
+                "source": "https://schema.org/DefinedTermSet",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Language",
+                "score": 0.8892725706100464
+            },
+            {
+                "source": "https://schema.org/DefinedTermSet",
+                "target": "http://purl.org/wittgensteinsource/ont/WittgensteinExternalSource",
+                "score": 0.8892729878425598
+            },
+            {
+                "source": "https://schema.org/DefinedTermSet",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Date",
+                "score": 0.8670358061790466
+            },
+            {
+                "source": "https://schema.org/DefinedTermSet",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/TextSubGenre",
+                "score": 0.8892725706100464
+            },
+            {
+                "source": "https://schema.org/DefinedTermSet",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Source",
+                "score": 0.9081843495368958
+            },
+            {
+                "source": "https://schema.org/DefinedTermSet",
+                "target": "http://purl.org/wittgensteinsource/ont/scholar/0.1/PrimarySource",
+                "score": 0.8411304950714111
+            },
+            {
+                "source": "https://schema.org/DefinedTermSet",
+                "target": "http://purl.org/wittgensteinsource/ont/Bemerkung",
+                "score": 0.9241418242454529
+            },
+            {
+                "source": "https://schema.org/DefinedTermSet",
+                "target": "http://purl.org/wittgensteinsource/ont/WittgensteinSource",
+                "score": 0.811277449131012
+            },
+            {
+                "source": "https://schema.org/DefinedTermSet",
+                "target": "http://purl.org/wittgensteinsource/ont/Werk",
+                "score": 0.8892725706100464
             }
         ]
     }

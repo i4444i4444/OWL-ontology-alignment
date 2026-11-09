@@ -3,6 +3,10 @@
 # modified.
 # Comment sources (verified, no invented text):
 #   - classes Thesis / TextFragment / Author: docstrings of the
+#     original normalization layer and Pasin's Django sources
+#     (TextUnit = the proposition units, typed schema:Chapter in the
+#     official export; the separate ex:Thesis class was dropped as a
+#     redundant duplicate layer of the same individuals),
 #     tractatusapp models in Michele Pasin's Wittgensteiniana
 #     (https://github.com/lambdamusic/wittgensteiniana,
 #     src/apps/tractatusapp/models.py);
@@ -19,13 +23,11 @@
 
 ex:Author rdfs:comment "An author of a text expression. The official export records authorship as literal schema:author values; this class reifies those values as resources with rdfs:label."@en .
 
-ex:TextFragment rdfs:comment "A fragment of an expression in FRBR terms: the symbolic contents of a text unit. If the symbols are organized using a code, that code (for example a language) can be specified too. Corresponds to TextFragment in Pasin's Django model and to schema:CreativeWork in the official RDF export."@en .
-
-ex:Thesis rdfs:comment "An abstract logical unit of a text, without its textual contents. In the Tractatus each numbered proposition (for example '1.1' or '7') is such a unit; its proposition number is carried by schema:name. Corresponds to TextUnit in Pasin's Django model and to schema:Chapter in the official RDF export."@en .
+ex:TextFragment rdfs:comment "A fragment of an expression in FRBR terms: the symbolic contents of a text unit. If the symbols are organized using a code, that code (for example a language) can be specified too. Corresponds to TextFragment in Pasin's Django model and to schema:CreativeWork in the official RDF export (there typed as the fragment's additional schema:CreativeWork typing)."@en .
 
 ex:hasAuthor rdfs:comment "Relates a book to one of its authors. Local replacement for the literal schema:author values used in the official export."@en .
 
-ex:hasTextFragment rdfs:comment "Relates a text unit (ex:Thesis) to one of its text fragments. Inverse of schema:exampleOfWork."@en .
+ex:hasTextFragment rdfs:comment "Relates a text unit (schema:Chapter) to one of its text fragments. Inverse of schema:exampleOfWork."@en .
 
 schema:Book rdfs:comment "A book. In this dataset: the Tractatus Logico-Philosophicus (the German original) and its two English editions (Ogden 1922; Pears and McGuinness 1961)."@en .
 

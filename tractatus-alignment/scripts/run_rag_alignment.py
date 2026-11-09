@@ -82,10 +82,12 @@ for name, paths in FILES.items():
     print(f"Prepared: {name}")
 
 # top_k must not exceed the number of target classes in each direction
-# (torch.topk would fail otherwise): wab2witt has 9 Witt targets,
-# witt2wab has 13 WAB targets -> give the retriever every candidate.
+# (torch.topk would fail otherwise): wab2witt has 8 Witt targets
+# (the redundant ex:Thesis class was dropped - the original export types
+# the proposition units schema:Chapter only), witt2wab has 13 WAB
+# targets -> give the retriever every candidate.
 RETRIEVER_CONFIGS = {
-    "wab2witt": {"device": "cuda", "top_k": 9, "threshold": 0.1},
+    "wab2witt": {"device": "cuda", "top_k": 8, "threshold": 0.1},
     "witt2wab": {"device": "cuda", "top_k": 13, "threshold": 0.1},
 }
 LLM_CONFIG = {

@@ -14,7 +14,7 @@
     <map>
       <Cell>
         <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/Part"/>
-        <entity2 rdf:resource="http://example.org/wittgensteiniana/Thesis"/>
+        <entity2 rdf:resource="http://example.org/wittgensteiniana/TextFragment"/>
         <relation>=</relation>
       </Cell>
     </map>
@@ -35,7 +35,7 @@
     <map>
       <Cell>
         <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/TS"/>
-        <entity2 rdf:resource="http://example.org/wittgensteiniana/Thesis"/>
+        <entity2 rdf:resource="https://schema.org/Chapter"/>
         <relation>=</relation>
       </Cell>
     </map>
@@ -56,7 +56,7 @@
     <map>
       <Cell>
         <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject"/>
-        <entity2 rdf:resource="http://example.org/wittgensteiniana/Thesis"/>
+        <entity2 rdf:resource="https://schema.org/Book"/>
         <relation>=</relation>
       </Cell>
     </map>

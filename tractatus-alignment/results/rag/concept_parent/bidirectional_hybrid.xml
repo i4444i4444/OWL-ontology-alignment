@@ -13,6 +13,13 @@
     </map>
     <map>
       <Cell>
+        <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/TS"/>
+        <entity2 rdf:resource="https://schema.org/DefinedTermSet"/>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
         <entity1 rdf:resource="http://purl.org/wittgensteinsource/ont/scholar/0.1/Person"/>
         <entity2 rdf:resource="http://example.org/wittgensteiniana/Author"/>
         <relation>=</relation>

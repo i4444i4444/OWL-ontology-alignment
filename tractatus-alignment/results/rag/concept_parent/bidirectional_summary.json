@@ -2,10 +2,10 @@
     "heuristic": {
         "fw": {
             "intersection": 3,
-            "precision": 15.789473684210526,
+            "precision": 16.666666666666664,
             "recall": 60.0,
-            "f-score": 25.0,
-            "predictions-len": 19,
+            "f-score": 26.08695652173913,
+            "predictions-len": 18,
             "reference-len": 5
         },
         "rev": {
@@ -44,10 +44,10 @@
         },
         "both": {
             "intersection": 2,
-            "precision": 100.0,
+            "precision": 66.66666666666666,
             "recall": 40.0,
-            "f-score": 57.14285714285715,
-            "predictions-len": 2,
+            "f-score": 50.0,
+            "predictions-len": 3,
             "reference-len": 5
         }
     }

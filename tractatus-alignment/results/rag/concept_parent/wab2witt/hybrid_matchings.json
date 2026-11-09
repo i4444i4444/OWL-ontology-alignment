@@ -1,27 +1,27 @@
 [
     {
-        "source": "http://purl.org/wittgensteinsource/ont/Part",
-        "target": "https://schema.org/Chapter",
-        "score": 0.7818008065223694
-    },
-    {
-        "source": "http://purl.org/wittgensteinsource/ont/TS",
-        "target": "http://example.org/wittgensteiniana/Thesis",
-        "score": 0.8016112446784973
-    },
-    {
         "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Person",
         "target": "http://example.org/wittgensteiniana/Author",
-        "score": 0.7326699495315552
+        "score": 0.7325068712234497
     },
     {
-        "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
-        "target": "https://schema.org/Book",
-        "score": 0.7099828720092773
+        "source": "http://purl.org/wittgensteinsource/ont/Part",
+        "target": "https://schema.org/Chapter",
+        "score": 0.7821819186210632
     },
     {
         "source": "http://purl.org/wittgensteinsource/ont/Werk",
         "target": "https://schema.org/CreativeWork",
-        "score": 0.6438634395599365
+        "score": 0.6439160704612732
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
+        "target": "https://schema.org/Book",
+        "score": 0.7100160121917725
+    },
+    {
+        "source": "http://purl.org/wittgensteinsource/ont/TS",
+        "target": "https://schema.org/DefinedTermSet",
+        "score": 0.7194662690162659
     }
 ]

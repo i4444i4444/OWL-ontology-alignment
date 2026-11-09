@@ -6,7 +6,7 @@
     },
     {
         "source": "http://purl.org/wittgensteinsource/ont/Part",
-        "target": "http://example.org/wittgensteiniana/Thesis",
+        "target": "http://example.org/wittgensteiniana/TextFragment",
         "relation": "="
     },
     {
@@ -21,7 +21,7 @@
     },
     {
         "source": "http://purl.org/wittgensteinsource/ont/TS",
-        "target": "http://example.org/wittgensteiniana/Thesis",
+        "target": "https://schema.org/Chapter",
         "relation": "="
     },
     {
@@ -36,7 +36,7 @@
     },
     {
         "source": "http://purl.org/wittgensteinsource/ont/scholar/0.1/Subject",
-        "target": "http://example.org/wittgensteiniana/Thesis",
+        "target": "https://schema.org/Book",
         "relation": "="
     },
     {

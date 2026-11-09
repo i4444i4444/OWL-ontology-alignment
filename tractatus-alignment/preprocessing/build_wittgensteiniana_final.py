@@ -33,13 +33,12 @@ for class_uri in schema_classes:
     graph.add((class_uri, RDF.type, OWL.Class))
 
 graph.add((EX.Author, RDF.type, OWL.Class))
-graph.add((EX.Thesis, RDF.type, OWL.Class))
 graph.add((EX.TextFragment, RDF.type, OWL.Class))
 
 object_property_constraints = {
     EX.hasAuthor: (SCHEMA.Book, EX.Author),
-    EX.hasTextFragment: (EX.Thesis, EX.TextFragment),
-    SCHEMA.exampleOfWork: (EX.TextFragment, EX.Thesis),
+    EX.hasTextFragment: (SCHEMA.Chapter, EX.TextFragment),
+    SCHEMA.exampleOfWork: (EX.TextFragment, SCHEMA.Chapter),
     SCHEMA.inDefinedTermSet: (
         SCHEMA.DefinedTerm,
         SCHEMA.DefinedTermSet
@@ -48,7 +47,7 @@ object_property_constraints = {
         SCHEMA.CreativeWork,
         SCHEMA.CreativeWork
     ),
-    SCHEMA.mentions: (EX.Thesis, SCHEMA.DefinedTerm),
+    SCHEMA.mentions: (SCHEMA.Chapter, SCHEMA.DefinedTerm),
     SCHEMA.translationOfWork: (SCHEMA.Book, SCHEMA.Book)
 }
 
@@ -60,6 +59,9 @@ for property_uri, (domain_class, range_class) in (
     graph.add((property_uri, RDFS.range, range_class))
 
 
+# unit inventory: count the proposition units (schema:Chapter with a
+# proposition-number name) without adding any redundant class typing -
+# the original export already types them schema:Chapter only
 thesis_count = 0
 
 for unit, _, number in list(graph.triples((None, SCHEMA.name, None))):
@@ -76,7 +78,6 @@ for unit, _, number in list(graph.triples((None, SCHEMA.name, None))):
     ):
         continue
 
-    graph.add((unit, RDF.type, EX.Thesis))
     thesis_count += 1
 
 
@@ -90,7 +91,7 @@ for fragment, _, unit in list(
     ):
         continue
 
-    if (unit, RDF.type, EX.Thesis) not in graph:
+    if (unit, RDF.type, SCHEMA.Chapter) not in graph:
         continue
 
     graph.add((fragment, RDF.type, EX.TextFragment))
@@ -153,6 +154,7 @@ for property_uri in datatype_properties:
     if all(
         isinstance(value, Literal)
         and value.datatype == XSD.integer
+        and not value.language
         for value in values
     ):
         graph.add((
@@ -160,7 +162,15 @@ for property_uri in datatype_properties:
             RDFS.range,
             XSD.integer
         ))
-    else:
+    elif not any(
+        isinstance(value, Literal) and value.language
+        for value in values
+    ):
+        # plain literals only: safe to declare xsd:string. Language-tagged
+        # literal values have datatype rdf:langString, which contradicts an
+        # xsd:string range and makes the ontology inconsistent for DL
+        # reasoners (Protégé explains: owl:Thing SubClassOf owl:Nothing),
+        # so leave the range undeclared for such properties.
         graph.add((
             property_uri,
             RDFS.range,
@@ -168,7 +178,7 @@ for property_uri in datatype_properties:
         ))
 
 
-graph.add((SCHEMA.position, RDFS.domain, EX.Thesis))
+graph.add((SCHEMA.position, RDFS.domain, SCHEMA.Chapter))
 graph.add((SCHEMA.text, RDFS.domain, EX.TextFragment))
 graph.add((SCHEMA.datePublished, RDFS.domain, SCHEMA.Book))
 graph.add((SCHEMA.description, RDFS.domain, SCHEMA.DefinedTerm))

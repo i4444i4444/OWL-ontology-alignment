@@ -1,7 +1,7 @@
 """
 Build the Tractatus proposition alignment layer (the bridge overlay file).
 
-Numbers: schema:name of ex:Thesis (Wittgensteiniana) and the trailing number
+Numbers: schema:name of schema:Chapter units (Wittgensteiniana) and the trailing number
 in rdfs:label of wab:Part (WAB). Shared numbers become align:TractatusProposition
 resources; each source instance links to them via align:denotesProposition.
 When running OntoAligner the layer is merged into BOTH ontologies, so the
@@ -21,7 +21,6 @@ RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 ALIGNMENT_PATH = DATA_DIR / "tractatus_alignment_layer.ttl"
 
-WITT_ONTO = Namespace("http://example.org/wittgensteiniana/")
 SCHEMA = Namespace("https://schema.org/")
 ALIGN = Namespace("http://example.org/tractatus-alignment/")
 NUMBER = re.compile(r"\d+(?:\.\d+)*\s*$")
@@ -44,7 +43,7 @@ witt.parse(str(DATA_DIR / "wittgensteiniana_final.ttl"), format="turtle")
 wab = Graph()
 wab.parse(str(DATA_DIR / "wab_tractatus_subgraph.ttl"), format="turtle")
 
-witt_numbers = extract_numbers(witt, WITT_ONTO.Thesis, lambda u: witt.value(u, SCHEMA.name))
+witt_numbers = extract_numbers(witt, SCHEMA.Chapter, lambda u: witt.value(u, SCHEMA.name))
 wab_numbers = extract_numbers(wab, Namespace("http://purl.org/wittgensteinsource/ont/").Part,
                               lambda u: wab.value(u, RDFS.label))
 print(f"Numbers: Wittgensteiniana {len(witt_numbers)}, WAB {len(wab_numbers)}")
