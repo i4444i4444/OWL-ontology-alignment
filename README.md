@@ -88,8 +88,11 @@ tractatus-alignment/
   preprocessing/              Wittgensteiniana preprocessing scripts
     cache/                    (ignored) source data and pipeline intermediates
   temp/                       (ignored) RDF/XML conversions regenerable from data/
+  aux/                        (ignored) local-only helpers: one-off analysis
+    scripts, diagnostic/smoke scripts, personal learning notes (docs/)
   results/                    alignment experiment outputs (json)
-  scripts/                    extraction, normalization, alignment and verification
+  scripts/                    the five pipeline scripts only: extraction,
+    normalization, reference build, RAG alignment, Protégé graph build
 ```
 
 `data/wittgenstein.owl` (WAB) is committed once; the Wittgensteiniana source and
