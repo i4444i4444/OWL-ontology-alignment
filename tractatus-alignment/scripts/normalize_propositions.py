@@ -1,3 +1,4 @@
+import json
 import re
 from pathlib import Path
 
@@ -12,19 +13,27 @@ RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 ALIGNMENT_PATH = DATA_DIR / "tractatus_alignment_layer.ttl"
 
 SCHEMA = Namespace("https://schema.org/")
+WAB = Namespace("http://purl.org/wittgensteinsource/ont/")
 ALIGN = Namespace("http://example.org/tractatus-alignment/")
 NUMBER = re.compile(r"\d+(?:\.\d+)*\s*$")
 
 
-def extract_numbers(graph, rdf_type, read):
+def extract_numbers(graph, rdf_type, label_property):
     numbers = {}
     for uri in sorted(set(graph.subjects(RDF.type, rdf_type)), key=str):
-        number = str(read(uri)).strip()
-        match = NUMBER.search(number)
+        text = str(graph.value(uri, label_property)).strip()
+        match = NUMBER.search(text)
         if not match:
             raise ValueError(f"No proposition number at {uri}")
         numbers[match.group(0)] = uri
     return numbers
+
+
+def sort_key(number):
+    parts = []
+    for part in number.split("."):
+        parts.append(int(part))
+    return (tuple(parts), number)
 
 
 witt = Graph()
@@ -32,15 +41,9 @@ witt.parse(str(DATA_DIR / "wittgensteiniana_final.ttl"), format="turtle")
 wab = Graph()
 wab.parse(str(DATA_DIR / "wab_tractatus_subgraph.ttl"), format="turtle")
 
-witt_numbers = extract_numbers(witt, SCHEMA.Chapter, lambda u: witt.value(u, SCHEMA.name))
-wab_numbers = extract_numbers(wab, Namespace("http://purl.org/wittgensteinsource/ont/").Part,
-                              lambda u: wab.value(u, RDFS.label))
+witt_numbers = extract_numbers(witt, SCHEMA.Chapter, SCHEMA.name)
+wab_numbers = extract_numbers(wab, WAB.Part, RDFS.label)
 print(f"Numbers: Wittgensteiniana {len(witt_numbers)}, WAB {len(wab_numbers)}")
-
-
-def sort_key(number):
-    return tuple(int(part) for part in number.split(".")), number
-
 
 common = set(witt_numbers) & set(wab_numbers)
 only_witt = sorted(set(witt_numbers) - set(wab_numbers), key=sort_key)
@@ -50,20 +53,24 @@ print(f"Common: {len(common)}, only Witt: {only_witt}, only WAB: {only_wab}")
 layer = Graph()
 layer.bind("align", ALIGN)
 layer.bind("schema", SCHEMA)
-layer.bind("wab", Namespace("http://purl.org/wittgensteinsource/ont/"))
+layer.bind("wab", WAB)
 layer.bind("rdf", RDF)
 layer.bind("rdfs", RDFS)
 layer.bind("owl", OWL)
 layer.bind("xsd", XSD)
 
 layer.add((ALIGN.TractatusProposition, RDF.type, OWL.Class))
-layer.add((ALIGN.TractatusProposition, RDFS.label, Literal("Tractatus proposition", lang="en")))
+layer.add((ALIGN.TractatusProposition, RDFS.label,
+           Literal("Tractatus proposition", lang="en")))
 layer.add((ALIGN.hasNumber, RDF.type, OWL.DatatypeProperty))
-layer.add((ALIGN.hasNumber, RDFS.label, Literal("literal proposition number as a string", lang="en")))
+layer.add((ALIGN.hasNumber, RDFS.label,
+           Literal("literal proposition number as a string", lang="en")))
 layer.add((ALIGN.denotesProposition, RDF.type, OWL.ObjectProperty))
-layer.add((ALIGN.denotesProposition, RDFS.label, Literal("source instance denotes a TLP proposition", lang="en")))
+layer.add((ALIGN.denotesProposition, RDFS.label,
+           Literal("source instance denotes a TLP proposition", lang="en")))
 
-for number in sorted(set(witt_numbers) | set(wab_numbers), key=sort_key):
+all_numbers = set(witt_numbers) | set(wab_numbers)
+for number in sorted(all_numbers, key=sort_key):
     proposition = ALIGN[f"Prop_{number.replace('.', '_')}"]
     layer.add((proposition, RDF.type, ALIGN.TractatusProposition))
     layer.add((proposition, RDFS.label, Literal(f"Tractatus {number}", lang="en")))
@@ -73,7 +80,6 @@ for number in sorted(set(witt_numbers) | set(wab_numbers), key=sort_key):
     if number in wab_numbers:
         layer.add((wab_numbers[number], ALIGN.denotesProposition, proposition))
 
-
 W_TLP = URIRef("http://purl.org/wittgensteinsource/ont/instances/W-TLP")
 TRACTATUS = URIRef("http://wittgensteiniana.michelepasin.org/id/tractatus")
 layer.add((W_TLP, OWL.sameAs, TRACTATUS))
@@ -81,15 +87,13 @@ layer.add((W_TLP, OWL.sameAs, TRACTATUS))
 layer.serialize(destination=str(ALIGNMENT_PATH), format="turtle")
 print(f"Alignment layer (bridge): {len(layer)} triples -> {ALIGNMENT_PATH.name}")
 
-import json
-
 summary = {
     "wittgensteiniana_unique": len(witt_numbers),
     "wab_unique": len(wab_numbers),
     "common": sorted(common, key=sort_key),
     "only_wittgensteiniana": only_witt,
     "only_wab": only_wab,
-    "union": len(set(witt_numbers) | set(wab_numbers)),
+    "union": len(all_numbers),
     "alignment_layer_triples": len(layer),
 }
 with open(RESULTS_DIR / "propositions_summary.json", "w", encoding="utf-8") as file:

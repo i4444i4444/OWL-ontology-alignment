@@ -91,8 +91,9 @@ tractatus-alignment/
   aux/                        (ignored) local-only helpers: one-off analysis
     scripts, diagnostic/smoke scripts, personal learning notes (docs/)
   results/                    alignment experiment outputs (json)
-  scripts/                    the five pipeline scripts only: extraction,
-    normalization, reference build, RAG alignment, Protégé graph build
+  scripts/                    pipeline scripts: extraction, normalization,
+    reference build, RAG alignment, Protégé graph build, plus the shared
+    configuration module (rag_config.py)
 ```
 
 `data/wittgenstein.owl` (WAB) is committed once; the Wittgensteiniana source and

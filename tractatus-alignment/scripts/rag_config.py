@@ -1,4 +1,3 @@
-import json
 from pathlib import Path
 
 from ontoaligner.aligner import AutoModelDecoderRAGLLM, RAG, SBERTRetrieval
@@ -57,33 +56,61 @@ SCHEMA = Namespace("https://schema.org/")
 
 
 def local_name(uri):
-    return str(uri).rsplit("/", 1)[-1].split("#")[-1]
+    text = str(uri)
+    name = text.rsplit("/", 1)[-1]
+    return name.split("#")[-1]
+
+
+def load_graph(paths):
+    graph = Graph()
+    for path in paths:
+        graph.parse(str(path), format="turtle")
+    return graph
+
+
+def find_classes(graph):
+    classes = set(graph.subjects(RDF.type, OWL.Class))
+    rdfs_classes = set(graph.subjects(RDF.type, RDFS.Class))
+    return classes | rdfs_classes
+
+
+def make_all_owl_classes(graph, classes):
+    for class_uri in classes:
+        graph.add((class_uri, RDF.type, OWL.Class))
+
+
+def copy_schema_names_to_labels(graph, classes):
+    for class_uri in classes:
+        if list(graph.objects(class_uri, RDFS.label)):
+            continue
+        for name in graph.objects(class_uri, SCHEMA.name):
+            graph.add((class_uri, RDFS.label, name))
+
+
+def add_glosses_to_labels(graph, classes):
+    for class_uri in classes:
+        gloss = GLOSSES.get(local_name(class_uri))
+        if not gloss:
+            continue
+        for label in list(graph.objects(class_uri, RDFS.label)):
+            graph.remove((class_uri, RDFS.label, label))
+            graph.add((class_uri, RDFS.label, Literal(f"{label} ({gloss})")))
 
 
 def prepare_temp_ontologies():
     for name, paths in FILES.items():
-        graph = Graph()
-        for path in (*paths, BRIDGE):
-            graph.parse(str(path), format="turtle")
-        classes = (set(graph.subjects(RDF.type, OWL.Class))
-                   | set(graph.subjects(RDF.type, RDFS.Class)))
-        for class_uri in classes:
-            graph.add((class_uri, RDF.type, OWL.Class))
-            if not list(graph.objects(class_uri, RDFS.label)):
-                for label in graph.objects(class_uri, SCHEMA.name):
-                    graph.add((class_uri, RDFS.label, label))
-        for class_uri in classes:
-            gloss = GLOSSES.get(local_name(class_uri))
-            if gloss:
-                for label in list(graph.objects(class_uri, RDFS.label)):
-                    graph.remove((class_uri, RDFS.label, label))
-                    graph.add((class_uri, RDFS.label, Literal(f"{label} ({gloss})")))
+        graph = load_graph([*paths, BRIDGE])
+        classes = find_classes(graph)
+        make_all_owl_classes(graph, classes)
+        copy_schema_names_to_labels(graph, classes)
+        add_glosses_to_labels(graph, classes)
         graph.serialize(destination=str(TEMP_DIR / f"{name.lower()}_doc.rdf"), format="xml")
         print(f"Prepared: {name}")
 
 
 def canonical_pair(row):
-    a, b = row["source"], row["target"]
+    a = row["source"]
+    b = row["target"]
     if str(b).startswith("http://purl.org/wittgensteinsource/"):
         a, b = b, a
     return (a, b)

@@ -9,7 +9,8 @@ DATA_DIR = BASE_DIR / "data"
 
 ALIGN = Namespace("http://knowledgeweb.semanticweb.org/heterogeneity/alignment")
 
-reference = json.load(open(DATA_DIR / "reference_alignment.json", encoding="utf-8"))
+with open(DATA_DIR / "reference_alignment.json", encoding="utf-8") as file:
+    reference = json.load(file)
 
 graph = Graph()
 graph.bind("align", ALIGN)
