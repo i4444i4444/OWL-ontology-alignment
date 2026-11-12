@@ -59,9 +59,6 @@ for property_uri, (domain_class, range_class) in (
     graph.add((property_uri, RDFS.range, range_class))
 
 
-# unit inventory: count the proposition units (schema:Chapter with a
-# proposition-number name) without adding any redundant class typing -
-# the original export already types them schema:Chapter only
 thesis_count = 0
 
 for unit, _, number in list(graph.triples((None, SCHEMA.name, None))):
@@ -166,11 +163,8 @@ for property_uri in datatype_properties:
         isinstance(value, Literal) and value.language
         for value in values
     ):
-        # plain literals only: safe to declare xsd:string. Language-tagged
-        # literal values have datatype rdf:langString, which contradicts an
-        # xsd:string range and makes the ontology inconsistent for DL
-        # reasoners (Protégé explains: owl:Thing SubClassOf owl:Nothing),
-        # so leave the range undeclared for such properties.
+
+
         graph.add((
             property_uri,
             RDFS.range,

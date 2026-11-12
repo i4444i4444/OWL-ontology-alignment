@@ -1,13 +1,3 @@
-"""
-Build the Tractatus proposition alignment layer (the bridge overlay file).
-
-Numbers: schema:name of schema:Chapter units (Wittgensteiniana) and the trailing number
-in rdfs:label of wab:Part (WAB). Shared numbers become align:TractatusProposition
-resources; each source instance links to them via align:denotesProposition.
-When running OntoAligner the layer is merged into BOTH ontologies, so the
-shared TractatusProposition individuals link the two sides together.
-"""
-
 import re
 from pathlib import Path
 
@@ -27,7 +17,6 @@ NUMBER = re.compile(r"\d+(?:\.\d+)*\s*$")
 
 
 def extract_numbers(graph, rdf_type, read):
-    """Return {number: uri} for every instance of rdf_type."""
     numbers = {}
     for uri in sorted(set(graph.subjects(RDF.type, rdf_type)), key=str):
         number = str(read(uri)).strip()
@@ -84,11 +73,7 @@ for number in sorted(set(witt_numbers) | set(wab_numbers), key=sort_key):
     if number in wab_numbers:
         layer.add((wab_numbers[number], ALIGN.denotesProposition, proposition))
 
-# The Tractatus itself: the same work lives in both ontologies under
-# different IRIs - WAB has a single Werk instance (label mentions 1922 et 1933),
-# Wittgensteiniana has the German original id/expression/tractatus plus two
-# translation expressions (ogden, pears) which have no WAB counterpart.
-# Declare identity for the German original at work level.
+
 W_TLP = URIRef("http://purl.org/wittgensteinsource/ont/instances/W-TLP")
 TRACTATUS = URIRef("http://wittgensteiniana.michelepasin.org/id/tractatus")
 layer.add((W_TLP, OWL.sameAs, TRACTATUS))

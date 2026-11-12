@@ -1,8 +1,3 @@
-"""
-Convert the draft reference_alignment.json to the OAEI Alignment XML format
-expected by OntoAligner's reference parser.
-"""
-
 import json
 from pathlib import Path
 

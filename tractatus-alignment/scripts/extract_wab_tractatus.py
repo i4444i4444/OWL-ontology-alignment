@@ -1,9 +1,3 @@
-"""
-Extract the WAB subgraph around the Tractatus (W-TLP) from wittgenstein.owl
-with SPARQL CONSTRUCT queries: the work itself, its parts, everything
-published in/from it, authors, class hierarchy and schema declarations.
-"""
-
 from collections import deque
 from pathlib import Path
 
@@ -65,7 +59,7 @@ for label, query in (
         target.add(triple)
     print(f"{label}: +{len(target) - before} (total {len(target)})")
 
-# hasAuthor links for all selected URI resources
+
 HAS_AUTHOR = URIRef("http://purl.org/wittgensteinsource/ont/scholar/0.1/hasAuthor")
 for s, p, o in list(target):
     if isinstance(s, URIRef):
@@ -74,7 +68,6 @@ for s, p, o in list(target):
 
 print("After hasAuthor:", len(target))
 
-# schema declarations of all used terms and complete superclass hierarchy;
 
 Q5 = """
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -124,7 +117,7 @@ while True:
     rounds += 1
 print("Declaration rounds:", rounds)
 
-# drop empty blank nodes in rdfs:domain / rdfs:range
+
 for s, p, o in list(target):
     if p in (RDFS.domain, RDFS.range) and isinstance(o, BNode):
         if not any(target.triples((o, None, None))):

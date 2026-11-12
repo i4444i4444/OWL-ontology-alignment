@@ -1,38 +1,38 @@
 import json
 
+import rag_config
 from ontoaligner import ontology
 from ontoaligner.encoder import ConceptParentRAGEncoder
-from ontoaligner.postprocess import rag_heuristic_postprocessor, rag_hybrid_postprocessor
+from ontoaligner.postprocess import (
+    rag_heuristic_postprocessor,
+    rag_hybrid_postprocessor,
+)
 from ontoaligner.utils import metrics, xmlify
 
-from rag_config import (DIRECTIONS, DATA_DIR, IR_PATH, LLM_CONFIG, LLM_PATH,
-                        RETRIEVER_CONFIGS, RESULTS_DIR, QwenLLMBERTRetrieverRAG,
-                        canonical_pair, prepare_temp_ontologies, swapped)
-
-prepare_temp_ontologies()
+rag_config.prepare_temp_ontologies()
 
 task = ontology.GenericOMDataset()
 datasets = {
     key: task.collect(
         source_ontology_path=str(source),
         target_ontology_path=str(target),
-        reference_matching_path=str(DATA_DIR / "reference.xml"),
+        reference_matching_path=str(rag_config.DATA_DIR / "reference.xml"),
     )
-    for key, (source, target) in DIRECTIONS.items()
+    for key, (source, target) in rag_config.DIRECTIONS.items()
 }
 
 reference = datasets["wab2witt"]["reference"]
 
 for encoder_name, encoder_model in (("concept_parent", ConceptParentRAGEncoder()),):
-    run_dir = RESULTS_DIR / encoder_name
+    run_dir = rag_config.RESULTS_DIR / encoder_name
     run_dir.mkdir(parents=True, exist_ok=True)
 
     positives = {}
     for direction, dataset in datasets.items():
         encoded = encoder_model(source=dataset["source"], target=dataset["target"])
 
-        model = QwenLLMBERTRetrieverRAG(retriever_config=RETRIEVER_CONFIGS[direction], llm_config=LLM_CONFIG)
-        model.load(llm_path=LLM_PATH, ir_path=IR_PATH)
+        model = rag_config.QwenLLMBERTRetrieverRAG(retriever_config=rag_config.RETRIEVER_CONFIGS[direction], llm_config=rag_config.LLM_CONFIG)
+        model.load(llm_path=rag_config.LLM_PATH, ir_path=rag_config.IR_PATH)
         predicts = model.generate(input_data=encoded)
 
         dir_dir = run_dir / direction
@@ -62,10 +62,10 @@ for encoder_name, encoder_model in (("concept_parent", ConceptParentRAGEncoder()
 
     bidirectional = {}
     for mode in ("heuristic", "hybrid"):
-        fw_rows = [swapped(r) for r in positives["wab2witt"][mode]]
-        rev_rows = [swapped(r) for r in positives["witt2wab"][mode]]
-        fw_pairs = {canonical_pair(r) for r in fw_rows}
-        rev_pairs = {canonical_pair(r) for r in rev_rows}
+        fw_rows = [rag_config.swapped(r) for r in positives["wab2witt"][mode]]
+        rev_rows = [rag_config.swapped(r) for r in positives["witt2wab"][mode]]
+        fw_pairs = {rag_config.canonical_pair(r) for r in fw_rows}
+        rev_pairs = {rag_config.canonical_pair(r) for r in rev_rows}
         both_rows = [{"source": s, "target": t, "relation": "="}
                      for s, t in sorted(fw_pairs & rev_pairs, key=str)]
         entry = {"fw": metrics.evaluation_report(predicts=fw_rows, references=reference),
