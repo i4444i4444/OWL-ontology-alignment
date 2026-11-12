@@ -2,3 +2,4 @@ tractatus-alignment/temp/
 tractatus-alignment/preprocessing/cache/
 tractatus-alignment/aux/
 tractatus-alignment/notebooks/
+__pycache__/
